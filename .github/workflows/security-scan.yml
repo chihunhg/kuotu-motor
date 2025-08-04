@@ -1,10 +1,10 @@
-name: Add security scan tools: CodeQL + PHPStan + Psalm with report outputs
+name: Security Scan (CodeQL + PHPStan + Psalm)
 
 on:
   push:
-    branches: [feature/security-scan-v9]
+    branches: [ feature/security-scan-v9 ]
   pull_request:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   security-scan:
@@ -12,13 +12,13 @@ jobs:
 
     strategy:
       matrix:
-        php-version: ['8.2']
+        php-version: [ '8.2' ]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up PHP ${{ matrix.php-version }}
+      - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
@@ -28,31 +28,28 @@ jobs:
         run: |
           composer install --prefer-dist --no-progress || composer update --prefer-dist --no-progress
 
-      # 🔎 CodeQL v3 掃描
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
           languages: php
 
-      - name: Autobuild
+      - name: Autobuild for CodeQL
         uses: github/codeql-action/autobuild@v3
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
 
-      # 🧠 PHPStan 掃描
-      - name: Run PHPStan with report output
+      - name: Run PHPStan with report
         run: |
           mkdir -p build/reports
           vendor/bin/phpstan analyse --no-progress > build/reports/phpstan.txt || true
 
-      # 🔍 Psalm 掃描
-      - name: Run Psalm with report output
+      - name: Run Psalm with report
         run: |
           mkdir -p build/reports
           vendor/bin/psalm --output-format=compact > build/reports/psalm.txt || true
 
-      - name: Upload report artifacts
+      - name: Upload scan reports
         uses: actions/upload-artifact@v4
         with:
           name: security-scan-reports
