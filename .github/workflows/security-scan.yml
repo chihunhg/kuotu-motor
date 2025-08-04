@@ -1,70 +1,64 @@
-name: Advanced Security Scan
+name: Security Scan
 
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  schedule:
-    - cron: '0 3 * * 1' # 每週一早上 3 點自動執行
 
 jobs:
-  security-scan:
+  codeql:
+    name: CodeQL Analysis
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'php' ]
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: '8.1'
-        tools: composer, phpstan, psalm
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
 
-    - name: Install dependencies
-      run: |
-        composer install --prefer-dist --no-progress --no-suggest
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
 
-    - name: Run PHPStan (Level 8)
-      run: |
-        vendor/bin/phpstan analyse --configuration=phpstan.neon --no-progress --memory-limit=1G
-      continue-on-error: true
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
 
-    - name: Upload PHPStan report
-      uses: actions/upload-artifact@v4
-      with:
-        name: phpstan-report
-        path: build/phpstan-report.json
+  php-analysis:
+    name: PHPStan & Psalm
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Run Psalm
-      run: |
-        vendor/bin/psalm --output-format=json > build/psalm-report.json || true
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          coverage: none
 
-    - name: Upload Psalm report
-      uses: actions/upload-artifact@v4
-      with:
-        name: psalm-report
-        path: build/psalm-report.json
+      - name: Install dependencies
+        run: composer install --no-progress --no-suggest
 
-    - name: Run CodeQL Analysis
-      uses: github/codeql-action/init@v2
-      with:
-        languages: php
+      - name: Run PHPStan
+        run: |
+          vendor/bin/phpstan analyse --error-format=raw --no-progress > build/reports/phpstan.txt || true
 
-    - name: Perform CodeQL analysis
-      uses: github/codeql-action/analyze@v2
+      - name: Run Psalm
+        run: |
+          vendor/bin/psalm --output-format=github --report=build/reports/psalm.xml > build/reports/psalm.txt || true
 
-    - name: Run Exakat (Optional)
-      run: |
-        curl -s -O https://www.exakat.io/install-exakat.phar
-        php install-exakat.phar
-        ./exakat/exakat.phar init -p myproject -R . --phpversion 8.1
-        ./exakat/exakat.phar project -p myproject || true
-
-    - name: Upload Exakat report
-      uses: actions/upload-artifact@v4
-      with:
-        name: exakat-report
-        path: projects/myproject/report
+      - name: Upload scan reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: php-analysis-reports
+          path: build/reports/

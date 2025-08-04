@@ -1,13 +1,18 @@
 <?xml version="1.0"?>
-<psalm>
-  <projectFiles>
-    <directory name="." />
-    <ignoreFiles>
-      <directory name="vendor" />
-      <directory name="storage" />
-    </ignoreFiles>
-  </projectFiles>
-  <reporting>
-    <jsonReport outputFile="build/psalm-report.json"/>
-  </reporting>
+<psalm
+    errorLevel="1"
+    resolveFromConfigFile="true"
+    findUnusedCode="true"
+    findDeadCode="true"
+    showInfo="true"
+>
+    <projectFiles>
+        <directory name="." />
+        <ignoreFiles>
+            <directory name="vendor" />
+        </ignoreFiles>
+    </projectFiles>
+    <reporting>
+        <report format="xml" output="build/reports/psalm.xml"/>
+    </reporting>
 </psalm>
