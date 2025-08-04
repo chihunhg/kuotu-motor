@@ -1,41 +1,77 @@
-name: Security Scan / PHPStan & Psalm
+name: Add security scan tools: CodeQL + PHPStan + Psalm with report outputs
 
 on:
   pull_request:
     branches: [ main ]
   push:
-    branches: [ main ]
+    branches: [ main, feature/security-scan-v9 ]
 
 jobs:
-  php_static_analysis:
+  codeql-analysis:
+    name: CodeQL
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: php
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+
+  phpstan-analysis:
     name: PHPStan Static Analysis
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Set up PHP
+      - name: Setup PHP 8.2
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          coverage: none
 
       - name: Install dependencies
         run: |
-          composer install --no-progress --prefer-dist
+          composer install --prefer-dist --no-progress
 
       - name: Run PHPStan
         run: |
-          mkdir -p build/reports/phpstan
-          ./vendor/bin/phpstan analyse --memory-limit=1G --error-format=table > build/reports/phpstan/output.txt || true
+          mkdir -p build/reports
+          vendor/bin/phpstan analyse --error-format=table > build/reports/phpstan.txt || true
+
+      - name: Upload PHPStan report
+        uses: actions/upload-artifact@v4
+        with:
+          name: phpstan-report
+          path: build/reports/phpstan.txt
+
+  psalm-analysis:
+    name: Security Scan / PHPStan & Psalm
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP 8.2
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Install dependencies
+        run: |
+          composer install --prefer-dist --no-progress
 
       - name: Run Psalm
         run: |
-          mkdir -p build/reports/psalm
-          ./vendor/bin/psalm --output-format=console --report=build/reports/psalm/report.xml || true
+          mkdir -p build/reports
+          vendor/bin/psalm --output-format=console > build/reports/psalm.txt || true
 
-      - name: Upload artifacts
+      - name: Upload Psalm report
         uses: actions/upload-artifact@v4
         with:
-          name: static-analysis-reports
-          path: build/reports/
+          name: psalm-report
+          path: build/reports/psalm.txt
