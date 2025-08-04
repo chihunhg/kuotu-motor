@@ -4,74 +4,64 @@ on:
   pull_request:
     branches: [ main ]
   push:
-    branches: [ main, feature/security-scan-v9 ]
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-  codeql-analysis:
+  codeql:
     name: CodeQL
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v2
+        uses: github/codeql-action/init@v3
         with:
           languages: php
 
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v2
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
 
-  phpstan-analysis:
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+
+  phpstan:
     name: PHPStan Static Analysis
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup PHP 8.2
+      - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: 8.2
 
       - name: Install dependencies
-        run: |
-          composer install --prefer-dist --no-progress
+        run: composer install --prefer-dist --no-progress || composer update --no-progress
 
       - name: Run PHPStan
-        run: |
-          mkdir -p build/reports
-          vendor/bin/phpstan analyse --error-format=table > build/reports/phpstan.txt || true
+        run: vendor/bin/phpstan analyse --error-format=table --no-progress --memory-limit=1G
 
-      - name: Upload PHPStan report
-        uses: actions/upload-artifact@v4
-        with:
-          name: phpstan-report
-          path: build/reports/phpstan.txt
-
-  psalm-analysis:
+  psalm:
     name: Security Scan / PHPStan & Psalm
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup PHP 8.2
+      - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: 8.2
 
       - name: Install dependencies
-        run: |
-          composer install --prefer-dist --no-progress
+        run: composer install --prefer-dist --no-progress || composer update --no-progress
 
-      - name: Run Psalm
+      - name: Run Psalm with Report Output
         run: |
           mkdir -p build/reports
-          vendor/bin/psalm --output-format=console > build/reports/psalm.txt || true
-
-      - name: Upload Psalm report
-        uses: actions/upload-artifact@v4
-        with:
-          name: psalm-report
-          path: build/reports/psalm.txt
+          vendor/bin/psalm --output-format=compact > build/reports/psalm.txt || true
