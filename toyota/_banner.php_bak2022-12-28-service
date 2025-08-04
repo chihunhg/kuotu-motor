@@ -1,0 +1,138 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202212_SP/" target="_blank" rel="noopener noreferrer" title="TOYOTA 酷炫豪禮 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/44.jpg?20221207" alt="TOYOTA 酷炫豪禮 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202212_wintercampaign/?utm_source=toyotaweb&utm_medium=banneer&utm_campaign=221201_wintercampaign" target="_blank" rel="noopener noreferrer" title="Happy兔 Year | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/45.jpg?20221207" alt="Happy兔 Year | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/46_dm.jpg" target="_blank" rel="noopener noreferrer" title="繽紛聖誕YA | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/46.jpg?20221207" alt="繽紛聖誕YA | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/news/toyota/2022-11-23-1.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA四川保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/43.jpg?20221123" alt="TOYOTA四川保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202211_dreamcar/" target="_blank" rel="noopener noreferrer" title="2023TOYOTA夢想車創意繪畫大賽徵件 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/42.jpg?20221118" alt="2023TOYOTA夢想車創意繪畫大賽徵件 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202210_townacevan_preorder/" target="_blank" rel="noopener noreferrer" title="Town Ace 廂型車 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/40.jpg?20221027" alt="Town Ace 廂型車 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+			
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/GR86/" target="_blank" rel="noopener noreferrer" title="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/35.jpg?20220825" alt="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/UPGRADE_Selections/19MYRAV4TSS/" target="_blank" rel="noopener noreferrer" title="TOYOTA2019年式RAV4 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/31.jpg?20220707" alt="TOYOTA2019年式RAV4 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/202212_SP/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/44_sm.jpg?20221207" alt="TOYOTA 酷炫豪禮 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/202212_wintercampaign/?utm_source=toyotaweb&utm_medium=banneer&utm_campaign=221201_wintercampaign" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/45_sm.jpg?20221207" alt="Happy兔 Year | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/46_dm.jpg" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/46_sm.jpg?20221207" alt="繽紛聖誕YA | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/news/toyota/2022-11-23-1.jpg" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/43_sm.jpg?20221123" alt="TOYOTA四川保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202211_dreamcar/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/42_sm.jpg?20221103" alt="2023TOYOTA夢想車創意繪畫大賽徵件 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202210_townacevan_preorder/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/40_sm.jpg?20221027" alt="Town Ace 廂型車 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/GR86/" target="_blank" rel="noopener noreferrer" title="了解更多:ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/35_sm.jpg?20220825" alt="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/UPGRADE_Selections/19MYRAV4TSS/" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA2019年式RAV4 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/31_sm.jpg?20220707" alt="TOYOTA2019年式RAV4 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

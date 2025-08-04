@@ -1,0 +1,27 @@
+<span class="sale_month">2021 年 09 月 限時優惠</span>
+<div class="table-container">
+    <table align="center">
+        <thead>
+            <tr>
+                <th>車種</th><th>年式</th><th>分期零利率內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ES 車系</td>
+                <td>21 年式</td>
+                <td>120 萬 60 期</td>
+            </tr>
+            <tr>
+                <td>NX 車系</td>
+                <td>21 年式</td>
+                <td>120 萬  40 期</td>
+            </tr>
+            <tr>
+                <td>其他 (排除LM300h)<br>RX車系、UX車系<br>RC車系、LC車系<br>LS車系、IS車系等<br></td>
+                <td>ALL</td>
+                <td>100 萬 40 期</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

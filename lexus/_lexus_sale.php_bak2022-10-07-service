@@ -1,0 +1,24 @@
+<span class="sale_month">2022 年 9 月 限時優惠</span>
+<div class="table-container">
+    <table align="center">
+        <thead>
+            <tr>
+                <th>車種</th><th>年式</th><th>分期零利率內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RX 車系</td>
+                <td rowspan="2">All</td>
+                <td>150 萬 40 期</td>
+            </tr>
+            <tr>
+                <td>其他車系（排除 LM300h及NX車系）<br />
+                  UX 車系、ES 車系<br />
+                  IS 車系、LC 車系<br />
+              LS 車系、RC 車系</td>
+                <td>100 萬 40 期</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,48 @@
+# =========== Header ===========
+<IfModule mod_headers.c>
+    # 唯有當符合同源政策下，才能被嵌入到 frame 中。(防止網站被外部釣魚網站嵌入)
+    Header always append X-Frame-Options SAMEORIGIN
+    
+    # 拒絕 MIME 類型錯誤的回應 (js,css)
+    Header set X-Content-Type-Options "nosniff"
+    
+    # 將所有Cookie設為HttpOnly
+    Header always edit Set-Cookie (.*) "$1; HTTPOnly; Secure"
+    
+    #隱藏PHP版本
+    Header always unset X-Powered-By	
+	
+    #HTTP Strict Transport Security (HSTS)
+    Header always set Strict-Transport-Security "max-age=63072000; includeSubdomains; preload"
+	
+    #Content-Security-Policy (CSP)
+    Header set Content-Security-Policy "frame-ancestors 'self';"
+	
+    #X-XSS-Protection
+    Header set X-XSS-Protection "1; mode=block"
+
+    #Permissions-Policy
+    #Header always set Permissions-Policy "geolocation=();midi=();sync-xhr=();microphone=();camera=();magnetometer=();gyroscope=();fullscreen=(self);payment=()"
+	Header always set Permissions-Policy "geolocation=(); midi=();notifications=();push=();sync-xhr=();accelerometer=(); gyroscope=(); magnetometer=(); camera=(); microphone=();usb=(); xr=();speaker=(self);vibrate=();fullscreen=(self);"
+	
+    #Referrer-Policy
+    #Header set Referrer-Policy "no-referrer-when-downgrade"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+# ==============================
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#news
+RewriteRule ^toyota/showroom_detail([0-9]*)\.htm$ toyota/showroom_detail.php?PKey=$1 [L]
+RewriteRule ^lexus/showroom_detail([0-9]*)\.htm$ lexus/showroom_detail.php?PKey=$1 [L]
+
+RewriteRule ^(.*)\.htm$ $1.php [NC,L]
+</IfModule>
+
+ErrorDocument 403 https://www.kuotu-motor.com.tw/
+ErrorDocument 404 https://www.kuotu-motor.com.tw/

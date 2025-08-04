@@ -1,0 +1,105 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.facebook.com/ToyotaKuotuMotor/photos/a.254034501810220/1314532709093722" target="_blank" rel="noopener noreferrer" title="國都四站保修站 夜間延長服務 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/53.jpg?20230307" alt="國都四站保修站 夜間延長服務 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/toyota/news-2023-02-24.html" target="_blank" rel="noopener noreferrer" title="板橋營業所、服務廠 於 2023/3/1 結束服務 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/52.jpg?20230224" alt="板橋營業所、服務廠 於 2023/3/1 結束服務 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/TOWNACEVAN/" target="_blank" rel="noopener noreferrer" title="TOWN ACE 發財雙王牌 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/47.jpg?20221228" alt="TOWN ACE 發財雙王牌 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+			
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/GR86/" target="_blank" rel="noopener noreferrer" title="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/35.jpg?20220825" alt="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/UPGRADE_Selections/19MYRAV4TSS/" target="_blank" rel="noopener noreferrer" title="TOYOTA2019年式RAV4 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/31.jpg?20220707" alt="TOYOTA2019年式RAV4 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+        
+			<div>
+				<a href="https://www.facebook.com/ToyotaKuotuMotor/photos/a.254034501810220/1314532709093722" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/53_sm.jpg?20230307" alt="國都四站保修站 夜間延長服務 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/toyota/news-2023-02-24.html" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/52_sm.jpg?20230224" alt="板橋營業所、服務廠 於 2023/3/1 結束服務 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/TOWNACEVAN/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/47_sm.jpg?20221228" alt="TOWN ACE 發財雙王牌 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/GR86/" target="_blank" rel="noopener noreferrer" title="了解更多:ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/35_sm.jpg?20220825" alt="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/UPGRADE_Selections/19MYRAV4TSS/" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA2019年式RAV4 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/31_sm.jpg?20220707" alt="TOYOTA2019年式RAV4 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

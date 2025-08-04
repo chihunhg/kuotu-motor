@@ -1,0 +1,17 @@
+<span class="sale_month">2025 年 7 月 限時優惠</span>
+<div class="table-container">
+  <table align="center">
+        <thead>
+            <tr>
+                <th>車種</th><th>分期零利率內容<br />
+                  （貸款總額）</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ES 車系</td>
+                <td>100 萬 40 期</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

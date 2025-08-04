@@ -1,0 +1,136 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/NX" target="_blank" rel="noopener noreferrer" title="了解更多:NX 動力齊聚 任你駕馭">
+					<img src="../images/banner/lexus/09.jpg?20211223" alt="NX 動力齊聚 任你駕馭" class="img-fluid">
+				</a>
+			</div>
+			<!--<div>
+				<a href="https://lexus.com.tw/event/2021NXpre-order/" target="_blank" rel="noopener noreferrer" title="了解更多:All New NX 全新進化即將上市 五種動力全面到齊預售啟動">
+					<img src="../images/banner/lexus/08.jpg?20211117" alt="All New NX 全新進化即將上市 五種動力全面到齊預售啟動" class="img-fluid">
+				</a>
+			</div> -->
+			<!--<div>
+				<a href="https://www.facebook.com/123546031550932/photos/a.125150651390470/1006082113297315/" target="_blank" rel="noopener noreferrer" title="了解更多:Lexus國都 | 振興券尊榮優惠">
+					<img src="../images/banner/lexus/07.jpg?20211105" alt="Lexus國都 | 振興券尊榮優惠" class="img-fluid">
+				</a>
+			</div> -->
+			<div>
+				<a href="https://www.lexus.com.tw/lexus_engine_oil/?utm_source=Lexus&utm_content=frontpage_bn&utm_campaign=2021YearEndMaintenanceCampaign&utm_medium=banner#information" target="_blank" rel="noopener noreferrer" title="了解更多:恣意馳騁　始於原廠">
+					<img src="../images/banner/lexus/06.jpg?20211103" alt="恣意馳騁　始於原廠" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/ES" target="_blank" rel="noopener noreferrer" title="了解更多:ES 豪華 自成格局">
+					<img src="../images/banner/lexus/05.jpg?20211014" alt="ES 豪華 自成格局" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/UX%20300e" target="_blank" rel="noopener noreferrer" title="了解更多:UX 300e 全新上市 純電潮旅 自帶風采">
+					<img src="../images/banner/lexus/01.jpg?20211005" alt="UX 300e 全新上市 純電潮旅 自帶風采" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.lexus.com.tw/service/hotaipoints_warranty/?utm_source=lexus&utm_campaign=2021HotaiPointsWarranty&utm_medium=frontpage_banner" target="_blank" rel="noopener noreferrer" title="了解更多:點點心意">
+					<img src="../images/banner/lexus/02.jpg?20210916" alt="點點心意" class="img-fluid">
+
+				</a>
+			</div>
+			<div>
+				<a href="https://www.lexus.com.tw/lexuslink/" target="_blank" rel="noopener noreferrer" title="了解更多:LEXUS LINK 智能車載系統 智能隨行 生活有型">
+					<img src="../images/banner/lexus/03.jpg?20210916" alt="LEXUS LINK 智能車載系統 智能隨行 生活有型" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.facebook.com/LexusCpoKuotu" target="_blank" rel="noopener noreferrer" title="了解更多:Lexus Cpo 士林&中和所 國都原廠認證中古車">
+					<img src="../images/banner/lexus/04.jpg?20210916" alt="Lexus Cpo 士林&中和所 國都原廠認證中古車" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+		<div class="slider single-item sliderbox sm_banner">
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/NX" target="_blank" rel="noopener noreferrer" title="了解更多:">
+					<img src="../images/banner/lexus/09_sm.jpg?20211223" alt="NX 動力齊聚 任你駕馭" class="img-fluid">
+				</a>
+			</div>
+			<!--<div>
+				<a href="https://lexus.com.tw/event/2021NXpre-order/" target="_blank" rel="noopener noreferrer" title="了解更多:">
+					<img src="../images/banner/lexus/08_sm.jpg?20211117" alt="All New NX 全新進化即將上市 五種動力全面到齊預售啟動" class="img-fluid">
+				</a>
+			</div> -->
+			<!--<div>
+				<a href="https://www.facebook.com/123546031550932/photos/a.125150651390470/1006082113297315/" target="_blank" rel="noopener noreferrer" title="了解更多:Lexus國都 | 振興券尊榮優惠">
+					<img src="../images/banner/lexus/07_sm.jpg?20211105" alt="Lexus國都 | 振興券尊榮優惠" class="img-fluid">
+				</a>
+			</div> -->
+			<div>
+				<a href="https://www.lexus.com.tw/lexus_engine_oil/?utm_source=Lexus&utm_content=frontpage_bn&utm_campaign=2021YearEndMaintenanceCampaign&utm_medium=banner#information" target="_blank" rel="noopener noreferrer" title="了解更多:恣意馳騁　始於原廠">
+					<img src="../images/banner/lexus/06_sm.jpg?20211103" alt="恣意馳騁　始於原廠" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/ES" target="_blank" rel="noopener noreferrer" title="了解更多:ES 豪華 自成格局">
+					<img src="../images/banner/lexus/05_sm.jpg?20211014" alt="ES 豪華 自成格局" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/UX%20300e" target="_blank" rel="noopener noreferrer" title="了解更多:UX 300e 全新上市 純電潮旅 自帶風采">
+					<img src="../images/banner/lexus/01_sm.jpg?20211005" alt="UX 300e 全新上市 純電潮旅 自帶風采" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.lexus.com.tw/service/hotaipoints_warranty/?utm_source=lexus&utm_campaign=2021HotaiPointsWarranty&utm_medium=frontpage_banner" target="_blank" rel="noopener noreferrer" title="了解更多:點點心意">
+					<img src="../images/banner/lexus/02_sm.jpg?20210916" alt="點點心意" class="img-fluid">
+
+				</a>
+			</div>
+			<div>
+				<a href="https://www.lexus.com.tw/lexuslink/" target="_blank" rel="noopener noreferrer" title="了解更多:LEXUS LINK 智能車載系統 智能隨行 生活有型">
+					<img src="../images/banner/lexus/03_sm.jpg?20210916" alt="LEXUS LINK 智能車載系統 智能隨行 生活有型" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.facebook.com/LexusCpoKuotu" target="_blank" rel="noopener noreferrer" title="了解更多:Lexus Cpo 士林&中和所 國都原廠認證中古車">
+					<img src="../images/banner/lexus/04_sm.jpg?20210916" alt="Lexus Cpo 士林&中和所 國都原廠認證中古車" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "Lexus CPO";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

@@ -1,0 +1,135 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/GR86/" target="_blank" rel="noopener noreferrer" title="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/35.jpg?20220825" alt="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/34_b.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA國光保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/34.jpg?20220712" alt="TOYOTA國光保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/UPGRADE_Selections/19MYRAV4TSS/" target="_blank" rel="noopener noreferrer" title="TOYOTA2019年式RAV4 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/31.jpg?20220707" alt="TOYOTA2019年式RAV4 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/ToyotaKuotuMotor/photos/a.254034501810220/1149089775638017" target="_blank" rel="noopener noreferrer" title="TOYOTA買限量特仕車享特權！ | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/33.jpg?20220707" alt="TOYOTA買限量特仕車享特權！ | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/29_b.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA中正北保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/29.jpg?20220629" alt="TOYOTA中正北保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.toyota.com.tw/TOYOTA_Loyalty_Program" target="_blank" rel="noopener noreferrer" title="了解更多:禮遇回廠｜TOYOTA">
+					<img src="../images/banner/toyota/04.jpg?20210916" alt="禮遇回廠｜TOYOTA" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+        
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/GR86/" target="_blank" rel="noopener noreferrer" title="了解更多:ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/35_sm.jpg?20220825" alt="ALL NEW TOYOTA GR86不甩極限 熱血無界 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/34_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA國光保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/34_sm.jpg?20220712" alt="TOYOTA國光保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/UPGRADE_Selections/19MYRAV4TSS/" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA2019年式RAV4 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/31_sm.jpg?20220707" alt="TOYOTA2019年式RAV4 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/ToyotaKuotuMotor/photos/a.254034501810220/1146208552592806" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA歡慶國都FB粉絲突破4萬人 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/32_sm.jpg?20220707" alt="TOYOTA歡慶國都FB粉絲突破4萬人 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/ToyotaKuotuMotor/photos/a.254034501810220/1149089775638017" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA買限量特仕車享特權！ | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/33_sm.jpg?20220707" alt="TOYOTA買限量特仕車享特權！ | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/29_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA中正北保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/29_sm.jpg?20220629" alt="TOYOTA中正北保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+                <a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/1104987436714918" target="_blank" rel="noopener noreferrer" title="了解更多:國都FB粉絲招募中 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/24_sm.jpg?20220506" alt="國都FB粉絲招募中 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/20_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA南勢角保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/20_sm.jpg?20220406" alt="TOYOTA南勢角保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.toyota.com.tw/TOYOTA_Loyalty_Program" target="_blank" rel="noopener noreferrer" title="了解更多:禮遇回廠｜TOYOTA">
+					<img src="../images/banner/toyota/04_sm.jpg?20210916" alt="禮遇回廠｜TOYOTA" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

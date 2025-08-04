@@ -1,0 +1,1796 @@
+<!-- repair_1 -->
+<div class="modal modal-service fade" id="repair_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 新北大道保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t08a.jpg" class="img-fluid" alt="新北大道保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                          <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/vYfv6LX3hLnA6V9BA" target="_blank" rel="noopener noreferrer" title="新北大道保修站">地址：新北市三重區新北大道2段113號</a></li>
+                                <li><a href="tel:(02)2278-2155">(02)2278-2155</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li> 受理鈑噴交修</li>
+                                <li> 代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.1953340148266!2d121.46453365092373!3d25.061367743268338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98c37625e31%3A0x3c2f22b23ed1d398!2zVE9ZT1RB5paw5YyX5aSn6YGT5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1631583137399!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_2 -->
+<div class="modal modal-service fade" id="repair_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 三多保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t07a.jpg" class="img-fluid" alt="新北市三多保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/SP5exjTQSCWX7kdT6" target="_blank" rel="noopener noreferrer" title="新北市三多保修站">地址：新北市樹林區中正路714號</a></li>
+                                <li><a href="tel:(02)2687-4512">(02)2687-4512</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4774294774493!2d121.40705845092322!3d25.017866845012705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681d97452be487%3A0xea475405cdb8aef5!2zVE9ZT1RBIOS4ieWkmuS_neS_ruermQ!5e0!3m2!1szh-TW!2stw!4v1631583187897!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_3 -->
+<div class="modal modal-service fade" id="repair_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 北大保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t06a.jpg" class="img-fluid" alt="新北市北大保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/1ciD8QNPo3v8YFjN8" target="_blank" rel="noopener noreferrer" title="新北市北大保修站">地址：新北市樹林區佳園路三段143號</a></li>
+                                <li><a href="tel:(02)2668-3027">(02)2668-3027</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.488813573073!2d121.38379755092221!3d24.949478547749184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681d75abf6fbdb%3A0x80b5d741cc469544!2zVE9ZT1RB5YyX5aSn5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1631583229818!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_4 -->
+<div class="modal modal-service fade" id="repair_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 竹林保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t05a.jpg" class="img-fluid" alt="新北市竹林保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/hxrYsAbARY7asZcq9" target="_blank" rel="noopener noreferrer" title="新北市竹林保修站">地址：新北市林口區寶林路21號</a></li>
+                                <li><a href="tel:(02)2601-1561">(02)2601-1561</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.5333848627015!2d121.38405635092407!3d25.083799742367802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a794f9e86a6f%3A0xecc34c2e3bddfaa2!2zVE9ZT1RB56u55p6X5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1631583264743!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+
+<!-- repair_5 -->
+<div class="modal modal-service fade" id="repair_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">台北市 陽明服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t01a.jpg" class="img-fluid" alt="台北市陽明服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/f3BVWsGTGreWdgyR8" target="_blank" rel="noopener noreferrer" title="台北市陽明服務廠">地址：台北市北投區大業路6號</a></li>
+                                <li><a href="tel:0228950404">(02)2895-0404</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>車身鈑金與烤漆維修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14449.606617499345!2d121.4999085!3d25.1221082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb0ea4fa19fdcb561!2zVE9ZT1RBIOmZveaYjuacjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1627969591908!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_6 -->
+<div class="modal modal-service fade" id="repair_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">台北市 濱江服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t03a.jpg" class="img-fluid" alt="台北市濱江服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/SDst3PrJ5Znz9eoZA" target="_blank" rel="noopener noreferrer" title="台北市濱江服務廠">地址：台北市中山區濱江街269號</a></li>
+                                <li><a href="tel:(02)2515-8747">(02)2515-8747</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  車身鈑金與烤漆維修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.8607872442713!2d121.54030055092392!3d25.072707142813226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abf8b7201f59%3A0x63f030e7af70c33e!2zVE9ZT1RBIOa_seaxn-acjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631582738877!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_7 -->
+<div class="modal modal-service fade" id="repair_7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">台北市 士林服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t02a.jpg" class="img-fluid" alt="台北市士林服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/f3BVWsGTGreWdgyR8" target="_blank" rel="noopener noreferrer" title="台北市士林服務廠">地址：台北市士林區文昌路69號</a></li>
+                                <li><a href="tel:(02)8866-3600">(02)8866-3600</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  車身鈑金與烤漆維修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.1861153272944!2d121.51891705092429!3d25.09556044189523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aebc0d6211a9%3A0xf874282c66d88202!2zVE9ZT1RB5aOr5p6X5pyN5YuZ5bug!5e0!3m2!1szh-TW!2stw!4v1631582288545!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_8 -->
+<div class="modal modal-service fade" id="repair_8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 中和服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt01a.jpg" class="img-fluid" alt="新北市中和服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/mdjQ7PeHPX2ssAJ1A" target="_blank" rel="noopener noreferrer" title="新北市中和服務廠">地址：新北市中和區建康路70號</a></li>
+                                <li><a href="tel:(02)2226-0782">(02)2226-0782</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  車身鈑金與烤漆維修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.0046148968545!2d121.48536995092309!3d24.999959145729907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a8299e33f481%3A0x7ed2baf0577fe0ab!2zVE9ZT1RBIOS4reWSjOeHn-alreaJgA!5e0!3m2!1szh-TW!2stw!4v1631582031680!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_9 -->
+<div class="modal modal-service fade" id="repair_9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 三重服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt02a.jpg" class="img-fluid" alt="新北市三重服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/uDDGvxphab8JWd8LA" target="_blank" rel="noopener noreferrer" title="新北市三重服務廠">地址：新北市三重區溪尾街22號</a></li>
+                                <li><a href="tel:(02)2280-1588">(02)2280-1588</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.760369639034!2d121.48873095092402!3d25.07610984267659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a8d7e355dbeb%3A0x2b72ef688a601c5a!2zVE9ZT1RBIOS4iemHjeacjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631582925857!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_10 -->
+<div class="modal modal-service fade" id="repair_10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 土城服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt03a.jpg" class="img-fluid" alt="新北市土城服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/YpXw2sUfstLRomsK7" target="_blank" rel="noopener noreferrer" title="新北市土城服務廠">地址：新北市土城區中央路三段4號</a></li>
+                                <li><a href="tel:(02)2269-0911">(02)2269-0911</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  車身鈑金與烤漆維修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.8813356137375!2d121.43685585092274!3d24.970151646922663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681cd61a9f2695%3A0xd76338f3fd9a3967!2zVE9ZT1RBIOWcn-WfjuacjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583002634!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_11 -->
+<div class="modal modal-service fade" id="repair_11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 林口服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt04a.jpg" class="img-fluid" alt="新北市林口服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                          <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/b4WtF16J6kewy5Et6" target="_blank" rel="noopener noreferrer" title="新北市林口服務廠">地址：新北市林口區文化一路一段35號</a></li>
+                                <li><a href="tel:(02)2609-0977">(02)2609-0977</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.959277191951!2d121.36813225092394!3d25.06936934294717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a72729a1d853%3A0xedb01fb17224f700!2zVE9ZT1RBIOael-WPo-acjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583049113!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_12 -->
+<div class="modal modal-service fade" id="repair_12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 樹林服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt05a.jpg" class="img-fluid" alt="新北市樹林服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/D4nYSEn3R7myR1ZS6" target="_blank" rel="noopener noreferrer" title="新北市樹林服務廠">地址：新北市樹林區大安路40號</a></li>
+                                <li><a href="tel:(02)2687-4518">(02)2687-4518</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.9248077572174!2d121.42475995092309!3d25.002670845621243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681d43a1bf832f%3A0x7b0eb88af99b5db6!2zVE9ZT1RBIOaoueael-acjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583089553!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_13 -->
+<div class="modal modal-service fade" id="repair_13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 鶯歌服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt06a.jpg" class="img-fluid" alt="新北市鶯歌服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/np1ssjQuQkci5uis6" target="_blank" rel="noopener noreferrer" title="新北市鶯歌服務廠">地址：新北市鶯歌區文化路146號</a></li>
+                                <li><a href="tel:(02)2678-6063">(02)2678-6063</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.4524688264696!2d121.34990295092244!3d24.950715847699907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681eaaf03369a1%3A0x265e741bc10b7454!2zVE9ZT1RBIOm2r-atjOacjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583315672!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_14 -->
+<div class="modal modal-service fade" id="repair_14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 蘆洲服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt07a.jpg" class="img-fluid" alt="新北市蘆洲服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/zT3Sp4oG9haqobm87" target="_blank" rel="noopener noreferrer" title="新北市蘆洲服務廠">地址：新北市蘆洲區正和街23號</a></li>
+                                <li><a href="tel:(02)2288-0774">(02)2288-0774</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                              <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.579956599046!2d121.467762850924!3d25.08222214243119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442af2ccce72877%3A0x5e079e5830f45257!2zVE9ZT1RBIOiYhua0suacjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583383316!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_15 -->
+<div class="modal modal-service fade" id="repair_15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 淡水服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt08a.jpg" class="img-fluid" alt="新北市淡水服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/niYXVYvmbHnApGQs7" target="_blank" rel="noopener noreferrer" title="新北市淡水服務廠">地址：新北市淡水區中正東路2段59號</a></li>
+                                <li><a href="tel:(02)2809-6266">(02)2809-6266</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.427152523806!2d121.45747695092493!3d25.15505083950246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442af92fcc299bb%3A0x61eb496d499b3f34!2zVE9ZT1RBIOa3oeawtOacjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583440905!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_16 -->
+<div class="modal modal-service fade" id="repair_16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 北永和服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt09a.jpg" class="img-fluid" alt="新北市北永和服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/6uVB4WYeeWTipWun6" target="_blank" rel="noopener noreferrer" title="新北市北永和服務廠">地址：新北市永和區保生路55號</a></li>
+                                <li><a href="tel:(02)2927-6261">(02)2927-6261</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.695674451707!2d121.50246795092322!3d25.010454845309585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9c511b08841%3A0x926e66dbf09b2a94!2zVE9ZT1RBIOWMl-awuOWSjOacjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583499713!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_17 -->
+<div class="modal modal-service fade" id="repair_17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 北板橋服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt10a.jpg" class="img-fluid" alt="新北市北板橋服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/1pdCtCo3dtJJXNiY8" target="_blank" rel="noopener noreferrer" title="新北市北板橋服務廠">地址：新北市板橋區中山路2段427號</a></li>
+                                <li><a href="tel:(02)2962-9906">(02)2962-9906</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.414297345589!2d121.47881015092328!3d25.020010544926734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a83748e83fad%3A0x6085c7b94c05e7d5!2zVE9ZT1RBIOWMl-adv-api-acjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583520251!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_18 -->
+<div class="modal modal-service fade" id="repair_18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 新莊服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt11a.jpg" class="img-fluid" alt="新北市新莊服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/BvPzzcJcKRZ7gu1z5" target="_blank" rel="noopener noreferrer" title="新北市新莊服務廠">地址：新北市新莊區中正路70-2號</a></li>
+                                <li><a href="tel:(02)2997-0580">(02)2997-0580</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>車身鈑金與烤漆維修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4176.4654096080385!2d121.45831104059!3d25.038027964314107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a86fae49f19f%3A0x58223fddd7d235a4!2zVE9ZT1RBIOaWsOiOiuacjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583658601!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_19 -->
+<div class="modal modal-service fade" id="repair_19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 丹鳳服務廠</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/nt12a.jpg" class="img-fluid" alt="新北市丹鳳服務廠">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                                <li>假日服務時間：08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/GgsDA225UGNArMQcA" target="_blank" rel="noopener noreferrer" title="新北市丹鳳服務廠">地址：新北市新莊區中正路717號</a></li>
+                                <li><a href="tel:(02)2902-7616">(02)2902-7616</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  車身鈑金與烤漆維修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.1431665864056!2d121.42216385092347!3d25.029215044557787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7ed3d8f32a3%3A0x92f7b6c49fa8aa70!2zVE9ZT1RBIOS4uemzs-acjeWLmeW7oA!5e0!3m2!1szh-TW!2stw!4v1631583760217!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_21 -->
+<div class="modal modal-service fade" id="repair_21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 五股保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t09a.jpg" class="img-fluid" alt="新北市五股保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/yBc9oDhKu1pTK5ZW8" target="_blank" rel="noopener noreferrer" title="新北市五股保修站">地址：新北市五股區工商路60號</a></li>
+                                <li><a href="tel:(02)2291-0725">(02)2291-0725</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3613.5130337343617!2d121.4390032!3d25.0844891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7c492e424f3%3A0x285156064bf2d1d1!2zVE9ZT1RB5LqU6IKh5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1638511777754!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_22 -->
+<div class="modal modal-service fade" id="repair_22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">台北市 長安保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t10a.jpg" class="img-fluid" alt="台北市長安保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                        <div class="modal-service-info">
+                          <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/Xe8zEd46DHv8xaJE9" target="_blank" rel="noopener noreferrer" title="台北市長安保修站">地址：台北市中山區長安東路二段32號</a></li>
+                                <li><a href="tel:(02)2523-0355">(02)2523-0355</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>                                  受理鈑噴交修</li>
+                                <li>                                  代辦車輛年度檢驗</li>
+                                <li>                                  車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.5782913132557!2d121.52896181500651!3d25.048381583965693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9d53618dd9f%3A0x36590cf0d299b7bb!2zVE9ZT1RB6ZW35a6J5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1646890500480!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_23 -->
+<div class="modal modal-service fade" id="repair_23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 南勢角保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t11a.jpg" class="img-fluid" alt="新北市南勢角保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 (需預約)</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/ayhoXgJD8moQTd878" target="_blank" rel="noopener noreferrer" title="新北市南勢角保修站">地址：新北市中和區景平路145號</a></li>
+                                <li><a href="tel:(02)8941-3206">(02)8941-3206</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14464.939957508715!2d121.5143182!3d24.9921299!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20c6ee448919bdda!2zVE9ZT1RB5Y2X5Yui6KeS5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1650605080184!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+ </div>
+<!-- repair_24 -->
+<div class="modal modal-service fade" id="repair_24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 中正北保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t12a.jpg" class="img-fluid" alt="新北市中正北保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/jbV8iSwjXx9j4gNs6" target="_blank" rel="noopener noreferrer" title="新北市中正北保修站">地址：新北市三重區中正北路49號</a></li>
+                                <li><a href="tel:(02)2971-0575">(02)2971-0575</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.1474516864423!2d121.49091099999998!3d25.062991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a945c089ab99%3A0x5c5096ec8b2d735e!2zVE9ZT1RB5Lit5q2j5YyX5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1657178707176!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_25 -->
+<div class="modal modal-service fade" id="repair_25" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 國光保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t13a.jpg" class="img-fluid" alt="新北市國光保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/gN2RzYucepRJEoVZ9" target="_blank" rel="noopener noreferrer" title="新北市國光保修站">地址：新北市板橋區國光路52號</a></li>
+                                <li><a href="tel:(02)2965-5007">(02)2965-5007</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4858443083795!2d121.45774759999999!3d25.017581099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a91c895d2bc1%3A0x4223b6b721704a73!2zVE9ZT1RB5ZyL5YWJ5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1658130422100!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_26 -->
+<div class="modal modal-service fade" id="repair_26" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 四川保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t14a.jpg" class="img-fluid" alt="新北市 四川保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/f1pRtwcMBtpP3kGaA" target="_blank" rel="noopener noreferrer" title="新北市 四川保修站">地址：新北市板橋區四川路一段150號</a></li>
+                                <li><a href="tel:(02)2951-0355">(02)2951-0355</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.9019963719834!2d121.45767931481026!3d25.003445883986632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346803153d587645%3A0x58a2822139eeb205!2zVE9ZT1RB5Zub5bed5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1669875426056!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_27 -->
+<div class="modal modal-service fade" id="repair_27" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 中華保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t15a.jpg" class="img-fluid" alt="新北市中華保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                                <li>夜間服務時間：週一~週五 17：30~19：00(需預約)</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/UnfZf4PCXXhyYcnk6" target="_blank" rel="noopener noreferrer" title="新北市中華保修站">地址：新北市土城區中華路一段160號</a></li>
+                                <li><a href="tel:(02)8941-3206">(02)2958-3363</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.462516028387!2d121.43961261480985!3d24.984395183995595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681d09f937af8d%3A0xfe8dbcbbb03af4db!2zVE9ZT1RB5Lit6I-v5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1680830133372!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+ </div>
+<!-- repair_28 -->
+<div class="modal modal-service fade" id="repair_28" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 文化北保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t16a.jpg" class="img-fluid" alt="新北市 文化北保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/Y2t6Sua3QgYL5yHT8" target="_blank" rel="noopener noreferrer" title="新北市 文化北保修站">地址：新北市林口區文化北路一段136號</a></li>
+                                <li><a href="tel:(02)2608-2361">(02)2608-2361</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.961164520468!2d121.35439327505964!3d25.06930537779345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a79ad1738681%3A0x55c6bfcb8933f296!2zVE9ZT1RB5paH5YyW5YyX5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1686620065027!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_29 -->
+<div class="modal modal-service fade" id="repair_29" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 江子翠保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t17a.jpg" class="img-fluid" alt="新北市 江子翠保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/ATsMRZUWGUWeNDr18" target="_blank" rel="noopener noreferrer" title="新北市 江子翠保修站">地址：新北市板橋區長江路三段137號</a></li>
+                                <li><a href="tel:(02)2250-3858">(02)2250-3858</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d225.93637079745469!2d121.4757713!3d25.0346872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9f8408469cb%3A0xd4f9ced54ffa0bed!2zVE9ZT1RB5rGf5a2Q57-g5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1692077181691!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_30 -->
+<div class="modal modal-service fade" id="repair_30" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">台北市 圓山保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t18a.jpg" class="img-fluid" alt="台北市 圓山保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://maps.app.goo.gl/U3ZUPfrUwLZA88Po9" target="_blank" rel="noopener noreferrer" title="新北市 圓山保修站">地址：台北市大同區庫倫街43號</a></li>
+                                <li><a href="tel:(02)2250-3858">(02)2250-3858</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.879709633415!2d121.51825780000001!3d25.072065899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a91194d405d3%3A0x45c0bb72629d6d08!2zVE9ZT1RB5ZyT5bGx5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1698890624144!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_31 -->
+<div class="modal modal-service fade" id="repair_31" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 明志保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t19a.jpg" class="img-fluid" alt="新北市 明志保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://maps.app.goo.gl/xK1HvJoFF6k6ZJ58A" target="_blank" rel="noopener noreferrer" title="新北市 圓山保修站">地址：新北市泰山區明志路3段409號</a></li>
+                                <li><a href="tel:(02)2906-7098">(02)2906-7098</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.0035261905773!2d121.4212411!3d25.033954399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a79529476f2d%3A0xf03f09dc98fd1d85!2zVE9ZT1RB5piO5b-X5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1703053779069!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_32 -->
+<div class="modal modal-service fade" id="repair_32" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 八里保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t20a.jpg" class="img-fluid" alt="新北市 八里保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://maps.app.goo.gl/oXzv7cs4eQfCDkc86" target="_blank" rel="noopener noreferrer" title="新北市 八里保修站">地址：新北市八里區中山路1段322號</a></li>
+                                <li><a href="tel:(02)2619-2116">(02) 2619-2116</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.302331991857!2d121.41027897483626!3d25.159267433237005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a5bfd5baedfd%3A0xd41267cc9257d854!2zVE9ZT1RB5YWr6YeM5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1710820121300!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- repair_33 -->
+<div class="modal modal-service fade" id="repair_33" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <!-- <p class="txtbox modal-title">
+                    <span class="tit"></span>
+                </p>         -->
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市 莒光保修站</p>
+                <div class="modal-body-service d-md-flex">
+                    <figure>
+                        <img src="../images/index/toyota/repair/t21a.jpg" class="img-fluid" alt="新北市 莒光保修站">
+                    </figure>
+                    <article>
+                        <!-- 內文 -->
+                                                <div class="modal-service-info">
+                            <p>服務時間</p>
+                            <ul>
+                                <li>一般服務時間：週一~週六 08：30~17：30</li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>服務專線</p>
+                            <ul>
+                                <li><a href="https://maps.app.goo.gl/UJZnV89bsiruGgDf8" target="_blank" rel="noopener noreferrer" title="新北市 莒光保修站">地址：新北市中和區莒光路175-1號</a></li>
+                                <li><a href="tel:(02)2223-9158">(02)2223-9158</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-service-info">
+                            <p>主要服務項目</p>
+                            <ul>
+                                <li>車輛定期保養與維修</li>
+                                <li>受理鈑噴交修</li>
+                                <li>代辦車輛年度檢驗</li>
+                                <li>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="modal-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.0153519322666!2d121.47288979999998!3d24.999594300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346803bdb49f5c09%3A0xa3a163330b4156cc!2zVE9ZT1RB6I6S5YWJ5L-d5L-u56uZ!5e0!3m2!1szh-TW!2stw!4v1713935688938!5m2!1szh-TW!2stw" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+            </div> -->
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>

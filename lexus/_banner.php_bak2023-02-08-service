@@ -1,0 +1,168 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+        
+			<div>
+				<a href="https://www.lexus.com.tw/news_detail.aspx?nw=506&fn=1" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜2023 LEXUS CUP車主高爾夫球賽">
+					<img src="../images/banner/lexus/19.jpg?20230106" alt="國都LEXUS｜2023 LEXUS CUP車主高爾夫球賽" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/RX" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜ALL NEW RX 全新上市">
+					<img src="../images/banner/lexus/18.jpg?20221129" alt="國都LEXUS｜ALL NEW RX 全新上市" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/LexusKuotuMotor/photos/a.125150651390470/1217097518862439/" target="_blank" rel="noopener noreferrer" title="了解更多:國都 LEXUS CPO｜尊享交車禮">
+					<img src="../images/banner/lexus/16.jpg?20220928" alt="國都 LEXUS CPO｜尊享交車禮" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/ES" target="_blank" rel="noopener noreferrer" title="了解更多:2023年式 ALL NEW ES">
+					<img src="../images/banner/lexus/15.jpg?20220928" alt="2023年式 ALL NEW ES" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/UX" target="_blank" rel="noopener noreferrer" title="了解更多:ALL NEW UX 全新上市 精彩觸動新視野
+">
+					<img src="../images/banner/lexus/14.jpg?20220825" alt="ALL NEW UX 全新上市 精彩觸動新視野
+" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/testdrive.aspx" target="_blank" rel="noopener noreferrer" title="了解更多:線上預約試乘/購車諮詢">
+					<img src="../images/banner/lexus/12.jpg?20220609" alt="線上預約試乘/購車諮詢" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/NX" target="_blank" rel="noopener noreferrer" title="了解更多:NX 動力齊聚 任你駕馭">
+					<img src="../images/banner/lexus/09.jpg?20211223" alt="NX 動力齊聚 任你駕馭" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/lexus_engine_oil/?utm_source=Lexus&utm_content=frontpage_bn&utm_campaign=2021YearEndMaintenanceCampaign&utm_medium=banner#information" target="_blank" rel="noopener noreferrer" title="了解更多:恣意馳騁　始於原廠">
+					<img src="../images/banner/lexus/06.jpg?20211103" alt="恣意馳騁　始於原廠" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/service/hotaipoints_warranty/?utm_source=lexus&utm_campaign=2021HotaiPointsWarranty&utm_medium=frontpage_banner" target="_blank" rel="noopener noreferrer" title="了解更多:點點心意">
+					<img src="../images/banner/lexus/02.jpg?20210916" alt="點點心意" class="img-fluid">
+
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/LexusCpoKuotu" target="_blank" rel="noopener noreferrer" title="了解更多:Lexus Cpo 士林&中和所 國都原廠認證中古車">
+					<img src="../images/banner/lexus/04.jpg?20210916" alt="Lexus Cpo 士林&中和所 國都原廠認證中古車" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+		<div class="slider single-item sliderbox sm_banner">
+            
+			<div>
+				<a href="https://www.lexus.com.tw/news_detail.aspx?nw=506&fn=1" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜2023 LEXUS CUP車主高爾夫球賽">
+					<img src="../images/banner/lexus/19_sm.jpg?20230106" alt="國都LEXUS｜2023 LEXUS CUP車主高爾夫球賽" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/RX" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜ALL NEW RX 全新上市">
+					<img src="../images/banner/lexus/18_sm.jpg?20221129" alt="國都LEXUS｜ALL NEW RX 全新上市" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.facebook.com/LexusKuotuMotor/photos/a.125150651390470/1217097518862439/" target="_blank" rel="noopener noreferrer" title="了解更多:國都 LEXUS CPO｜尊享交車禮">
+					<img src="../images/banner/lexus/16_sm.jpg?20220928" alt="國都 LEXUS CPO｜尊享交車禮" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/UX" target="_blank" rel="noopener noreferrer" title="了解更多:2023年式 ALL NEW ES">
+					<img src="../images/banner/lexus/15_sm.jpg?20220928" alt="2023年式 ALL NEW ES" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/UX" target="_blank" rel="noopener noreferrer" title="了解更多:ALL NEW UX 全新上市 精彩觸動新視野">
+					<img src="../images/banner/lexus/14_sm.jpg?20220825" alt="ALL NEW UX 全新上市 精彩觸動新視野" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.lexus.com.tw/testdrive.aspx" target="_blank" rel="noopener noreferrer" title="了解更多:線上預約試乘/購車諮詢">
+					<img src="../images/banner/lexus/12_sm.jpg?20220609" alt="線上預約試乘/購車諮詢" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/NX" target="_blank" rel="noopener noreferrer" title="了解更多:">
+					<img src="../images/banner/lexus/09_sm.jpg?20211223" alt="NX 動力齊聚 任你駕馭" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/lexus_engine_oil/?utm_source=Lexus&utm_content=frontpage_bn&utm_campaign=2021YearEndMaintenanceCampaign&utm_medium=banner#information" target="_blank" rel="noopener noreferrer" title="了解更多:恣意馳騁　始於原廠">
+					<img src="../images/banner/lexus/06_sm.jpg?20211103" alt="恣意馳騁　始於原廠" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.lexus.com.tw/service/hotaipoints_warranty/?utm_source=lexus&utm_campaign=2021HotaiPointsWarranty&utm_medium=frontpage_banner" target="_blank" rel="noopener noreferrer" title="了解更多:點點心意">
+					<img src="../images/banner/lexus/02_sm.jpg?20210916" alt="點點心意" class="img-fluid">
+
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/LexusCpoKuotu" target="_blank" rel="noopener noreferrer" title="了解更多:Lexus Cpo 士林&中和所 國都原廠認證中古車">
+					<img src="../images/banner/lexus/04_sm.jpg?20210916" alt="Lexus Cpo 士林&中和所 國都原廠認證中古車" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "Lexus CPO";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

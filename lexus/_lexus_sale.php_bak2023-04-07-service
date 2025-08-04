@@ -1,0 +1,21 @@
+<span class="sale_month">2023 年 3 月 限時優惠</span>
+<div class="table-container">
+    <table align="center">
+        <thead>
+            <tr>
+                <th>車種</th><th>年式</th><th>分期零利率內容<br />
+                  （貸款總額）</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>其他車系（排除 LM 300h、NX、RX 車系）<br />
+                  UX 車系、ES 車系<br />
+                  IS 車系、LC 車系<br />
+              LS 車系、RC 車系</td>
+                <td>All</td>
+                <td>100 萬 40 期</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

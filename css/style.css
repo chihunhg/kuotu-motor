@@ -1,0 +1,988 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{font-family: '微軟正黑體',sans-serif;font-size:16px;line-height:1.5;color: #1a1a1b;font-weight: 400;position: relative;}
+a{color: #1a1a1b;text-decoration:none}
+a:hover{color:#777;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
+.transi{-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
+.en{font-family: 'Encode Sans SC', sans-serif;}
+/*背景*/
+body:before,body:after{position:absolute;content:'';height:100%;top: 0;z-index: -1;}
+/* body:before{width: calc((100% - 1270px) / 2);background: rgb(238 238 238 / 30%);right:0;} */
+body:after{background: rgb(234 234 234 / 40%);width: 161px;right: calc((100% - 1288px) / 2);}
+/*---------------------- 基礎設定 ----------------------*/
+.scrollbar-style::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color:#eee;
+}
+.scroll02::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px #eee;
+    background-color:#eee;}
+.scroll02::-webkit-scrollbar{width: 4px;}
+
+.scrollbar-style::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb, .scroll02::-webkit-scrollbar-thumb,.d_menu_h::-webkit-scrollbar-thumb
+{
+    background-color:#A0A09C;
+}
+
+body::-webkit-scrollbar{width:8px;}
+.d_menu_h{overflow-y: auto; max-height: 200px;}
+
+.d_menu_h::-webkit-scrollbar,
+body::-webkit-scrollbar
+{
+    width: 4px;
+    background-color:#eee;
+}
+/*反白設定
+::selection { background: #666; color: #FFF; }
+::-moz-selection { background: #666; color: #FFF; }
+*/
+.aleart_line{border-color: #d40023;}
+.red{color: #d40023;}
+/*瀏覽器*/
+.warning{width:100%;color:#fff;text-align: center;max-width: 600px;height: 200px;position:fixed;left:50%;transform: translate(-50%, -50%);top: 50%;background-color: rgba(0,0,0,.85);box-shadow:0 0 15px rgba(51,51,51,.5);border-radius:3px;z-index:1033;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear;}
+.off{cursor: pointer;position:absolute;right: 10px;top: 10px;border: 1px solid #eee;padding: 3px 5px 3px 10px;}
+.off:hover{background-color:#fff;color:#333;}
+.warning p {margin-bottom:0;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-weight: 600;letter-spacing: 1px;}
+/* 回頂端 */
+#goTop{border: 1px solid #737373;/* border-top: none; */color: #737373;background:#FFF;text-align:center;position:fixed;bottom: 156px;right: 0;width: 45px;height: 45px;line-height: 45px;cursor:pointer;display:none;z-index: 1;}
+#goTop i{width:100%}
+#goTop p{display:none}
+#goTop:hover{background:#999;color:#FFF}
+
+/*按鈕*/
+button.btn-style{border:none}
+.btn-style{padding: 8px 10px 8px 15px;/* display: table; */display: -webkit-flex;display: flex;display: -ms-flexbox;-webkit-justify-content: center;justify-content: center;margin-right: auto;margin-left: auto;margin-top: 15px;position: relative;width: 140px;}
+.btn-style:before{position:absolute;content:'';right: 0;width:0;height:100%;top:0;z-index:0;-o-transition: all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear;}
+.btn-style.btn-grey:before{background-color: #ddd;}
+.btn-style span{position:relative;font-size: 15px;}
+.btn-style span:nth-of-type(2){padding: 0 5px 0 15px;position: relative;margin-left: 15px;}
+.btn-style span:nth-of-type(2):before{position:absolute;content:'';width:1px;height: 25px;background-color: #d4d4d4;top: 50%;transform: translateY(-50%);left: 0;}
+/* .btn-style i{position:absolute;} */
+.btn-style.btn-grey{background-color:#eee}
+.btn-style.btn-grey:hover{color: #1a1a1b;}
+.btn-style.btn-grey:hover:before{left: 0;width:100%;}
+.btn-style:hover i{transform: translateX(5px);display: inline-block;}
+.btn-style.btn-line{border: 1px solid #d4d4d4;}
+.btnWrap { margin:2em 0; text-align:center; }
+/* @media screen and (max-width: 640px) {
+#goTop{width:100%;left:0;right:0;bottom:0;border-radius:0;border:0;border-top:1px solid #eee}
+} */
+
+/*RWD編輯器表格(X捲軸)*/
+.table-container table td{min-width:100px;padding:5px;border:1px solid #ccc;white-space:inherit}
+@media screen and (max-width: 768px) {
+.table-container{width:100%;overflow-y:auto;_overflow:auto;margin:0 0 1em}
+}
+
+/*---------------------- 頁面開始 ----------------------*/
+.grecaptcha-badge{z-index: 99999;opacity: 0;}
+/*固定連結*/
+.fixed-link{position:fixed;bottom: 0;/* transform: translateY(-50%); */z-index: 10;/* border: 1px solid #737373; */padding-left: 0;margin-bottom: 0;}
+.fixed-link ul{padding-left: 0;margin-bottom: 0;}
+.fixed-link li{list-style:none;/* border-bottom: 1px solid #737373; */}
+.fixed-link li a{/* height: 40px; */overflow: hidden;width: 100%;}
+/* .fixed-link li:last-child figure, .fixed-link li:last-child p{border-bottom:none} */
+.fixed-link li figure{width: 45px;padding: 8px;margin-bottom: 0;background: #565656;border-right: 1px solid #737373;border-bottom: 1px solid #737373;position: relative;z-index: 1;}
+.fixed-link li p{width: calc(100% - 45px);margin-bottom:0;padding: 0 15px;background: #eee;background: -webkit-linear-gradient(-60deg,rgb(228 228 228),rgb(255 255 255)100%);background: linear-gradient(-60deg,rgb(228 228 228),rgb(255 255 255)100%);font-weight: 600;font-size: 15px;/* border: 1px solid #737373; */border-top: 1px solid #737373;border-left: 1px solid #737373;border-right: 1px solid #737373;opacity: 0;}
+.fixed-link li:last-child p{border-bottom:1px solid #737373;}
+.toyota-link{left:0;bottom: 200px;}
+.toyota-link li p{transform: translateX(-185px);}
+.lexus-link li p{transform: translateX(185px);}
+.fixed-link .cus-ser figure{background: #292929;}
+
+.lexus-link{right:0;bottom: 200px;}
+/*全頁佈局*/
+.wrapper {padding: 70px 0 100px;}
+.scrolldown-rwd{border-bottom: 5px solid #fff;position:fixed;bottom:0;z-index:1;left: 50%;transform: translateX(-50%);width: 100%;text-align: center;padding: 50px 0 10px;font-size: 17px;pointer-events: none;background: #ffffff;background: -webkit-linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255)100%);background: linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255)80%);}
+.scrolldown-rwd.bottom{opacity:0}
+.scrolldown-text{display: inline-block;font-weight: 600;text-shadow: 0 0 5px #dfdfdf;background: rgb(238 238 238 / 50%);padding: 5px 10px 3px;border-radius: 3px;}
+.scrolldown-icon{overflow:hidden;display:block}
+
+.scrolldown-icon i{display:block;line-height: 0;font-size: 16px;}
+.scrolldown-icon i:nth-of-type(1){-webkit-animation:navproAnimation 1.8s cubic-bezier(.25,.46,.45,.94) infinite;animation:navproAnimation 1.8s cubic-bezier(.25,.46,.45,.94) infinite;}
+.scrolldown-icon i:nth-of-type(2){-webkit-animation:navproAnimation 1.8s .5s cubic-bezier(.25,.46,.45,.94) infinite;animation:navproAnimation 1.8s .5s cubic-bezier(.25,.46,.45,.94) infinite;}
+.scrolldown-icon i+i{margin-top: -7px;}
+@-webkit-keyframes navproAnimation {
+0%{transform:translateY(-2px)}
+100%{transform:translateY(5px);opacity:0}
+}
+@keyframes navproAnimation {
+0%{transform:translateY(-2px)}
+100%{transform:translateY(5px);opacity:0}
+}
+
+/*banner*/
+.index-banner .sliderbox .slick-arrow{background:transparent!important;}
+.index-banner .sliderbox .slick-arrow.slick-prev{left: 0;}
+.index-banner .sliderbox .slick-arrow.slick-next{right: 0px;}
+.index-banner .sliderbox .slick-arrow.slick-prev,.index-banner .sliderbox .slick-arrow.slick-next{width: 120px;height: 100%;}
+.index-banner .sliderbox .slick-prev:before,.index-banner .sliderbox .slick-next:before{font-size:40px;text-shadow: 0 0 5px rgb(66 66 66 / 80%);color: #fff;}
+.index-banner .sliderbox .slick-prev:hover,.index-banner .sliderbox .slick-prev:focus,.index-banner .sliderbox .slick-next:hover,.index-banner .sliderbox .slick-next:focus{box-shadow:none}
+/*首頁banner*/
+.index-banner{margin-top: 108px;margin-bottom: 80px;}
+.index-banner .slick-dots{bottom: 10px;}
+.index-banner.transi {}
+.navbar--fixed+.index-banner{/* transform: translateY(0); */}
+.index-banner .container{margin-top: -30px;}
+.banner-slogan .slick-list{/* padding-top:20px */padding: 20px 0 0;}
+.banner-slogan .slick-track{padding-top:10px}
+.banner-ser-box{background-color:#fff;}
+.banner-ser-box:hover,.banner-ser-box.slick-current{transform: translateY(-20px);position: relative;z-index: 99;box-shadow: 0 3px 10px rgb(155 155 155 / 50%);}
+.banner-ser-item{display: -webkit-flex;display: flex;display: -ms-flexbox;padding: 40px 15px 40px 20px;align-items: flex-start;position: relative;cursor: pointer;}
+.banner-ser-item:before{position:absolute;content:'';width:20px;height:20px;background-color: #eaeaea;/* z-index: -1; */transform: translate(-5px, -5px);-o-transition: all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear;}
+.banner-ser-item figure{width: 45px;margin-bottom: 0;margin-right: 12px;position: relative;}
+.banner-ser-item article p{font-size:20px;font-weight: 600;margin-bottom: 0;}
+.banner-ser-item article span{font-size:15px}
+.banner-ser-item article{width: calc(100% - 57px);}
+.banner-ser-box+.banner-ser-box{position:relative}
+.index-banner .sm_banner{display: none;}
+/*內頁-banner*/
+.inner-banner{margin-top:  109px;background-size: cover;background-position: center;backdrop-filter: blur(5px);}
+.inner-banner-title{padding: 60px 0 80px;text-align: center;text-shadow: 0 0 10px #333;color: #fff;}
+.inner-banner h1{font-size: 40px;margin-bottom: 0;font-weight: 600;}
+.inner-banner span{color: #ffffff;font-size: 20px;}
+/*選單*/
+nav.navbar{background-color: #fff;padding: 15px 40px;position:relative;z-index:1;}
+.brand-logo{width: 200px;margin-right: auto;}
+.navbar-expand-lg .navbar-nav .nav-link{padding: 10px 20px;}
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link{padding-right:0}
+.kuotu-bar{background-color:#eee;padding: 0 40px;border-top: 2px solid;}
+.kuotu-bar i{font-size:12px;margin-left: 5px;}
+.kuotu-bar ul{list-style:none;margin-bottom: 0;padding-left: 0;font-size: 15px;font-weight: 600;}
+.kuotu-bar li:last-child a{padding-right:0}
+.kuotu-bar .nav-item{position:relative}
+.kuotu-bar .nav-item a{padding: 5px 15px;}
+.kuotu-bar .nav-item.open{background:#1a1a1b}
+.kuotu-bar .nav-item.open .nav-link{color:#fff;}
+.kuotu-bar .nav-link+ul{position:absolute;width: 100%;z-index: 10;background: #e6e6e6;text-align: center;display: none;}
+.kuotu-bar .nav-link+ul li+li{border-top:1px solid #eee}
+.kuotu-bar .nav-link+ul a{padding: 5px 10px;display: block;}
+.navbar-toggler{padding:1rem}
+/* .kuotu-bar .opentime{margin-right: auto;} */
+.kuotu-bar a+a{margin-left: 15px;padding-left: 15px;position: relative;}
+.kuotu-bar a+a:before{position:absolute;content:'';width:1px;height: 20px;left: 0;top: 4px;background-color:#c9c9c9;}
+/* .kuotu-bar a:hover{transform:scale(1.05)} */
+.navbar--fixed{transform: translateY(-34px);}
+.navbar--fixed .kuotu-bar{/* transform: translateY(-51px); */}
+.navbar--fixed nav.navbar{/* transform: translateY(-51px); */}
+.dropdown-menu{top: 60px;left: 50%;transform: translateX(-50%);border: none;border-radius: 0;background: #eee;margin-top: 0;padding: 0;}
+.dropdown-item{padding:10px 15px;position: relative;}
+
+.dropdown-item i{margin-left:auto;position: absolute;right: 10px;top: 14px;font-size: 12px;opacity:0;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
+.dropdown-item:hover i{right:14px;opacity:1}
+.dropdown-item+.dropdown-item{border-top:1px solid #fff}
+@media(max-width:991px){
+    .dropdown-menu{transform:translate(0)}
+    .navbar--fixed{/* transform: translateY(-45px); */}
+}
+
+/*QUICKLINK*/
+.menu-quick-link{display:flex;align-items:center;justify-content: space-between;background: #eee;display: none;}
+.menu-quick-link a{padding: 10px 5px;display:inline-block;text-align: center;width: calc(100% / 3);font-size: .8rem;font-weight: bold;}
+.menu-quick-link a+a{border-left: 1px solid #c9c9c9;}
+.menu-quick-link a i{font-size:12px;}
+.scrolldown{background-color: #e78837;color:#fff;}
+.scrolldown:hover{color:#fff}
+/*錨點*/
+.area_pro{position:relative}
+.area_pro .area_abso{position:absolute;left:0;top:-100px;}
+/*sidebar*/
+.sidebar button{display:none}
+.sidebar .collapse:not(.show){display:block}
+.sidebar{margin-top: -27px;/* position: relative; *//* z-index: 1; */}
+.sidebar .collapse{max-width:1320px;padding: 0 15px;margin:0 auto;/* border: 1px solid #eee; */}
+.sidebar .navbar{-webkit-justify-content: center;justify-content: center;padding: 0;box-shadow: 0 5px 20px -5px rgb(51 51 51 / 40%);font-size: 17px;}
+.sidebar .navbar li{flex:1 1 auto;text-align: center;background: #fff;}
+.sidebar .navbar li a{opacity:.5}
+.sidebar .navbar li a:hover{opacity:1;color: #565656;}
+.sidebar .navbar li.active{background: #eee;background: -webkit-linear-gradient(-60deg,rgb(228 228 228),rgb(255 255 255)100%);background: linear-gradient(-60deg,rgb(228 228 228),rgb(255 255 255)100%);font-weight: 600;/* box-shadow: 2px 2px 8px inset rgb(187 187 187 / 30%); */}
+.sidebar .navbar li.active a{opacity:1}
+.sidebar .navbar li+li{border-left:1px solid #eee}
+.sidebar .navbar a{padding: 15px 20px;display: block;}
+/*麵包屑*/
+.breadCrumbs-box{margin-top:15px}
+.breadCrumbs{list-style:none;padding-left:0;font-size:14px;display: -webkit-flex;display: flex;display: -ms-flexbox;-webkit-justify-content: flex-end;justify-content: flex-end;}
+.breadCrumbs li{position:relative}
+.breadCrumbs li+li{padding-left:15px}
+.breadCrumbs li+li:before{position:absolute;content:'/';font-size: 12px;left: 5px;opacity: .3;}
+.breadCrumbs li a{opacity:.6;/* padding: 0 5px; */}
+.breadCrumbs li.active a{opacity:1}
+/*輪播按鈕*/
+.sliderbox .slick-arrow.slick-prev,.sliderbox .slick-arrow.slick-next{width: 50px;height: 50px;-o-transition: all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear;}
+.sliderbox .slick-arrow.slick-prev{background: #fff;z-index: 1;}
+.sliderbox .slick-arrow.slick-next{background:#fafafa}
+.sliderbox .slick-arrow.slick-prev{left: -60px;}
+.sliderbox .slick-arrow.slick-next{right: -60px;}
+.sliderbox .slick-prev:before, .sliderbox .slick-next:before{color:#a0a0a0;font-family:bootstrap-icons !important;font-size: 30px;}
+.sliderbox .slick-prev:before{content:"\f284";}
+.sliderbox .slick-next:before{content:"\f285";}
+.sliderbox .slick-prev:hover, .sliderbox .slick-prev:focus, .sliderbox .slick-next:hover, .sliderbox .slick-next:focus{box-shadow: 0 0 5px -1px rgb(156 156 156 / 50%);}
+/*首頁*/
+.mj-title{text-align:center;margin-bottom: 35px;}
+.mj-title span{color:#a0a0a0;position: relative;margin-bottom: 10px;display: block;}
+.mj-title span:before{position:absolute;content:'';width: 10px;height:1px;background:#1a1a1b;bottom: -7px;left: 50%;transform: translateX(-50%);}
+.mj-title p{margin-bottom:0;font-size: 35px;font-weight: 600;color: #565656;}
+.index-pro{position:relative}
+.index-pro:before{content:"";position:absolute;width:100%;height: 100%;z-index: -1;background-size: cover;background-position: right bottom;background-repeat: no-repeat;opacity: .2;}
+.toyota .index-pro:before{background-image:url(../images/index/toyota/index_bk01.jpg);}
+.lexus .index-pro:before{background-image: url(../images/index/lexus/index_bk01.jpg);}
+.index-used{padding: 70px 0 80px;background-size: cover;background-position: center;box-shadow: 0 0 35px inset rgb(42 42 42 / 51%);}
+.toyota .index-used{background-image:url(../images/index/toyota/index_bk02.jpg);}
+.lexus .index-used{background-image:url(../images/index/lexus/index_bk02.jpg);}
+.index-used-album{padding: 50px;background: rgb(255 255 255 / 75%);backdrop-filter: blur(10px);}
+.lexus .repair-bk{display:table;margin:0 auto}
+.lexus .index-used-album .index-repair-link{width:calc(100% / 2 - 20px)}
+/*購車優惠*/
+.index-buy-sale{margin-bottom:60px;position:relative}
+section.index-buy-sale {}
+.buy-sale .slick-list{/* padding: 20px 0; */}
+.index-buy-sale .buy-sale{margin:0 -20px;}
+.buy-sale-item{background-color:#fff;margin: 0 20px;border-bottom: 3px solid #1a1a1b;box-shadow: 0 5px 20px -5px rgb(51 51 51 / 40%);overflow: hidden;}
+.buy-sale-item a{display:block;box-shadow: 0 0 10px rgb(51 51 51 / 30%);}
+.buy-sale-item figure{margin-bottom: 15px;}
+.buy-sale-item img{width:100%}
+.buy-sale-item p{padding:0 15px;margin-bottom: 10px;min-height: 48px;}
+.buy-sale-item span{width:100%;display:block;text-align: center;font-weight: 600;font-size: 14px;padding: 10px;background: #1a1a1b;color: #fff;position:relative;transform: translateY(41px);}
+.buy-sale-item span i{position:absolute;font-size: 12px;top: 50%;transform: translateY(-50%);right: 10px;}
+.buy-sale-item:hover span{transform: translateY(3px);}
+/*lexus購車優惠*/
+.index-buy-sale .sale_month{background-color: #e8e8e8;background: -webkit-linear-gradient(90deg,rgb(255 255 255 / 0%),#e1e1e1,rgb(255 255 255 / 0%) 100%);background: linear-gradient(90deg,rgb(255 255 255 / 0%),#e1e1e1,rgb(255 255 255 / 0%) 100%);padding: 6px 0 4px;display: table;margin: 0 auto 20px;font-size: 18px;max-width: 400px;width: 100%;text-align: center;}
+.index-buy-sale table{width: 100%;max-width: 800px;background: rgb(255 255 255 / 50%);font-size: 17px;}
+.index-buy-sale table thead{border: 1px solid #b8b8b8;}
+.index-buy-sale table thead tr th{border-bottom: 1px solid #565656;background: #f1f1f1;}
+.index-buy-sale table td,.index-buy-sale table th{padding: 10px 15px;}
+.index-buy-sale table tbody tr:hover{background-color:#f9f9f9}
+/* 彈跳視窗 */
+.modal-service{}
+.modal-content{border:0;box-shadow:0 0 15px #626262}
+.modal-body{padding: 40px 30px;text-align: center;}
+.modal-body-title{font-size: 20px;font-weight: 600;border-bottom: 1px solid #eee;display: block;margin-bottom: 20px;padding-bottom: 5px;}
+.modal-body figure{text-align:center}
+.modal-header{padding: 0;border-bottom: 0;position: absolute;right: 10px;top: 5px;z-index: 1;}
+.modal-header .close{}
+.modal-header .close:focus{outline: none;}
+.modal-body-text{margin-bottom:0;/* font-size:15px; */}
+/*維修彈跳*/
+.modal-body-service figure{width: 350px;margin-bottom: 0;}
+.modal-body-service article{width: calc(100% - 350px);text-align: left;padding-left: 15px;display: -webkit-flex;display: flex;display: -ms-flexbox;flex-wrap:wrap;-ms-flex-wrap:wrap;-webkit-justify-content: space-between;justify-content: space-between;}
+.modal-service-info{background-color:#f9f9f9;padding: 8px;}
+.modal-service-info:nth-of-type(1){width:100%;margin-bottom: 15px;}
+.modal-service-info:nth-of-type(2),.modal-service-info:nth-of-type(3){width: calc(50% - 7.5px);}
+.modal-service-info p{margin-bottom:5px;font-weight: 600;display: table;background: #a0a0a0;color: #fff;padding: 3px 10px;font-size: 14px;}
+.modal-service-info ul{font-size: 15px;/* color: #5d5d5d; */margin-bottom: 0;}
+.modal-map{margin-top:15px}
+.modal-map iframe{vertical-align:bottom}
+@media(max-width:768px){
+    .modal-body-service figure{width:100%}
+    .modal-body-service article{width:100%;padding:1rem 0 0 0}
+}
+
+/*營業據點*/
+.open-location{background-color:#fff;}
+.open-location-line{border-width: 1px 0 0;border-color: #eee;border-style:solid;position: relative;z-index: 1;}
+.open-location-line:before{position:absolute;content:'';width:100%;height:1px;background-color:#eee;bottom: 0;}
+
+.open-location-line ul{list-style:none;padding-left:0;margin-bottom:0}
+.open-location-line ul li{width: calc(100% / 9);text-align: center;padding: 20px 10px;border-width: 0 0 1px 1px;border-color: #eee;border-style:solid;cursor: pointer;letter-spacing: 1px;-o-transition: all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear;display: -webkit-flex;display: flex;display: -ms-flexbox;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-justify-content: center;justify-content: center;}
+.open-location-line ul li:nth-of-type(9),.open-location-line ul li:last-child{border-width: 0 1px 1px 1px;}
+.open-location-map{position:relative;/* display: none; */z-index: 1;}
+.open-location-map:before{position:absolute;content:'';width:100%;height:100%;background: #eee;z-index: -1;/* background-image:url(../images/index/location/map_bk.jpg); *//* opacity: .5; *//* background-size: cover; *//* background-position: center; */}
+.map-box{position:relative;padding: 65px 0 65px 65px;z-index: 2;overflow: hidden;}
+.map-box:before{position:absolute;content:'';width: calc(100% + 30px);height:100%;box-shadow: 0 0 15px inset rgb(98 98 98 / 51%);top: 0;left: 50%;transform: translateX(-50%);pointer-events: none;}
+.map-box-close{position:absolute;top: 15px;left: 50%;transform: translateX(-50%);z-index: 1;}
+.map-box-close-btn{font-size: 15px;padding: 0 15px;height: 35px;line-height: 35px;display: table;margin-left: auto;text-align: center;background: #fff;border-radius: 60px;box-shadow: 0 0 10px #aaaaaa;color: #565656;cursor: pointer;}
+.map-box-close-btn:hover{background:#565656;color: #fff;}
+/* .map-box:not(.showup){display:none;} */
+.map-box{display:none;}
+.map-box.showup{display:block;}
+.map-box-s{box-shadow: 0 0 15px #aaaaaa;display: -webkit-flex;display: flex;display: -ms-flexbox;}
+.map-box iframe{vertical-align: bottom;}
+.map-box article{background: #fff;padding: 20px;top: 50%;}
+.map-box article p{font-size:20px;font-weight: 600;border-bottom: 1px solid #eee;padding-bottom: 5px;margin-bottom: 10px;/* text-align: center; */}
+.map-box article ul{list-style:none;padding-left:0;/* display: table; *//* margin: 0 auto 10px; */}
+.map-box article ul a{color: #6a6a6a;/* opacity: .7; */font-size: 15px;}
+.map-box article ul a:hover{color:#1a1a1b}
+.map-box article a i{/* padding-left:15px */margin-right: 8px;}
+.map-box article figure{margin-bottom:0}
+.map-area{width: calc(100% - 440px);}
+.map-area iframe{height:100%}
+.modal-Exhibition .modal-dialog{max-width: 800px;}
+.modal-Exhibition .modal-content{/* width: 800px; */}
+.modal-body-Exhibition{width:350px}
+.modal-body-Exhibition article ul{text-align: left;}
+.modal-body-Exhibition .modal-service-info{margin-bottom:0}
+.modal-Exhibition-box .modal-map{width:calc(100% - 350px);margin-top: 0;padding-left: 15px;}
+.modal-Exhibition-box .modal-map iframe{height:100%}
+/*活動訊息*/
+.index-event{padding: 0 0 50px;}
+.index-event-box{margin:0 -5px}
+.event-item{margin: 0 5px;background: #fff;position: relative;/* box-shadow: 0 5px 20px -5px rgb(51 51 51 / 40%); */border: 1px solid #eee;}
+.event-item a{padding: 5px 5px 0;display:block}
+.event-item a:hover span{border-color: transparent transparent #cacaca transparent;}
+.event-item a:hover i{color:#1a1a1b;right: 10px;bottom: 10px;}
+.event-item figure{margin-bottom: 0;}
+.event-item p{padding: 8px 35px 8px 3px;margin-bottom: 0;position: relative;}
+.event-item a span{position:absolute;width: 0;height: 0;border-style: solid;border-width: 0 0 20px 20px;border-color: transparent transparent #eee transparent;right: 0;bottom: 0;text-align: center;font-size: 12px;/* color: #fff; */}
+.event-item a i{position:absolute;right: 4px;bottom: 4px;display: block;font-size: 12px;z-index: 1;-o-transition: all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear;}
+/*維修據點*/
+.index-repair{position:relative;padding-top: 45px;/* margin-top: 50px; */z-index: 1;}
+.index-repair .mj-title span{color:#e8e8e8;}
+.index-repair .mj-title span:before{background-color:#e8e8e8;}
+.index-repair .mj-title p,.index-used .mj-title p{color:#fff;text-shadow: 0 0 12px #191919;}
+.index-repair .mj-title span, .index-used .mj-title span{color:#fff;text-shadow: 0 0 12px #191919;}
+.index-repair:before{position: absolute;content: '';background-image: url(../images/index/toyota/repair/bk.jpg);width: 100%;height: 100%;background-position: center;background-size: cover;background-attachment: fixed;z-index: -1;top: 0;}
+.index-repair:after{position:absolute;content:'';width:100%;height: 80%;background: #ffffff;background: -webkit-linear-gradient(90deg,#ffffff,rgb(10, 153, 217)100%);background: linear-gradient(180deg,rgb(255 255 255 / 0%),rgb(255 255 255)80%);bottom: 0;z-index: -1;}
+.repair-bk{margin-top: 50px;position: relative;}
+.repair-bk:before{position:absolute;content:'';width:100%;height: 220px;/* box-shadow: 0 0 10px rgb(58 58 58 / 50%); */z-index: -1;}
+.repair-album{background: rgb(255 255 255 / 75%);padding: 50px 50px 100px;backdrop-filter: blur(10px);}
+.repair-album .btn-style{margin-bottom:20px;margin-top: 0;margin-right: 0;width: 170px;}
+.index-repair-link{width: calc(100% / 4 - 20px);margin: 10px;position: relative;overflow: hidden;}
+.index-repair-link a{display:block}
+.index-repair-link:before{position:absolute;content:"";width:100%;height: 50%;background: linear-gradient(to top, #1a1a1b 0%,rgba(125,185,232,0) 40%);bottom: 0;pointer-events: none;-o-transition: all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear;}
+.index-repair-link:hover:before{height: 300%;}
+.index-repair-link:hover span{transform: translateY(50%);bottom: 50%;}
+.index-repair-link figure{margin-bottom:0}
+.index-repair-link span{position:absolute;width: 100%;text-align: center;bottom: 0;padding: 10px 0;color: #fff;font-weight: 600;letter-spacing: .5px;text-shadow: 0 0 8px rgb(0 0 0), 0 0 18px rgb(0 0 0 / 80%);}
+/*中古車服務據點*/
+.index-repair.used:before{background-image: url(../images/usedcar/toyota/used-bg.jpg);}
+
+
+
+footer{background: #eee;position: relative;}
+footer:before{position:absolute;content:'';width: calc((100% - 1200px) / 2);height: 100%;background-color:#e8e8e8;left: 0;z-index: 0;}
+.footer-company{background-color: #e8e8e8;width: 310px;padding: 50px 30px 20px;position: relative;}
+.footer-brand{display:block;margin-bottom: 30px;/* text-align: center; */width: 160px;}
+.footer-company ul{padding-left:0;list-style: none;font-size: 15px;margin-bottom: 0;}
+.footer-company ul li+li{margin-top:3px}
+.footer-fb i{font-size: 18px;display: inline-block;vertical-align: middle;line-height: 0;margin-right: 5px;margin-top: -2px;color: #a0a0a0;}
+.footer-fb:hover i{color: #1877f2;}
+.footer-btm{width: 100%;border-top: 1px solid #e2e2e2;padding-top: 10px;margin-bottom: 10px;margin-top: 10px;}
+.footer-btm-link{font-size:13px;}
+.footer-btm-link+.footer-btm-link{margin-left:10px;padding-left:10px;border-left: 1px solid #e2e2e2;}
+.tsg{font-size: 13px;}
+.copyright{font-size: 13px;margin-top: 0;/* margin-left: auto; */}
+.copyright a{border-left: 1px solid #d4d4d4;padding-left: 10px;margin-left: 10px;}
+.footer-sitemap{width: calc(100% - 310px);padding: 30px 0 0 30px;}
+.footer-sitemap-item{width: calc(100% / 4);margin-bottom: 20px;}
+.footer-sitemap-item ul{font-size: 14px;margin-bottom: 0;/* padding-left:0; *//* list-style:none */padding-left: 0;list-style: none;padding: 0 10px;}
+.footer-sitemap-item ul li:nth-of-type(1){font-weight:600;border-bottom: 1px solid #e2e2e2;padding-bottom: 5px;margin-bottom: 8px;font-size: 16px;}
+.footer-sitemap-item ul li+li{margin-top: 3px;}
+.footer-sitemap-item ul li a{color:#a0a0a0;position:relative;display: block;}
+.footer-sitemap-item ul li a i{font-size:12px;position:absolute;right: 5px;top: 1px;}
+.footer-sitemap-item ul li a:hover{color: #1a1a1b;}
+.footer-sitemap-item ul li a:hover i{right:0;}
+footer a:hover{text-decoration:none;}
+.footer-sitemap-item .footer-sitemap-self{font-weight:600;border-bottom: 1px solid #e2e2e2;padding-bottom: 5px;margin-bottom: 8px;font-size: 16px;margin-top: 20px;}
+.footer-sitemap-item  .footer-sitemap-self a{color:#1a1a1b}
+/*內頁*/
+/*活動訊息*/
+.news img{width:100%}
+.news{list-style: none;padding: 0;margin: 0 -10px;}
+.news li{width: calc(100%/4 - 20px);margin: 10px;border: 1px solid #eee;padding: 5px;position: relative;transition: all .3s linear;}
+.news a{display: block;transition: all .3s linear;background: #fff;width: 100%;height: 100%;}
+.news li:hover{box-shadow: 0 0 10px 2px rgb(25 47 96 / 10%);-webkit-transform: translate3d(-2px, -5px, 0);transform: translate3d(-2px, -5px, 0);}
+.news a figure{margin-bottom: 0;}
+.news-info{background: #f5f3ee;background: #fff;padding: 1.5rem;}
+.news-info h3{font-size: 1.25rem;margin-bottom: 1.25rem;font-weight: 600;/* color: #e35e18; */}
+.news-info .textBox{}
+.news-info .textBox p{margin-bottom: 0;}
+.news-info .textBox span{position: absolute;width: 0;height: 0;border-style: solid;border-width: 0 0 20px 20px;border-color: transparent transparent #eee transparent;right: 5px;bottom: 5px;text-align: center;font-size: 12px;}
+.news a:hover .textBox i{color: #e78837}
+.news-info .textBox i{position: absolute;right: .5rem;bottom: .5rem;transition: all .3s linear;}
+/*購車優惠*/
+.discount{list-style: none;padding: 0;margin: 0 -20px;}
+.discount li{width: calc(100%/3 - 40px);margin: 20px;background: #eee;}
+.discount img{width:100%;}
+.discount li a{position: relative;display:block}
+.discount li figure{margin-bottom:0;position: relative;}
+.discount li figure:before{content:"";transition:all .3s linear;opacity:0}
+.discount li a:hover figure:before{background: linear-gradient(to top, #1a1a1b 0%,#1a1a1b3d 90%);width: 100%;height: 100%;position: absolute;top: 0;left: 0;opacity: 1;}
+.discount li .txt{/* position: absolute; */bottom: 0;/* width: 90%; */padding: .5rem 1rem;background: #eeeeeed6;/* color: #fff; */}
+.discount li .txt p{font-size: 1.1rem;font-weight:600;margin-bottom: 0;}
+.discount .more{position: absolute;top: 50%;left: 50%;transform: translate(-50%, 0%);font-size: 1.25rem;letter-spacing: 3px;color: #fff;transition: all .3s linear;opacity: 0;}
+.discount li a:hover .more{transform:translate(-50%,-50%);opacity:1}
+
+/*美容愛車*/
+.contact_dm{margin: 0 auto;max-width: 400px;/* transform: translate(-2.5rem, 0); */margin-bottom: 2rem;}
+.contact_dm a{position: relative;display: block;}
+.contact_dm a span{position: absolute;top: 50%;left: 50%;transition: all .3s linear;transform: translate(-50%,0);color: #fff;opacity: 0;letter-spacing: 3px;font-size: 1.25rem;}
+.contact_dm a:hover span{transform: translate(-50%,-50%);opacity: 1;}
+.contact_dm a::before{content: "";width: 100%;height: 100%;position: absolute;background: #3333339e;opacity:0;transition:all .3s linear}
+.contact_dm a:hover::before{opacity: 1;}
+
+.innd-logo{width:200px}
+.contant_info{margin-top: .5rem;}
+.contant_info li a:hover i{color:#1877f2}
+.contant_info ul{padding: 0;list-style: none;}
+.contant_info ul li{padding: .25rem 0;}
+.contant_area{width: 30%;position: relative;margin-top: 70px;padding: 1.5rem;margin-left: 3rem;margin-top: 3rem;border-left: 1px solid #fff;}
+.contant_area:before{content:"";position:absolute;width: 150%;height: 80%;z-index: -1;top: 0;left: -3rem;/* transform: translateY(-25%); *//* border-right: 1px solid #eee; */background: #eee;}
+.contant_form{width:60%;padding: 2rem 3rem;background: #fff;box-shadow: 2px 2px 10px #eee;}
+.contant_item a{max-width: 220px;padding: .5rem 1.5rem;border: 1px solid #999;margin: 1rem 0;letter-spacing: 3px;display: flex;justify-content: space-between;align-items: center;background: #ffffff96;width: 100%;}
+.contant_item a i{margin-right: .5rem;transition:all .3s ease-out}
+.contant_item a:hover .fa-angle-right{transform:translateX(5px)}
+.contant_item_dm{display: none;}
+.contant_info_title span{font-size: 18px;border-bottom: 1px solid;display: inline-block;margin-bottom: 5px;}
+.contant_info_brand b{font-weight: 600;display: table;background: #a0a0a0;color: #fff;padding: 3px 10px;font-size: 14px;margin-bottom: 5px;}
+.contant_info_brand ul{padding-left: 5px;}
+.contant_info_brand ul li{padding: .2rem 0;}
+.contant_info_brand ul li i{margin-right:5px}
+.contant_info_brand a:hover{color:#a0a0a0494;}
+
+.contant_form p{text-align: center;}
+.form-group{margin-top: 1rem;}
+.form-group input,.form-group select{min-height: inherit;padding: .25rem .5rem;height: 35px;border: none;border-bottom: 1px solid #999;border-radius: 0;background: none;color: #666;}
+.form-group label{font-weight: 600;}
+#person{height:auto}
+a.personlink{color: #d40023;text-decoration: underline;}
+
+.form-group textarea{margin-top: .5rem;}
+.form-group textarea:focus{border:2px solid #999;}
+.form-control:focus{box-shadow: none;border-bottom: 2px solid #999;}
+input[type="date"]{position:relative}
+input[type="date"]::-webkit-calendar-picker-indicator {cursor: pointer;position:absolute;width:95%;right:0;top:0;height:95%;opacity:0} 
+select{appearance: none;cursor: pointer;}
+select:focus{outline: none;}
+input[type="date"]:focus{outline: none;}
+input[type="date"]:focus::-webkit-datetime-edit-year-field{background-color: none;}
+.modal-shop{width: 45%;}
+.modal-shop figure{margin-bottom:0}
+.modal-shop+.modal-map{width: 55%;margin-top:0;padding-left: 20px;}
+.modal-shop-info ul{list-style:none;padding-left:0;margin-bottom:0;text-align: left;border-top: 1px solid #eee;padding-top: 5px;margin-top: 10px;}
+.modal-shop .slick-dotted.slick-slider{margin-bottom:0}
+.modal-shop .slick-dots{bottom:0}
+/*車款展示*/
+.carsshow{list-style:none;padding-left: 0;margin-bottom: 0;}
+.carsshow li{width:calc(100% / 3);border: 1px solid #eee;border-bottom: 3px solid;overflow: hidden;background: #fff;}
+.carsshow li a{display:block;position: relative;padding-top: 20px;}
+.carsshow li figure{margin-bottom: 30px;padding: 0 15px;}
+.cars-info{text-align:center;padding-bottom: 10px;}
+.cars-info p{margin-bottom:0;font-weight:600;line-height: 1;font-size: 18px;}
+.cars-info span{font-size: 15px;letter-spacing: .5px;}
+.cars-info b{display:table;margin: 5px auto 0;padding: 0 10px;background: #565656;border-radius: 2px;color: #fff;}
+.cars-more{position: absolute;background: #1a1a1b;color: #fff;font-weight: 600;font-size: 14px;padding: 10px 10px 7px;width: 100%;display: block;text-align: center;transform: translate3d(0,0,0);opacity: 0;}
+.cars-more i{position:absolute;font-size: 12px;top: 50%;transform: translateY(-50%);right: 10px;}
+.carsshow li a:hover img{transform:scale(1.02)}
+.carsshow li a:hover .cars-info{transform:translate3d(0,-50%,0);opacity:0}
+.carsshow li a:hover .cars-more{transform:translate3d(0,-100%,0);opacity:1}
+.car-detail{text-align:center;margin-bottom: 15px;}
+.car-detail p{font-size: 28px;/* font-weight: 600; */margin-bottom: 10px;}
+.car-detail>span{color: #A0A09C;font-size: 20px;display: block;margin-bottom: 10px;}
+.car-detail>b{background:#565656;padding: 0 15px;color: #fff;border-radius: 2px;display: table;margin: 0 auto;}
+.car-detail+figure{text-align:center;display: table;margin: 0 auto;padding: 5px;border: 1px solid #EEF;}
+.car-detail .btn-style{margin-top:30px}
+/*保險*/
+.insurance{list-style: none;padding-left: 0;margin-bottom: 0;}
+.insurance li{width:50%;position:relative}
+.insurance li:before{position:absolute;content:'';width:100%;height:100%;background:#565656;opacity:0;z-index: 1;pointer-events: none;-o-transition: all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear;}
+.insurance li:hover:before{opacity:.5}
+.insurance li figure{margin-bottom:0;overflow:hidden}
+.insurance li p{position:absolute;margin-bottom: 0;width: 100%;padding: 10px 0;text-align: center;font-size: 25px;letter-spacing: 2px;color: #292929;bottom: 0;z-index: 1;}
+.insurance li p:before{position:absolute;content:'';width:100%;height:100%;background:#fff;left: 0;top: 0;opacity: .7;z-index: -1;-o-transition: all .2s linear;-webkit-transition: all .2s linear;-moz-transition: all .2s linear;transition: all .2s linear;}
+.insurance li:hover p{/* transform: translateY(-50%); */bottom: 41%;/* background: transparent; */color: #fff;text-shadow: 0 0 15px #333;}
+.insurance li:hover p:before{opacity:0}
+.insurance li:hover img{transform:scale(1.05)}
+/*營業所*/
+.exhibition .map-box01.showup{display:block}
+.exhibition .time{margin-bottom: 0;/* font-size: 1.25rem; */width: fit-content;padding: 8px 10px 8px 15px;margin-left: 20px;font-weight: 600;background: #eee;}
+.exhibition .time span{position: relative;padding-right: .5rem;margin-right: .5rem;}
+.exhibition .time span::before{position: absolute;content: "";width: 1px;height: 25px;background: #d4d4d4;right: 0;top: 50%;transform: translateY(-50%);}
+.exhibition p i{margin-right: .5rem;}
+.locationList{display: flex;flex-wrap: wrap;}
+.locationList .item{width: calc(100%/3 - 40px);margin: 20px;}
+.locationList .titleBox{padding: 1rem .5rem;position: relative;}
+.locationList .titleBox ul{list-style: none;padding: 0;}
+.locationList .titleBox h3{font-size: 1.25rem;font-weight: 600;margin-bottom: 1rem;}
+.locationList figure{margin-bottom: 0;}
+.locationList ul li{margin-bottom:10px}
+.locationList ul li i{margin-right:.5rem}
+.map_btn{position:absolute;right: .5rem;top: 1rem;}
+.mapbtn{text-align:center;position: relative;z-index: 1;/* margin-right: .5rem; */padding: 5px 1rem;}
+.mapbtn::before{content:"";transition:all .3s linear;border: 1px solid #292929;width: 100%;height: 100%;position: absolute;left: 0;top: 0;border-radius: 50px;background: #fff;z-index: -1;}
+.mapbtn:hover::before{background: linear-gradient(-45deg, #292929 0%, #565656 100%);z-index: -1;}
+.mapbtn span{transition:all .3s linear;color: #1a1a1b;font-family: 'Josefin Sans', sans-serif;}
+.mapbtn:hover span{color:#fff;z-index: 5;}
+.mapDetil{position: fixed;top: 50%;left: 50%;transform: translate(-50%, -47%);width: 70%;height: 70%;z-index: 9999;display: none;}
+.mask{position: fixed;width: 100%;height: 100%;background-color: rgb(51 51 51 / 50%);top: 0;left: 0;z-index: 1033;display: none;}
+.mapDetil.showup{display: block;}
+.mask.showup{display: block;}
+
+/*服務廠*/
+.sevice .timeList{display: flex;padding: 0 0 10px;flex-wrap: wrap;margin-bottom: 0;border-bottom: 1px solid #eee;margin: 0 15px;}
+.sevice .time{margin-bottom: 10px;/* font-size: 1.25rem; */width: fit-content;padding: 8px 10px 8px 15px;margin-right: 10px;background: #eee;font-weight: 600;}
+.sevice .time span{position: relative;padding-right: .5rem;margin-right: .5rem;}
+.sevice .time span::before{position: absolute;content: "";width: 1px;height: 25px;background: #d4d4d4;right: 0;top: 50%;transform: translateY(-50%);}
+.sevice img{width:100%;}
+.sevice p i{margin-right: .5rem;}
+.seviceList{display: flex;flex-wrap: wrap;}
+.seviceList figure{width: 50%;max-width: 300px;margin-bottom: 0;position: relative;}
+.seviceList figure a{display:block;position:relative;overflow: hidden;}
+.seviceList figure a:hover:before{height:300%}
+.seviceList figure img{transition:all .3s linear}
+.seviceList figure:hover img{transform:scale(1.1)}
+.seviceList figure a:before{content:"";position: absolute;width: 100%;height: 50%;background: linear-gradient(to top, #1a1a1b 0%,rgba(125,185,232,0) 40%);bottom: 0;pointer-events: none;-o-transition: all .3s linear;-webkit-transition: all .3s linear;-moz-transition: all .3s linear;transition: all .3s linear;z-index: 10;}
+.seviceList figure span{color: #fff;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -10%);z-index: 10;letter-spacing: 3px;font-size: 1.25rem;opacity: 0;transition: all .3s linear;}
+.seviceList figure:hover span{opacity:1;transform: translate(-50%, -50%);}
+.sevice .item{display: flex;width: calc(100%/2 - 20px);margin: 10px;justify-content: center;}
+.sevice .item .textBox{/* background: #fff; */padding: .5rem 1rem;width: 50%;}
+.sevice .item h3{font-size: 1.25rem;margin-bottom: 1rem;font-weight: 600;}
+.sevice .item ul{list-style:none;padding: 0;margin-bottom: .5rem;} 
+.sevice .item ul i{margin-right:.5rem;}
+.sevice .item ul li{/* font-size:18px; */}
+.sevice .item .always{/* color: #b41d24; */}
+.serviceItem{display: flex;flex-wrap: wrap;margin-bottom: 5px;}
+.serviceItem li:first-child{width: 100%;font-weight: 600;}
+.serviceItem li{width: 50%;}
+.reservation{margin-left:auto;}
+.reservation a{display: block;padding: .75rem 2.5rem .75rem 1.5rem;background: linear-gradient(0deg, #292929 0%, #565656 100%);letter-spacing: 3px;/* border-radius: 8px; */color: #fff;font-weight: 600;position: relative;}
+.reservation a+a{margin-left: 10px;}
+.reservation a i{position: absolute;right: .75rem;top: 50%;transform: translateY(-50%);transition: all .3s ease-out;}
+.reservation a:hover i{right:.5rem}
+.reservation a:hover{box-shadow:2px 2px 10px #999}
+
+/*中古車*/
+.usedcar .locationList .item{width: calc(100%/2 - 40px);display: flex;flex-wrap: wrap;}
+.usedcar .locationList figure{width: 300px;}
+.usedcar .titleBox{padding:0 1rem;width: calc(100% - 300px);}
+.usedcar .map_btn{top:inherit;bottom:0}
+.usedcar h3{width: 100%;font-size: 1.5rem;font-weight: 600;position: relative;border-bottom: 1px solid #565656;padding-bottom: .5rem;margin-bottom: .5rem;}
+.usedcar h3:before{content:"";position: absolute;bottom: 0;left: 0;background: #292929;width: 50px;height: 2px;}
+.usedcar .mapbtn.active:before{background: linear-gradient(-45deg, #292929 0%, #565656 100%);z-index: -1;}
+.mapbtn.active span {color: #fff;z-index: 5;}
+.usedcar .timeList{display: flex;padding: 0 10px;flex-wrap: wrap;}
+.usedcar .time{margin-bottom: 10px;width: fit-content;padding: 8px 10px 8px 15px;margin-right: 10px;background: #eee;font-weight: 600;}
+.usedcar .time span{position: relative;padding-right: .5rem;margin-right: .5rem;}
+.usedcar .time span::before{position: absolute;content: "";width: 1px;height: 25px;background: #d4d4d4;right: 0;top: 50%;transform: translateY(-50%);}
+.usedcar p i{margin-right: .5rem;}
+.usedcar .timeitem::before{display: none;}
+
+/*--- 國都 ---*/
+.topPage .inner-banner{margin-top: 77px;}
+
+/*公司簡介*/
+.ab-Zone{margin: 3rem 0;}
+.ab-Zone h3{font-weight: 600;position: relative;letter-spacing: 3px;margin-bottom: 2rem;}
+.ab-Zone h3::before{content: "";position: absolute;z-index: -1;color: #fff;left: 100px;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: #9a9a9a40;bottom: 0;font-size: 3rem;}
+
+.ab-service h3::before{content: "SERVICE"}
+.ab-service .content{display: flex;align-items: center;}
+.ab-service .content .imgBox{width: 40%;box-shadow: 5px 5px 10px #efefef;}
+.ab-service .content .textBox{border-radius: 0 5px 5px 0;width: 60%;background: #eee;padding: 3rem 0;z-index: -1;}
+.ab-service .content .textBox ul{margin-bottom: 0;}
+
+.ab-concept{display: flex;margin: 3rem -1rem;}
+.conceptItem{width: calc(100%/3 - 2rem);padding: 7rem 0;position: relative;margin: 1rem;transition: all .3s ease-in-out;}
+.conceptItem:hover{padding: 5.5rem 0 8.5rem;}
+.conceptItem ul{transform: translateY(40px);opacity: 0;text-align: center;width: 100%;list-style: none;padding: 0;position:absolute;left: 0;color: #fff;transition: all .3s ease-in-out;}
+.conceptItem:hover ul{opacity:1;transform:translateY(0)}
+.conceptItem01 ul{display: flex;justify-content: center;}
+.conceptItem ul li{padding: .25rem;font-size: 1.1rem;}
+.conceptItem h3{text-align: center;color: #fff;transition:all .3s ease-in-out;margin-bottom: 0;}
+.conceptItem:hover h3{letter-spacing:3px}
+.conceptItem01{background:url(../images/about/02.jpg);background-size: cover;}
+.conceptItem02{background:url(../images/about/03.jpg);background-size: cover;}
+.conceptItem03{background:url(../images/about/04.jpg);background-size: cover;}
+
+.ab-report h3::before{content: "REPORT"}
+.reportList{display: flex;justify-content: space-around;}
+.reportList ul{list-style: disclosure-closed;margin-bottom: 0;display: flex;flex-direction: column-reverse;justify-content: flex-end;}
+.reportList ul li{margin-bottom:.5rem;}
+
+.historyList{width: 50%;margin: 0 auto;position: relative;}
+.historyList::before{content: "";position: absolute;left: 126px;top: 0;width: 1px;height: 100%;background: #333;}
+.ab-history h3::before{content: "HISTORY";}
+.historyItem{display: flex;margin-bottom: 2rem;align-items: center;}
+.historyItem p{margin-bottom:0}
+.historyItem .year{width: 150px;position: relative;font-size: 1.75rem;font-weight: 600;transition:all .3s linear}
+.historyItem:hover .year{color:#d43131}
+.historyItem .year::after{content:"";width: 15px;height: 15px;background: #fff;right: 1rem;top: 50%;position: absolute;border-radius: 50%;transform: translateY(-50%);border: 2px solid #333;transition: all .2s cubic-bezier(0.4, 0, 1, 1);}
+.historyItem:hover .year::after{border: 8px solid #333}
+.historyItem:last-child .year::after{top:inherit;bottom:0;transform:translateY(0)}
+.historyItem:last-child{align-items: flex-end;}
+.historyItem:last-child .txt:before{top:inherit;bottom:0;transform:translateY(-5px)}
+.historyItem:first-child{position: relative;transform: translateY(-50%);}
+.historyItem .year span{font-size: 1rem;}
+.historyItem .txt{width: calc(100% - 150px);padding: 1rem;border: 1px solid #999;transition:all .2s linear;position:relative;background: #fff;}
+.historyItem .txt:before{content:"";position:absolute;width: 50px;height: 2px;background: #333;left: -18px;top: 50%;z-index: -1;transform: translateY(-1px);}
+.historyItem:hover .txt{box-shadow:2px 2px 5px #999}
+.ab-history h3{margin-bottom:4rem}
+
+.ab-partner h3::before{content:"PARTNER";}
+.ab-partner .content{display: flex;}
+.ab-partner .imgBox{padding: 90px;background: url(../images/about/05.jpg);width: 40%;background-size: cover;box-shadow: 2px 2px 5px #eee;background-position: center;}
+.ab-partner-name{width:60%}
+.ab-partner ul{width: 50%;/* display: flex; *//* flex-wrap: wrap; */margin: 0;list-style: none;/* padding: 0; */}
+.ab-partner ul li{/* width:50% */}
+.ab-partner ul li+li{margin-top: 25px;}
+/*年度報表*/
+.linkBox{max-width: 900px;margin: 5rem auto;}
+.linkBox a{background: url(../images/about/06.jpg);display: block;padding: 4rem;background-size: cover;background-position: center;border-radius: 10px;color: #fff;font-size: 1.25rem;letter-spacing: 2px;cursor: pointer;}
+.linkBox a:hover i{margin-left: 1rem;}
+.linkBox a i{margin-left: .5rem;transition:all .3s ease-out}
+/*友站連結*/
+.links .news-info h3{margin-bottom: 0;}
+/*聯絡我們*/
+.personText{background: #fff;padding: 1rem;overflow: auto;max-height: calc(80vh - 2rem );box-shadow: inset 2px 2px 5px #9e9e9ea8;}
+.personBox{padding: 1rem;position: fixed;background: #eee;top: 50%;left: 50%;transform: translate(-50%, -50%);padding: 1rem;max-height: 80vh;border-radius: 8px;box-shadow: 2px 2px 10px #9e9e9ea8;display: none;z-index: 99;}
+.personText .title h2{font-size: 2rem;text-align: center;font-weight: 600;color: #666;margin-bottom: 1rem;}
+.personText .title p{text-align: center;}
+.personText .item h3{font-size:1.25rem;font-weight:600}
+.submit{max-width: 110px;}
+/*rwd*/
+@media screen and (max-width: 1400px){
+    body:before{width: calc((100% - 1108px) / 2);}
+    body:after{right: calc((100% - 1108px) / 2);}
+    footer:before{width:calc(100% - 1100px)}
+    .sidebar .collapse{max-width:1140px}
+}
+@media screen and (max-width: 1200px){
+    body:before{width: calc((100% - 930px) / 2);}
+    body:after{right: calc((100% - 930px) / 2);}
+    footer:before{width:calc(100% - 930px)}
+    .sidebar .collapse{max-width:960px}
+    /*選單*/
+    .navbar-expand-lg .navbar-nav .nav-link{padding: 10px 10px;}
+    /*活動訊息*/
+    .news li{width: calc(100%/3 - 20px);}
+    /*中古車*/
+    .usedcar .locationList .item{flex-direction:column}
+    .usedcar .locationList figure{width:100%}
+    .usedcar .titleBox{width:100%;padding: 1rem 0;}
+    .usedcar .item:nth-child(even) iframe{right:0}
+    .usedcar .locationList .item{position: relative;padding-bottom: 20px;}
+    .usedcar .locationList .item.active{margin-bottom: 320px;}
+    /*公司簡介*/
+    .historyList{width: 70%;}
+    .conceptItem{margin:.5rem;width: calc(100%/3 - 1rem);}
+    .ab-concept{margin:3rem -.5rem}
+    
+}
+@media (max-width:1020px){
+    /*營業所*/
+    .exhibition .map_btn{top: inherit;right: 0;bottom: 0;}
+}
+@media screen and (max-width: 991px){
+    body:before{width: calc((100% - 690px) / 2);}
+    body:after{right: calc((100% - 690px) / 2);}
+    /*footer*/
+    .footer-company{width: 100%;padding: 20px 0;}
+    .footer-brand{margin: 0 auto 10px;width: 100%;text-align: center;}
+    .footer-brand img{width:150px}
+    .footer-sitemap{width: 100%;padding: 20px 0 0;}
+    .footer-company ul{/* width:100%; */display: table;margin: 0 auto;text-align: center;}
+    footer:before{width:100%;height: 154px;}
+    .sidebar {margin-top: -22px;}
+    .sidebar .collapse{max-width:720px}
+    .sidebar .navbar a{padding: 10px 20px;}
+    .wrapper{padding:40px 0 50px}
+    /*banner*/
+    .topPage .inner-banner{margin-top:57px}
+    .banner-ser-item{flex-wrap:wrap;-ms-flex-wrap:wrap;-webkit-justify-content: center;justify-content: center;padding: 20px 15px;}
+    .banner-ser-item figure{margin-right:0}
+    .banner-ser-item article{width:100%;text-align: center;margin-top: 5px;}
+    .banner-ser-item article p{font-size:18px;}
+    .inner-banner,.index-banner{margin-top: 104px;}
+    .inner-banner-title{padding:40px 0 50px}
+    /*選單*/
+    .navbar-brand{width: 170px;}
+    .navbar-toggler{/* padding-right:0; */}
+    .navbar-toggler-icon{height: 1px;display: block;background: #1a1a1b;}
+    .navbar-toggler-icon+.navbar-toggler-icon{margin-top:5px}
+    nav.navbar{padding: 10px 20px;}
+    .kuotu-bar{padding: 0 20px;}
+    .kuotu-bar a{/* width: 110px; */}
+    .footer-sitemap-item{width:calc(100% / 3)}
+    /*輪播按鈕*/
+    .sliderbox .slick-arrow.slick-next,.sliderbox .slick-arrow.slick-prev{background: rgb(255 255 255 / 95%);/* box-shadow: 0 0 5px -1px rgb(156 156 156 / 50%); */}
+    .sliderbox .slick-arrow.slick-prev, .sliderbox .slick-arrow.slick-next{width: 25px;}
+    .sliderbox .slick-arrow.slick-prev{left: 5px;}
+    .sliderbox .slick-arrow.slick-next{right: 5px;}
+    .sliderbox .slick-prev:before, .sliderbox .slick-next:before{font-size: 20px;}
+    /*首頁*/
+    .mj-title{margin-bottom: 30px;}
+    .mj-title p{font-size:28px}
+    .index-buy-sale .buy-sale{margin: 0 -10px;}
+    .buy-sale-item{margin:0 10px;box-shadow: 0 5px 12px -5px rgb(51 51 51 / 40%);}
+    .map-box article{width:330px}
+    .map-area{width:calc(100% - 330px)}
+    .index-repair{padding-top: 40px;margin-top: 0;}
+    .index-repair-link{width: calc(100% / 3 - 16px);margin: 8px;}
+    .repair-album,.index-used-album{padding: 30px;}
+    .index-repair .repair-album{padding-bottom:50px}
+    .repair-bk{margin-top:40px}
+    /*活動訊息*/
+    .news li{width: calc(100%/2 - 20px);}
+    /*愛車美容*/
+    .contant_area{width:100%;margin: 0;padding: 0;}
+    .contant_area:before{height:100%;width:100%;display: none;}
+    .contant_form{width:100%}
+    .contact_dm{transform:inherit;margin: 0 0 0 2rem;}
+    .contant_inner{display: flex;flex-direction: row;align-items: center;}
+    /*購車優惠*/
+    .discount li{margin:10px;width:calc(100%/3 - 20px)}
+    .discount li .txt p{font-size:1rem}
+    /*服務廠*/
+    .sevice .item{flex-direction:column;width: calc(100%/3 - 20px);justify-content: flex-start;}
+    .seviceList figure{width:100%;max-width: inherit;}
+    .sevice .item .textBox{width:100%;padding: 1rem .5rem;} 
+    /**/
+
+}
+@media screen and (max-width: 768px){
+    .inner-banner,.index-banner{margin-top: 101px;}
+    body:before{width: calc((100% - 510px) / 2);}
+    body:after{right: 0;}
+    .carsshow li{width:50%}
+    .carsshow li a{padding-top:10px}
+    .carsshow li figure{padding:0 10px;margin-bottom: 25px;}
+    .sidebar .collapse{max-width:540px}
+    .footer-sitemap-item{width:calc(50%)}
+    .banner-ser-item{padding: 20px 5px 15px;}
+    .banner-ser-item figure{width: 40px;}
+    .banner-ser-item article p{font-size: 3px;}
+    .banner-ser-item article span{display:none}
+    .index-banner .pc_banner{display: none;}
+    .index-banner .sm_banner{display: block;}
+    /*首頁*/
+    .mj-title p{font-size:25px}
+    .map-box{padding:30px 0 30px 30px}
+    .map-box article{width:300px}
+    .map-area{width:calc(100% - 300px)}
+    .buy-sale-item{margin:0 5px}
+    .open-location-line ul li{font-size:15px;padding: 20px 5px;}
+    .index-repair-pic{margin: 0 -8px 0;}
+    .index-repair-link{width: calc(100% / 2 - 16px);margin: 8px;}
+    .repair-album,.index-used-album{padding: 20px;}
+    .index-repair .repair-album{padding-bottom:40px}
+    .index-repair:before{/* height: 200px; */background-attachment: inherit;}
+    /*lexus新車展示中心*/
+    .modal-body-Exhibition{width:100%}
+    .modal-Exhibition-box .modal-map{width:100%;padding-left:0;margin-top: 15px;height: 200px;}
+    /*車款展示*/
+    .car-detail p{font-size: 22px;}
+    .car-detail>span{font-size:18px}
+    /*保險*/
+    .insurance li{width:100%;}
+    .insurance li p{font-size:20px}
+    input[type="date"]{-webkit-appearance: none;appearance: none;-moz-appearance: none;width: 100%;}
+    /*愛車美容*/
+    .form-group label b{color:#ae2e34;margin: 0 5px;}
+    /*購車優惠*/
+    .discount li{margin:10px;width:calc(100%/2 - 20px)}
+    /*營業所*/
+    .locationList .item{width: calc(100%/2 - 20px);margin: 10px;}
+    /*服務廠*/
+    .sevice .item{width: calc(100%/2 - 20px)}
+    /*公司簡介*/
+    .ab-partner .imgBox{width: 100%;padding: 70px;background-position: 0 40%;}
+    .ab-partner-name{width:100%}
+    .ab-partner ul{width: 100%;margin: .75rem 0 0 0;padding-left:0}
+    .ab-partner .content{flex-direction: column;}
+    .ab-partner ul li{padding:.25em 0}
+    .historyList {width: 100%;}
+    .ab-concept{flex-direction: column;margin: 0;}
+    .conceptItem{width: 100%;padding: 2.5rem .5rem;margin: .5rem 0;}
+    .conceptItem:hover{padding: 2.5rem .5rem}
+    .conceptItem ul{position: relative;opacity: 1;transform: translate(0, 0);margin-top: 1rem;margin-bottom: 0;}
+    .conceptItem ul li{font-size:1rem}
+    
+}
+@media screen and (max-width:767px){
+    /*愛車美容*/
+    .contant_item_dm{display: block;}
+    .contact_dm{display: none;}
+    .contant_inner{flex-direction: column;align-items:inherit;}
+    .contant_area{padding:0 3rem}
+    .contact_dm{margin:0;max-width: inherit;}
+
+}
+@media(max-width:764px){
+    /*中古車*/
+    .usedcar .locationList .item{flex-direction: column;width: calc(100%/2 - 20px);}
+    .usedcar .locationList figure{width: 100%;}
+    .usedcar .titleBox{width:100%;padding: 1rem 0;}
+    .usedcar .item iframe{width:calc(200% + 20px)}
+}
+
+@media screen and (max-width: 640px){
+    .inner-banner-title{padding: 25px 0;}
+    .sidebar{margin-top:0}
+    .sidebar .collapse{max-width:100%;padding: 0;}
+    /*選單*/
+    .brand-logo{width:150px}
+    .navbar-toggler{margin-left:auto}
+    .kuotu-bar .nav-item a{/* width:fit-content; *//* padding:.75rem; */}
+    .navbar--fixed{/* transform: translateY(-58px); */}
+    nav.navbar{padding: 5px 15px;}
+    .kuotu-bar{/* padding: 5px 15px; */}
+    .navbar-brand{width:150px}
+    .wrapper{padding:20px 0 40px}
+    .sidebar .navbar a{padding: 10px 10px;font-size: 15px;}
+    /*banner*/
+    .banner-ser-item article p{font-size:12px}
+    .index-banner{margin-top: 130px;}
+    .inner-banner{margin-top:91px}
+    .index-banner{margin-bottom:30px}
+    .index-bannerr{margin-bottom:30px}
+    .index-buy-sale{margin-bottom:30px}
+    .inner-banner h1{font-size: 26px;}
+    .inner-banner span{font-size:18px;}
+    /*quicklink*/
+    .menu-quick-link{display:flex}
+    /*footer*/
+    #goTop{width: 60px;bottom: 0;height: 55px;line-height: initial;border: none;z-index: 11;right: 70px;}
+    #goTop i{/* margin: 7px auto 0; */display: table;width: 100%;}
+    #goTop p{font-size:12px;margin-bottom: 0;display:block;width: 100%;}
+    .fb-customerchat+.fb_dialog  iframe{right: 0px!important;bottom: 45px!important;}
+    .inner-link{width: calc(100% - 130px);display: -webkit-flex;display: flex;display: -ms-flexbox;bottom: 0;padding-left: 0;margin-bottom: 0;}
+    .inner-link li{width: calc(100% / 2);background: #565656;}
+/*     .lexus-link li:nth-child(3){background:#292929} */
+    .fixed-link li a{display: -webkit-flex;display: flex;display: -ms-flexbox;flex-wrap:wrap;-ms-flex-wrap:wrap;}
+    .fixed-link li a p{/* padding: 0; */height: 100%;transform:initial;width: 100%;opacity: 1;-webkit-justify-content: center;justify-content: center;font-size: 12px;border: none;background: #565656;color: #fff;padding: 0 3px 3px;text-align: center;}
+    .fixed-link li a p b{display:none}
+    .fixed-link .cus-ser p{background-color:#292929}
+    .fixed-link li:last-child a p{border:none}
+    .fixed-link li figure{width:100%;border: none;text-align: center;padding: 5px;}
+    .fixed-link li img{width: 20px;}
+    .footer-btm{-webkit-justify-content: center;justify-content: center;}
+    footer{margin-bottom: 73px;}
+    .copyright{width:100%;text-align: center;margin-top: 8px;}
+    .copyright a{display:block;border-left: none;padding-left: 0;margin-left: 0;}
+    .lexus footer{/* margin-bottom: 73px; */}
+    /*首頁*/
+    .mj-title span{font-size:14px}
+    .mj-title p{/* font-size: 22px; */}
+    .open-location-line ul li{width: calc(100% / 5);padding: 12px 5px;}
+    .open-location-line ul li:nth-of-type(5n){border-right:1px solid #eee}
+    .index-used{padding:50px 0}
+    .toyota .index-pro:before{background-position:left}
+    .toyota .index-used{background-position:right}
+
+     /*服務廠*/
+    .sevice .item h3{font-size:1.1rem;margin-bottom:.5rem}
+    .sevice .item{width:100%;margin: 10px 0 10px;}
+    .sevice .time{display:flex;flex-direction:column;background: none;}
+    .sevice .time span:before{display:none}
+    .sevice .time{margin-bottom: .5rem;padding: 0;width: calc(50% - 10px);}
+    .sevice .time span{width:fit-content;background: #eee;padding: 2px .5rem;}
+    .reservation{margin-left:0}
+    .sevice .timeList{margin: 0;}
+    .reservation a{padding:10px;width: 50%;}
+    /*購車優惠*/
+    .discount li{margin:10px;width:100%}
+    .index-buy-sale table{width:450px}
+    .index-buy-sale table td, .index-buy-sale table th{padding:10px}
+     /*營業所*/
+    .locationList .item{width:100%;margin: 10px;}
+    .mapDetil{max-height:300px;width:90%}
+    /*維修彈跳*/
+    .modal-service-info:nth-of-type(2), .modal-service-info:nth-of-type(3){width:100%}
+    .modal-body{padding:16px}
+    /*中古車*/
+    .usedcar .time{display:flex;flex-direction:column;background: none;}
+    .usedcar .time span:before{display:none}
+    .usedcar .time{margin-bottom: .5rem;padding: 0;width: 100%;}
+    .usedcar .time span{width:fit-content;padding: 2px .5rem;}
+    .usedcar .time span:first-child{background: #eee;}
+    /*愛車美容*/
+    .contant_form{padding:1.5rem;}
+    .modal-shop{width: 100%;}
+    .modal-shop+.modal-map{width: 100%;padding-left: 0px;margin-top: 10px;}
+    .modal-shop+.modal-map iframe{height:250px}
+    /*公司簡介*/
+    .ab-service .content{flex-direction:column}
+    .ab-service .content .imgBox{width:100%}
+    .ab-service .content .textBox{width:100%;padding: 1rem 0;}
+    .reportList{flex-direction:column;max-height: 350px;overflow: auto;justify-content: flex-start;}
+    .ab-partner ul{flex-direction: column;}
+    .ab-partner ul li{width: 100%;}
+    .historyItem{flex-direction: column;margin-bottom: 1rem;}
+    .historyItem .txt{width: 100%;padding: 1rem .5rem;}
+    .historyItem .year{width: 100%;text-align: center;background: #fff;}
+    .historyList::before{left:50%}
+    .historyItem .year::after,.historyItem .txt:before{display: none;}
+    .historyItem:first-child{transform:translate(0)}
+    .ab-history h3{margin-bottom:2rem}
+    .linkBox a{padding: 2rem;font-size: 1rem;}
+    .lexus-link{right:auto;bottom:0;width: 100%;background: #fff;}
+    .scrolldown-rwd{bottom:50px}
+/*     .scrolldown-rwd{position: fixed;top: 70%;right: 0;transform: translateY(-50%);text-align: center;background: rgb(255 255 255 / 95%);box-shadow: 0 0 10px rgb(51 51 51 / 30%);z-index: 10;padding: 5px;}
+    .scrolldown-rwd i{font-size: 15px;margin-bottom: 3px;display: inline-block;}
+    .scrolldown-rwd span{display:block;letter-spacing:1px;font-size: 15px;writing-mode: vertical-rl;}
+    .scrolldown-rwd.active{position:initial;top: auto;transform: initial;background: #dadada;}
+    .scrolldown-rwd.active span{writing-mode:initial;display: inline-block;} */
+}
+@media screen and (max-width:588px){
+   .lexus_top #goTop{height:73px}
+}
+@media screen and (max-width: 575px){
+/*     body:before{width:150px} */
+    .btn-style span{font-size: 14px;}
+    /*首頁*/
+    body:before{position:absolute;content:'';width:100%;right: 0;top: -89px;background: rgb(51 51 51 / 50%);z-index: 1034;opacity:0;pointer-events:none}
+    body.index-mask:before{opacity:1}
+    .kuotu-mask:before{opacity:1;z-index:1}
+    .repair-album .btn-style{width:100%}
+    .btn-style span:nth-of-type(1){width: calc(100% - 53px);display: inline-block;}
+    .open-location-map{position:fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);width: calc(100% - 30px);z-index: 1000000000000;/* box-shadow: 0 0 5px #676767; */}
+    .open-location-map:before{display:none}
+    .map-box{padding:0;overflow: initial;}
+    .map-box-close{top: -45px;padding: 0;}
+    .map-box-close-btn{padding:0 10px}
+    .map-box .bi-x-lg{padding: 0 5px;margin-bottom: 5px;font-size: 14px;cursor: pointer;margin-right: 0!important;}
+    .map-box:before{display:none}
+    .map-box-s{flex-wrap:wrap;-ms-flex-wrap:wrap;box-shadow: 0 0 8px #5d5d5d;}
+    .map-boxInfo{width:calc(100% - 200px)}
+    .map-box article ul{margin-bottom:0;padding-right:8px}
+    .map-box article figure{width:200px}
+    .map-box article{width:100%;padding: 14px;display: -webkit-flex;display: flex;display: -ms-flexbox;}
+    .map-box article p{font-size:17px}
+    .map-area{width:100%;height: 300px;}
+    /*活動訊息*/
+    .news li{width: 100%;/* max-width: 320px; */margin: 10px;}
+}
+@media(max-width:450px){
+    /*中古車*/
+    .usedcar .locationList .item{width:100%}
+    .usedcar .item iframe{width:100%}
+    
+}
+@media screen and (max-width: 479px){
+    /*選單*/
+    .navbar-brand,.brand-logo{width:120px}
+    .kuotu-bar{padding: 0 10px;}
+    .kuotu-bar ul{-webkit-justify-content: center;justify-content: center;width: 100%;}
+    .kuotu-bar .nav-item a{padding: 5px 12px;}
+    .kuotu-bar li:last-child a.nav-link{padding: 5px 12px;}
+    .event-item figure img{width:100%}
+    .kuotu-bar .nav-item{position:initial}
+    .kuotu-bar .nav-link+.kuotu-bar-drop a{padding: 15px 10px;}
+    .kuotu-bar .nav-link+ul{/* position:initial */left: 0;}
+    .kuotu-bar-drop-only{min-height: 100px;}
+
+}
+@media(max-width:396px){
+    .index-banner{margin-top: 130px;}
+    .navbar--fixed {/* transform: translateY(-58px); */}
+}
+@media screen and (min-width: 639px){
+    /* .index-banner div img:nth-of-type(2){display:none} */
+    .fixed-link:hover p{opacity:1;transform:translateX(0)}
+    .fixed-link li:hover figure{background: #424242;}
+/*     .scrolldown-rwd{display: none;} */
+}
+@media screen and (min-width: 992px){
+/*sidebar*/
+
+    .navbar-expand-lg .navbar-collapse{justify-content: flex-end;}
+}
+@media screen and (min-width: 576px){
+
+    .open-location-line ul li:hover,.open-location-line ul li.active{background: #eee;background: -webkit-linear-gradient(-60deg,rgb(228 228 228),rgb(255 255 255)100%);background: linear-gradient(-60deg,rgb(228 228 228),rgb(255 255 255)100%);font-weight: 600;box-shadow: 2px 2px 8px inset rgb(187 187 187 / 30%);}
+    .modal-open-location .modal-dialog{max-width: 600px;}
+    .modal-service .modal-dialog{max-width: calc(950px - 15px);padding: 0 15px;}
+}

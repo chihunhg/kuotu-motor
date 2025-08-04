@@ -1,0 +1,398 @@
+<?php
+require("_inc.php");
+$pageName = "p1";
+$subPageName = "p1_4";
+$nav = $home . $icon . $p1 . $icon . $p1_4;
+
+require("_code_public.php");
+?>
+<!DOCTYPE html>
+<html <?php echo $lang; ?>>
+
+<head>
+    <?php require("_in_code_head.php"); ?>
+    <?php require("_in_javascript.php"); ?>
+    <script language="JavaScript" type="text/JavaScript">
+        /*-----------------------------------------*/
+  function sbForm(){
+    var obj = document.form1;
+    if(FormChk(obj)){
+      obj.submit();
+    }
+  }
+  /*-----------------------------------------*/
+  function FormChk(obj) {
+    var array = new Array();
+    var obj = document.form1;
+    var flag = true;
+    /*====================================*/
+    if ($('#name').val() == ""){
+      $("#name").addClass('aleart_line')
+      $("#name_txt").text("請輸入您的姓名");
+      array.push("name");
+      flag = false;
+    }else{
+      $("#name").removeClass("aleart_line");
+      $("#name_txt").hide().text("");
+    }
+    /*====================================*/
+    if ($('#tel').val() == ""){
+      $("#tel").addClass('aleart_line')
+      $("#tel_txt").text("請輸入您的電話");
+      array.push("tel");
+      flag = false;
+    }else{
+      $("#tel").removeClass("aleart_line");
+      $("#tel_txt").hide().text("");
+    }
+    /*====================================*/
+    if ($('#num').val() == ""){
+        $("#num").addClass('aleart_line')
+        $("#num_txt").text("請輸入您的車牌號碼");
+        array.push("num");
+        flag = false;
+      }else{
+        $("#num").removeClass("aleart_line");
+        $("#num_txt").hide().text("");
+      }
+    /*====================================*///select 下拉選單
+    if ($('#produce option:selected').index()==0) {
+        //$("#call").addClass('aleart_line')
+        $("#produce_txt").text("請選擇美容商品");
+        array.push("produce");
+        flag = false;
+     
+    } else {
+        $("#produce").removeClass("aleart_line");
+        $("#produce_txt").text("");
+    }
+    /*====================================*///select 下拉選單
+    if ($('#place option:selected').index()==0) {
+        //$("#call").addClass('aleart_line')
+        $("#place_txt").text("請選擇施作地點");
+        array.push("place");
+        flag = false;
+     
+    } else {
+        $("#place").removeClass("aleart_line");
+        $("#place_txt").text("");
+    }
+    /*====================================*/
+    if ($('#date').val() == ""){
+      $("#date").addClass('aleart_line')
+      $("#date_txt").text("請輸入預約日期");
+      array.push("date");
+      flag = false;
+    }else{
+      $("#date").removeClass("aleart_line");
+      $("#date_txt").hide().text("");
+    }
+    /*====================================*///select 下拉選單
+    if ($('#hour option:selected').index()==0 || $('#minute option:selected').index()==0) {
+        //$("#call").addClass('aleart_line')
+        $("#time_txt").text("請選擇預約時間");
+        array.push("hour");
+        flag = false;
+     
+    } else {
+        $("#hour").removeClass("aleart_line");
+        $("#place_txt").text("");
+    }
+    /*=====================================*/
+    if($('input[name="person"]:checked').length==0) {
+        //$("#interest").addClass('aleart_line')
+        $("#person_txt").text("請閱讀客服信箱個資宣告");
+        array.push("person");
+        flag = false;
+     
+    }else {
+        //$("#person").removeClass("aleart_line");
+        $("#person_txt").text("");
+    }
+    /*====================================*/
+    if(flag==false){
+      var field = array[0];
+      return false;
+    }
+    return true;
+  }
+  /*-----------------------------------------*/
+  function isEmail(txt){ 
+    var pattern = /^([a-z0-9_\.\-])+\@(([a-z0-9\-])+\.)+([a-z0-9]{2,4})+$/i;
+    //var pattern = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-])+/; 
+    return pattern.test(txt);    
+  } 
+  /*-----------------------------------------*/
+</script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW'></script>
+</head>
+
+<body <?php echo $bodytxt; ?>>
+
+    <?php require("_header.php"); ?>
+    <?php require("_banner.php"); ?>
+    <?php require("_sidebar.php");
+    ?>
+    <div class="breadCrumbs-box container">
+        <ul class="breadCrumbs">
+            <li class="item"><a href="./"><?php echo $home; ?></a></li>
+            <li class="item"><a href="javascript:;"><?php echo $p1; ?></a></li>
+            <li class="item active"><a href="javascript:;"><?php echo $p1_4; ?></a></li>
+        </ul>
+    </div>
+
+    <section class="wrapper">
+        <div class="container">
+
+            <div class="d-lg-flex justify-content-center">
+                <div class="contant_area">
+                    <div class="contant_inner">
+
+                        <div>
+                            <img src="../images/all/innd.png" alt="創新專業汽車美容" class="img-fliud innd-logo">
+                            <!-- <p class="contant_title">創新汽車</p> -->
+                            <div class="contant_info">
+                                <ul>
+                                    <li>總公司：<a href="https://goo.gl/maps/qzCc8r6thgiXqBse8" target="_blank" rel="noopener noreferrer">台北市北投區大業路2號7樓</a></li>
+                                    <li>代表號：<a href="tel:0228959200">(02)2895-9200</a></li>
+                                    <li><a href="https://www.facebook.com/InnoCarCoating" target="_blank" rel="noopener noreferrer" title="創新專業汽車美容"><i class="bi bi-facebook transi mr-1"></i>創新專業汽車美容</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="contant_list">
+                                <div class="contant_item"><a href="javascript:;" data-toggle="modal" data-target="#shop"><span><i class="fas fa-car"></i>獨立店總覽</span><i class="fas fa-angle-right mr-0"></i></a></div>
+                                <div class="contant_item"><a href="repair.php"><span><i class="fas fa-tools"></i>服務廠總覽</span><i class="fas fa-angle-right mr-0"></i></a></div>
+                                <div class="contant_item contant_item_dm"><a href="../images/news/toyota/contant/DM01.jpg" data-lightbox="image-1" data-title="My caption"><span><i class="fab fa-readme"></i>查看服務項目</span><i class="fas fa-angle-right mr-0"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="contact_dm">
+                            <a href="../images/news/toyota/contant/DM01.jpg" data-lightbox="image-1">
+                                <img src="../images/news/toyota/contant/DM01.jpg" class="img-fluid" alt="DM">
+                                <span>點我放大</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--col-md-4 end-->
+
+                <div class="contant_form ">
+                    <p>請詳細填寫基本資料，我們將竭誠為您服務! <br><span class="red">（星號 (*) 必須填寫）</span></p>
+                    <form class="row" name="form1" method="post" action="mail.php" onSubmit="return FormChk(this)">
+
+                        <div class="form-group col-12">
+                            <label for="name">聯絡人<span class="red">*</span></label>
+                            <input name="name" id="name" type="text" class="form-control" size="20">
+                            <small id="name_txt" class="red"></small>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="tel">連絡電話<span class="red">*</span></label>
+                            <input name="tel" id="tel" type="text" class="form-control" size="20">
+                            <small id="tel_txt" class="red"></small>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="num">車牌號碼<span class="red">*</span></label>
+                            <input name="num" id="num" type="text" class="form-control" size="20">
+                            <small id="num_txt" class="red"></small>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>美容商品<span class="red">*</span></label>
+                            <select name="produce" id="produce" class="form-control">
+                                <option value="" selected="">請選擇</option>
+                                <option value="星鑽鍍膜">星鑽鍍膜</option>
+                                <option value="晶鑽鍍膜">晶鑽鍍膜</option>
+                                <option value="黑鑽鍍膜">黑鑽鍍膜</option>
+                                <option value="鈦鑽鍍膜">鈦鑽鍍膜</option>
+                                <option value="鍍膜護理">鍍膜護理</option>
+                                <option value="前檔鍍膜">前檔鍍膜</option>
+                                <option value="大燈鍍膜">大燈鍍膜</option>
+                                <option value="鋁圈鍍膜">鋁圈鍍膜</option>
+                                <option value="晶亮鍍膜">晶亮鍍膜</option>
+                                <option value="引擎室清潔">引擎室清潔</option>
+                            </select>
+                            <small id="produce_txt" class="red"></small>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>施作地點<span class="red">*</span></label>
+
+                            <select name="place" id="place" class="form-control">
+                                <option value="" selected="">請選擇</option>
+                                <option value="新北市 新北大道保修站服務廠">新北市 新北大道保修站服務廠</option>
+                                <option value="新北市 三多保修站服務廠">新北市 三多保修站服務廠</option>
+                                <option value="新北市 北大保修站服務廠">新北市 北大保修站服務廠</option>
+                                <option value="新北市 竹林保修站">新北市 竹林保修站</option>
+                                <option value="新北市 五股保修站服務廠">新北市 五股保修站服務廠</option>
+                                
+                                <option value="台北市 陽明服務廠">台北市 陽明服務廠</option>
+                                <option value="台北市 濱江服務廠">台北市 濱江服務廠</option>
+                                <option value="台北市 士林服務廠">台北市 士林服務廠</option>
+                                <option value="新北市 中和服務廠">新北市 中和服務廠</option>
+                                <option value="新北市 三重服務廠">新北市 三重服務廠</option>
+                                <option value="新北市 土城服務廠">新北市 土城服務廠</option>
+                                <option value="新北市 林口服務廠">新北市 林口服務廠</option>
+                                <option value="新北市 樹林服務廠">新北市 樹林服務廠</option>
+                                <option value="新北市 鶯歌服務廠">新北市 鶯歌服務廠</option>
+                                <option value="新北市 蘆洲服務廠">新北市 蘆洲服務廠</option>
+                                <option value="新北市 淡水服務廠">新北市 淡水服務廠</option>
+                                <option value="新北市 北永和服務廠">新北市 北永和服務廠</option>
+                                <option value="新北市 北板橋服務廠">新北市 北板橋服務廠</option>
+                                <option value="新北市 新莊服務廠">新北市 新莊服務廠</option>
+                                <option value="新北市 丹鳳服務廠">新北市 丹鳳服務廠</option>
+                                <option value="新北市 板橋服務廠">新北市 板橋服務廠</option>
+                                <option value="新北市 三重店(獨立店)">新北市 三重店(獨立店)</option>
+                                <option value=""></option>
+                            </select>
+                            <small id="place_txt" class="red"></small>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>預約日期<b>(請於7天前預約)</b><span class="red">*</span></label>
+                            <br>
+                            <input name="date" id="date" type="date" min="<?php echo date("Y-m-d", strtotime($today."+7 day")) ?>">
+                            <small id="date_txt" class="red"></small>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label>預約時間(08:30~17:30)<span class="red">*</span></label>
+                            <br>
+                            <select name="hour" id="hour">
+                                <option value="--" selected="">--</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                            </select>
+                            <span>:</span>
+                            <select name="minute" id="minute">
+                                <option value="--" selected="">--</option>
+                                <option value="00" class="zero">00</option>
+                                <option value="30" class="half">30</option>
+                            </select>
+                            <small id="time_txt" class="red"></small>
+                        </div>
+
+                        <div class="form-group col-12">
+                            <label for="description">備註</label>
+                            <textarea name="description" id="description" rows="8" class="form-control"></textarea>
+                            <small id="description_txt" class="red"></small>
+                        </div>
+
+                        <!-- <div class="form-group">
+                            <label for="">驗証碼<span class="red">*</span></label>
+                            <div class="g-recaptcha" data-sitekey="6LdasOAUAAAAAAIejpNsXZqOszECFJFXqfj3cHnw"> </div>
+                        </div> -->
+                        <div class="form-group col-md-12">
+                            <input name="person" id="person" type="checkbox">
+                            <label for="person"><span class="red ml-1">*</span>我已閱讀<a href="javascript:;" class="personlink">【客服信箱個資宣告】</a>，且同意此宣告內容。</label><br>
+                            <small id="person_txt" class="red"></small>
+                        </div>
+                        <div class="btnWrap text-center">
+                            <button  class="btn-style btn-grey" type="button" onClick="sbForm();" onMouseOut="MM_swapImgRestore()" value="送出" data-text="送出">
+                                <span>確認送出</span>
+                                <span><i class="bi bi-chevron-right transi"></i></span>
+                            </button>
+                            <input type="hidden" name="Send" id="Send" />
+                            <input type="hidden" value="" name="recaptcha_response" id="recaptchaResponse">
+                        </div>
+
+                    </form>
+                </div>
+                 <!--row-->
+                 <?php require("../_personBox.php"); ?>
+            </div>
+
+        </div>
+    </section>
+    <div class="modal modal-service fade" id="shop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- 標題 -->
+                    <p class="modal-body-title">三重店(獨立店)</p>
+                    <div class="d-flex flex-wrap">
+                        <div class="modal-shop">
+                            <div class="modal-shop-pic">
+                                <figure>
+                                    <img src="../images/news/toyota/contant/shop1-1.jpg?20210816" class="img-fluid" alt="三重店(獨立店)">
+                                </figure>
+                                <figure>
+                                    <img src="../images/news/toyota/contant/shop1-2.jpg?20210816" class="img-fluid" alt="三重店(獨立店)">
+                                </figure>
+                            </div>
+                            
+                            <article><!-- 內文 -->
+                                <div class="modal-shop-info">
+                                    <ul>
+                                        <li>服務時間：09:00 ~ 18:00</li>
+                                        <li><a href="tel:0956855053" title="撥打電話">電話：0956-855-053</a></li>
+                                        <li><a href="https://goo.gl/maps/jXKeGhQ9NUL9Rzpy5" target="_blank" rel="noopener noreferrer" title="新北市三重區三陽路132號1樓">地址：新北市三重區三陽路132號1樓</a></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="modal-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14457.087255363103!2d121.4823323!3d25.0587748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x340ee90729c809f6!2z5Ym15paw5bCI5qWt5rG96LuK576O5a655LiJ6YeN5bqX!5e0!3m2!1szh-TW!2stw!4v1629094650127!5m2!1szh-TW!2stw" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                </div> -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+    <?php require("_footer.php"); ?>
+    <?php require("_in_code_bottom.php"); ?>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+        })
+        $
+
+        $('#hour').click(function() {
+            var hourVal = $('#hour').val();
+            if  (hourVal == "08" || hourVal == "17") {     
+                console.log(30);
+                $('.zero').hide();
+            }else{
+                $('.zero').show();
+            }
+        });
+    </script>
+    <script>
+        $('.modal-shop-pic').slick({
+			dots: true,
+			arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    </script>
+    <script>
+        $('.submit').click(function() {
+            $('.personBox').hide();
+        })
+        $('.personlink').click(function() {
+            $('.personBox').show();
+        })
+    </script>
+</body>
+
+</html>

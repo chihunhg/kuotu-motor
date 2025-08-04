@@ -1,0 +1,10 @@
+User-agent:*
+Allow: /
+Disallow: /DB/
+Disallow: /manage/
+Disallow: /include/
+Disallow: /PHPMailer/
+Disallow: /Upload/
+Disallow: /_bak/
+
+Sitemap: https://www.kuotu-motor.com.tw/sitemap.xml

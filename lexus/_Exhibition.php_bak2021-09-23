@@ -1,0 +1,124 @@
+<div class="open-location-map">
+
+    <div class="map-box map-box01 showup" data-num="0">
+        <div class="container map-box-close">
+            <span class="map-box-close-btn">
+                <i class="bi bi-x-lg mr-1"></i><span>關閉</span>
+            </span>
+        </div>
+        <div class="map-box-s">
+            <article>
+                <div class="map-boxInfo">
+                    <p>台北市松江營業所</p>
+                    <ul>
+                        <li><a href="tel:(02)2503-2558"><i class="bi bi-telephone-fill"></i>(02)2503-2558</a></li>
+                        <li class="map-add"><a href="https://goo.gl/maps/ko4KVDnkfy8Riv9n6" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>台北市中山區松江路433號</a></li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../images/index/lexus/location/t01s.jpg" class="img-fluid" alt="台北市　濱江營業所">
+                </figure>
+            </article>
+            <div class="map-area">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0672426394603!2d121.53129175092398!3d25.065709943094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9577b6865dd%3A0x844888fb30f564cd!2zTEVYVVMg5p2-5rGf54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1631586052002!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="map-box map-box01" data-num="1">
+        <div class="container map-box-close">
+            <span class="map-box-close-btn">
+                <i class="bi bi-x-lg mr-1"></i><span>關閉</span>
+            </span>
+        </div>
+        <div class="map-box-s">
+            <article>
+                <div class="map-boxInfo">
+                    <p>台北市士林營業所</p>
+                    <ul>
+                        <li><a href="tel:(02)2831-2518"><i class="bi bi-telephone-fill"></i>(02)2831-2518</a></li>
+                        <li class="map-add"><a href="https://goo.gl/maps/148hcJCbaU7VQ73E9" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>台北市士林區中正路350號</a></li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../images/index/lexus/location/t02s.jpg" class="img-fluid" alt="台北市士林營業所">
+                </figure>
+            </article>
+            <div class="map-area">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.2119545850956!2d121.51912315092436!3d25.094685541930506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442afe9a0b7ec63%3A0xc3a70c8975003750!2zTEVYVVMg5aOr5p6X54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1631586171904!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="map-box map-box01" data-num="2">
+        <div class="container map-box-close">
+            <span class="map-box-close-btn">
+                <i class="bi bi-x-lg mr-1"></i><span>關閉</span>
+            </span>
+        </div>
+        <div class="map-box-s">
+            <article>
+                <div class="map-boxInfo">
+                    <p>新北市新莊營業所</p>
+                    <ul>
+                        <li><a href="tel:(02)8993-1988"><i class="bi bi-telephone-fill"></i>(02)8993-1988</a></li>
+                        <li class="map-add"><a href="https://goo.gl/maps/H6m5udyDx78hnb6fA" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市新莊區中正路70號之2</a></li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../images/index/lexus/location/nt01s.jpg" class="img-fluid" alt="新北市新莊營業所">
+                </figure>
+            </article>
+            <div class="map-area">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.87062514893!2d121.45710335092355!3d25.038464244187033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a86fb02e5e0b%3A0x8779ca824ee55755!2zTEVYVVMg5paw6I6K54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1631586196140!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="map-box map-box01" data-num="3">
+        <div class="container map-box-close">
+            <span class="map-box-close-btn">
+                <i class="bi bi-x-lg mr-1"></i><span>關閉</span>
+            </span>
+        </div>
+        <div class="map-box-s">
+            <article>
+                <div class="map-boxInfo">
+                    <p>新北市中和營業所</p>
+                    <ul>
+                        <li><a href="tel:(02)8221-8288"><i class="bi bi-telephone-fill"></i>(02)8221-8288</a></li>
+                        <li class="map-add"><a href="https://goo.gl/maps/TuhxF25A1UQgLyzV7" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市中和區中正路860號</a></li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../images/index/lexus/location/nt01s.jpg" class="img-fluid" alt="新北市中和營業所">
+                </figure>
+            </article>
+            <div class="map-area">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28926.768098505923!2d121.4671601!3d25.0053479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9bf5c4971c7%3A0x681e53abe688b094!2zTEVYVVMg5Lit5ZKM54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1631586506873!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="map-box map-box01" data-num="4">
+        <div class="container map-box-close">
+            <span class="map-box-close-btn">
+                <i class="bi bi-x-lg mr-1"></i><span>關閉</span>
+            </span>
+        </div>
+        <div class="map-box-s">
+            <article>
+                <div class="map-boxInfo">
+                    <p>新北市北板橋營業所</p>
+                    <ul>
+                        <li><a href="tel:(02)8952-2300"><i class="bi bi-telephone-fill"></i>(02)8952-2300　</a></li>
+                        <li class="map-add"><a href="https://goo.gl/maps/5ASn7Q2o5ZmwmXsV9" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市板橋區中山路二段421號</a></li>
+                    </ul>
+                </div>
+                <figure>
+                    <img src="../images/index/lexus/location/nt01a.jpg" class="img-fluid" alt="新北市北板橋營業所">
+                </figure>
+            </article>
+            <div class="map-area">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4363.918834880979!2d121.47880425092325!3d25.019988144927623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a8374f27fc1d%3A0x73aba1c8f13076f1!2zVE9ZT1RBIOWMl-adv-api-eHn-alreaJgA!5e1!3m2!1szh-TW!2stw!4v1631586461729!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,129 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202307_SIENTA/" target="_blank" rel="noopener noreferrer" title="TOYOTA 有購嗨 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/65.jpg?20230712" alt="TOYOTA 有購嗨 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202306_SP/" target="_blank" rel="noopener noreferrer" title="TOYOTA 獨領風潮 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/64.jpg?20230705" alt="TOYOTA 獨領風潮 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/ALPHARD/" target="_blank" rel="noopener noreferrer" title="ALPHARD 極致奢華 再創巔峰 磅礡上市 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/63.jpg?20230626" alt="ALPHARD 極致奢華 再創巔峰 磅礡上市 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/62_b.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA文化北保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/62.jpg?20230613" alt="TOYOTA文化北保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/PRIUS_PHEV/" target="_blank" rel="noopener noreferrer" title="自由馭電 隨興自遊 PRIUS PHEV全新上市 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/58.jpg?20230426" alt="自由馭電 隨興自遊 PRIUS PHEV全新上市 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/CROWN/" target="_blank" rel="noopener noreferrer" title="CROWN全新旗艦跨界跑旅 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/56.jpg?20230330" alt="CROWN全新旗艦跨界跑旅 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/Car_Battery/" target="_blank" rel="noopener noreferrer" title="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/54.jpg?20230309" alt="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202307_SIENTA/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/65_sm.jpg?20230712" alt="TOYOTA 有購嗨 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/202306_SP/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/64_sm.jpg?20230705" alt="TOYOTA 獨領風潮 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/ALPHARD/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/63_sm.jpg?20230626" alt="ALPHARD 極致奢華 再創巔峰 磅礡上市 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/62_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/62_sm.jpg?20230613" alt="TOYOTA文化北保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/PRIUS_PHEV/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/58_sm.jpg?20230426" alt="自由馭電 隨興自遊 PRIUS PHEV全新上市 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/CROWN/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/56_sm.jpg?20230330" alt="CROWN全新旗艦跨界跑旅 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/Car_Battery/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/54_sm.jpg?20230309" alt="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

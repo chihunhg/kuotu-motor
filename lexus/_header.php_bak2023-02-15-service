@@ -1,0 +1,90 @@
+<header class="fixed-top transi ">
+<?php require("../_kuotu_bar.php"); ?>
+	<nav class="navbar navbar-expand-lg transi">
+		<a class="navbar-brand" href="../" title="TOYOTA國都豐田數位服務網">
+			<img src="../images/all/logo.png" class="img-fluid" alt="TOYOTA國都豐田數位服務網">
+		</a>
+		<a href="https://www.lexus.com.tw/" class="brand-logo" target="_blank" rel="noopener noreferrer" title="Lexus">
+			<img src="../images/all/logo_lexus.jpg" class="img-fluid" alt="Lexus">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon"></span>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown nav-item-mian">
+					<a class="nav-link dropdown-toggle" href="javascript:;" title="<?php echo $p1; ?>">
+						<?php echo $p1; ?>
+					</a>
+					<div class="dropdown-menu dropdown-menu-mian" >
+						<a class="dropdown-item" href="news.htm" title="<?php echo $p1_1; ?>"><?php echo $p1_1; ?></a>
+						<a class="dropdown-item" href="discount.htm" title="<?php echo $p1_2; ?>"><?php echo $p1_2; ?></a>
+						<a class="dropdown-item" href="https://www.facebook.com/Lexus%E6%8E%88%E6%AC%8A%E7%B6%93%E9%8A%B7%E5%95%86-%E5%9C%8B%E9%83%BD%E6%B1%BD%E8%BB%8A-123546031550932/?ref=page_internal" target="_blank" rel="noopener noreferrer" title="TOYOTA<?php echo $p1_3; ?>"><?php echo $p1_3; ?></a>
+						<a class="dropdown-item" href="contact.htm" title="<?php echo $p1_4; ?>"><?php echo $p1_4; ?></a>
+					</div>
+
+					<!-- <a class="nav-link dropdown-toggle" href="javascript:;" title="<?php echo $p1; ?>">
+					<?php echo $p1; ?>
+				</a>
+				<div class="dropdown-menu dropdown-menu-mian" >
+					<a class="dropdown-item" href="#" title="<?php echo $p1_1; ?>"><?php echo $p1_1; ?></a>
+					<a class="dropdown-item" href="#" title="<?php echo $p1_2; ?>"><?php echo $p1_2; ?></a>
+					<a class="dropdown-item" href="#" title="<?php echo $p1_3; ?>"><?php echo $p1_3; ?></a>
+				</div> -->
+
+				</li>
+				<li class="nav-item dropdown nav-item-mian">
+					<a class="nav-link dropdown-toggle" href="javascript:;" title="<?php echo $p2; ?>">
+						<?php echo $p2; ?>
+					</a>
+					<div class="dropdown-menu dropdown-menu-mian" >
+						<a class="dropdown-item" href="showroom.htm" title="<?php echo $p2_1; ?>"><?php echo $p2_1; ?></a>
+						<a class="dropdown-item" href="exhibition.htm" title="<?php echo $p2_2; ?>"><?php echo $p2_2; ?></a>
+						<a class="dropdown-item" href="https://www.lexus.com.tw/testdrive.aspx" target="_blank" rel="noopener noreferrer" title="<?php echo $p2_3; ?>"><?php echo $p2_3; ?></a>
+						<a class="dropdown-item" href="insurance.htm" title="<?php echo $p2_5; ?>"><?php echo $p2_5; ?></a>
+						<a class="dropdown-item" href="https://www.carmax.com.tw/" target="_blank" rel="noopener noreferrer" title="<?php echo $p2_6; ?>"><?php echo $p2_6; ?></a>
+					</div>
+				</li>
+				<li class="nav-item dropdown nav-item-mian">
+					<a class="nav-link dropdown-toggle" href="javascript:;" title="<?php echo $p3; ?>">
+						<?php echo $p3; ?>
+					</a>
+					<div class="dropdown-menu dropdown-menu-mian" >
+						<a class="dropdown-item" href="repair.htm" title="<?php echo $p3_1; ?>"><?php echo $p3_1; ?></a>
+						<a class="dropdown-item" href="https://www.lexus.com.tw/owners.aspx?#/services" target="_blank" rel="noopener noreferrer" title="<?php echo $p3_2; ?>"><?php echo $p3_2; ?></a>
+						<a class="dropdown-item" href="https://www.lexus.com.tw/service_maintenance.aspx" target="_blank" rel="noopener noreferrer" title="<?php echo $p3_3; ?>"><?php echo $p3_3; ?></a>
+						<a class="dropdown-item" href="https://www.lexus.com.tw/service_warranty.aspx" target="_blank" rel="noopener noreferrer" title="<?php echo $p3_4; ?>"><?php echo $p3_4; ?></a>
+						<!-- <a class="dropdown-item" href="https://develop3.tsg.com.tw/19/kuotu-motor/web_p/lexus/contact.htm" target="_blank" rel="noopener noreferrer" title="<?php echo $p3_5;?>"><?php echo $p3_5;?></a> -->
+					</div>
+				</li>
+
+				<li class="nav-item dropdown nav-item-mian">
+					<a class="nav-link dropdown-toggle" href="javascript:;" title="<?php echo $p4; ?>">
+						<?php echo $p4; ?>
+					</a>
+					<div class="dropdown-menu dropdown-menu-mian" >
+						<a class="dropdown-item" href="usedcar.htm" title="<?php echo $p4_1; ?>"><?php echo $p4_1; ?></a>
+						<a class="dropdown-item" href="https://www.facebook.com/LexusCpoKuotu/shop/?referral_code=page_shop_tab&preview=1" target="_blank" rel="noopener noreferrer" title="<?php echo $p4_2; ?>" onclick="confirm('開啟外部連結')" ><?php echo $p4_2; ?></a>
+						<a class="dropdown-item" href="https://facebook.com/LexusCpoKuotu?_rdr" target="_blank" rel="noopener noreferrer" title="TOYOTA<?php echo $p4_3; ?>"><?php echo $p4_3; ?></a>
+						<a class="dropdown-item" href="https://www.lexuscpo.com.tw/Home/About" target="_blank" rel="noopener noreferrer" title="<?php echo $p4_4; ?>"><?php echo $p4_4; ?></a>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</nav>
+	<!--僅在手機版出現，QuickLINK-->
+	<?php if ($pageName == "index") { ?>
+		<div class="menu-quick-link">
+			<a href="#subMenu-1" title="新車展示"><span>新車展示<i class="bi bi-chevron-down ml-1"></i></span></a>
+			<a href="#subMenu-2" title="維修據點"><span>維修據點<i class="bi bi-chevron-down ml-1"></i></span></a>
+			<a href="#subMenu-3" title="中古車據點"><span>中古車據點<i class="bi bi-chevron-down ml-1"></i></span></a>
+			<!-- <a href="javascript:;" class="scrolldown" title="更多內容"><span>更多內容<i class="bi bi-arrow-bar-down ml-1"></i></span></a> -->
+		</div>
+	<?php } ?>
+</header>

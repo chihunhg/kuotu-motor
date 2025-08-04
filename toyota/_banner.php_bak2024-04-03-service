@@ -1,0 +1,135 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/BeachCleanup/?utm_source=facebook&utm_medium=post_ad&utm_campaign=240421_beachcleanup" target="_blank" rel="noopener noreferrer" title="2024和泰集團淨灘減塑全台總動員 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/91.jpg?20240329" alt="2024和泰集團淨灘減塑全台總動員 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/88_b.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA八里保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/88.jpg?20240319" alt="TOYOTA八里保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/TOYOTA_Toy_Story/event.html" target="_blank" rel="noopener noreferrer" title="2024年TOYOTA玩具復活節即將開跑囉！ | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/89.jpg?20240319" alt="2024年TOYOTA玩具復活節即將開跑囉！ | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyotacpo.com.tw/Event/SellCar" target="_blank" rel="noopener noreferrer" title="TOYOTA認證中古車推出 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/90.jpg?20240319" alt="TOYOTA認證中古車推出 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.ctbcbank.com/content/dam/minisite/long/creditcard/Hotai/index.html" target="_blank" rel="noopener noreferrer" title="中國信託和泰聯名卡 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/85.jpg?20240110" alt="中國信託和泰聯名卡 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/Car_Battery/" target="_blank" rel="noopener noreferrer" title="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/54.jpg?20230309" alt="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/BeachCleanup/?utm_source=facebook&utm_medium=post_ad&utm_campaign=240421_beachcleanup" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/91_sm.jpg?20240329" alt="2024和泰集團淨灘減塑全台總動員 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/88_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/88_sm.jpg?20240319" alt="TOYOTA八里保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/TOYOTA_Toy_Story/event.html" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/89_sm.jpg?20240319" alt="2024年TOYOTA玩具復活節即將開跑囉！ | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyotacpo.com.tw/Event/SellCar" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/90_sm.jpg?20240319" alt="TOYOTA認證中古車推出 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.klook.com/zh-TW/activity/106048-maowoo-pets-music-run-toyota/?fbclid=IwAR1PKQbB3DMQd30puzhSbwsFziKBkWG0zzgE-T_69xb-WFteOlI8EfPvBBE" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/87_sm.jpg?20240227" alt="TOYOTA毛毛總動員 專屬毛孩的樂園 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.ctbcbank.com/content/dam/minisite/long/creditcard/Hotai/index.html" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/85_sm.jpg?20240110" alt="中國信託和泰聯名卡 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/81_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/81_sm.jpg?20231214" alt="TOYOTA明志保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/YARISCROSS/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/72_sm.jpg?20230928" alt="ALL NEW YARIS CROSS席捲新宇宙 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/Car_Battery/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/54_sm.jpg?20230309" alt="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

@@ -1,0 +1,153 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/29_b.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA中正北保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/29.jpg?20220629" alt="TOYOTA中正北保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202206_SP/" target="_blank" rel="noopener noreferrer" title="TOYOTA享玩快上車 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/26.jpg?20220609" alt="TOYOTA享玩快上車 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/1127684171111911/" target="_blank" rel="noopener noreferrer" title="國都TOYOTA服務廠 免費涼夏健診好評加碼 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/27.jpg?20220609" alt="國都TOYOTA服務廠 免費涼夏健診好評加碼 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/pcb.1130451820835146/1130450800835248/" target="_blank" rel="noopener noreferrer" title="國都獨家HOTAI購超搶手家電 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/28.jpg?20220609" alt="國都獨家HOTAI購超搶手家電 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/bZ/" target="_blank" rel="noopener noreferrer" title="TOYOTA bz4x全新上市 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/25.jpg?20220519" alt="TOYOTA bz4x全新上市 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/1103630703517258/" target="_blank" rel="noopener noreferrer" title="TOYOTA原廠認證中古車 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/22.jpg?20220506" alt="TOYOTA原廠認證中古車 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/news/toyota/2022-05-06-1.jpg" target="_blank" rel="noopener noreferrer" title="國都FB粉絲招募中 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/24.jpg?20220506" alt="國都FB粉絲招募中 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/20_b.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA南勢角保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/20.jpg?20220406" alt="TOYOTA南勢角保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.toyota.com.tw/TOYOTA_Loyalty_Program" target="_blank" rel="noopener noreferrer" title="了解更多:禮遇回廠｜TOYOTA">
+					<img src="../images/banner/toyota/04.jpg?20210916" alt="禮遇回廠｜TOYOTA" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+        
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/29_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA中正北保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/29_sm.jpg?20220629" alt="TOYOTA中正北保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/202206_SP/" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA享玩快上車 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/26_sm.jpg?20220609" alt="TOYOTA享玩快上車 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/1127684171111911/" target="_blank" rel="noopener noreferrer" title="了解更多:國都TOYOTA服務廠 免費涼夏健診好評加碼 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/27_sm.jpg?20220609" alt="國都TOYOTA服務廠 免費涼夏健診好評加碼 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/pcb.1130451820835146/1130450800835248/" target="_blank" rel="noopener noreferrer" title="了解更多:國都獨家HOTAI購超搶手家電 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/28_sm.jpg?20220609" alt="國都獨家HOTAI購超搶手家電 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/bZ/" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA bz4x全新上市 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/25_sm.jpg?20220519" alt="TOYOTA bz4x全新上市 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/1103630703517258/" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA原廠認證中古車 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/22_sm.jpg?20220506" alt="TOYOTA原廠認證中古車 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+https://www.kuotu-motor.com.tw/images/news/toyota/2022-05-06-1.jpg			<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/1104987436714918" target="_blank" rel="noopener noreferrer" title="了解更多:國都FB粉絲招募中 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/24_sm.jpg?20220506" alt="國都FB粉絲招募中 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/20_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA南勢角保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/20_sm.jpg?20220406" alt="TOYOTA南勢角保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.toyota.com.tw/TOYOTA_Loyalty_Program" target="_blank" rel="noopener noreferrer" title="了解更多:禮遇回廠｜TOYOTA">
+					<img src="../images/banner/toyota/04_sm.jpg?20210916" alt="禮遇回廠｜TOYOTA" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

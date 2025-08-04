@@ -1,0 +1,21 @@
+<span class="sale_month">2022 年 2 月 限時優惠</span>
+<div class="table-container">
+    <table align="center">
+        <thead>
+            <tr>
+                <th>車種</th><th>年式</th><th>分期零利率內容</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RX 車系</td>
+                <td rowspan="2">All</td>
+                <td>120 萬 40 期</td>
+            </tr>
+            <tr>
+                <td>ES 車系</td>
+                <td>100 萬 40 期</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

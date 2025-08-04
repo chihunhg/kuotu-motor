@@ -1,0 +1,143 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+        
+			<div>
+				<a href="https://www.lexus.com.tw/news_detail.aspx?nw=520" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜RZ 450e純電啟程 城市試駕活動 北中南全台快閃巡迴">
+					<img src="../images/banner/lexus/26.jpg?20230331" alt="國都LEXUS｜RZ 450e純電啟程 城市試駕活動 北中南全台快閃巡迴" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/lexus.tw/photos/a.137406574778/10159675939389779/" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜春季限定飲品 莓好 春日">
+					<img src="../images/banner/lexus/25.jpg?20230309" alt="國都LEXUS｜Lexus｜春季限定飲品 莓好 春日" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/LexusKuotuMotor/posts/pfbid02kpruwwp7phE1qVMCmNgxi2kqFZNTDTAykMiZD7DTk3KkJEPsLxq1MKJTcCF72zGrl
+" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus 未來之星 國都新星．耀眼迷人">
+					<img src="../images/banner/lexus/24.jpg?20230224" alt="國都LEXUS｜Lexus 未來之星 國都新星．耀眼迷人" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/lexus/23_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus 國都之星．悉心款待．成就千台">
+					<img src="../images/banner/lexus/23.jpg?20230214" alt="國都LEXUS｜Lexus 國都之星．悉心款待．成就千台" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/RX" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜ALL NEW RX 全新上市">
+					<img src="../images/banner/lexus/18.jpg?20221129" alt="國都LEXUS｜ALL NEW RX 全新上市" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/testdrive.aspx" target="_blank" rel="noopener noreferrer" title="了解更多:線上預約試乘/購車諮詢">
+					<img src="../images/banner/lexus/12.jpg?20220609" alt="線上預約試乘/購車諮詢" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/service/hotaipoints_warranty/?utm_source=lexus&utm_campaign=2021HotaiPointsWarranty&utm_medium=frontpage_banner" target="_blank" rel="noopener noreferrer" title="了解更多:點點心意">
+					<img src="../images/banner/lexus/02.jpg?20210916" alt="點點心意" class="img-fluid">
+
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/LexusCpoKuotu" target="_blank" rel="noopener noreferrer" title="了解更多:Lexus Cpo 士林&中和所 國都原廠認證中古車">
+					<img src="../images/banner/lexus/04.jpg?20210916" alt="Lexus Cpo 士林&中和所 國都原廠認證中古車" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+		<div class="slider single-item sliderbox sm_banner">
+            
+			<div>
+				<a href="https://www.lexus.com.tw/news_detail.aspx?nw=520" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜RZ 450e純電啟程 城市試駕活動 北中南全台快閃巡迴">
+					<img src="../images/banner/lexus/26_sm.jpg?20230331" alt="國都LEXUS｜RZ 450e純電啟程 城市試駕活動 北中南全台快閃巡迴" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/lexus.tw/photos/a.137406574778/10159675939389779/" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜春季限定飲品 莓好 春日">
+					<img src="../images/banner/lexus/25_sm.jpg?20230309" alt="國都LEXUS｜Lexus｜春季限定飲品 莓好 春日" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/LexusKuotuMotor/posts/pfbid02kpruwwp7phE1qVMCmNgxi2kqFZNTDTAykMiZD7DTk3KkJEPsLxq1MKJTcCF72zGrl" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus 未來之星 國都新星．耀眼迷人">
+					<img src="../images/banner/lexus/24_sm.jpg?20230224" alt="國都LEXUS｜Lexus 未來之星 國都新星．耀眼迷人" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/lexus/23_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus 國都之星．悉心款待．成就千台">
+					<img src="../images/banner/lexus/23_sm.jpg?20230214" alt="國都LEXUS｜Lexus 國都之星．悉心款待．成就千台" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/RX" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜ALL NEW RX 全新上市">
+					<img src="../images/banner/lexus/18_sm.jpg?20221129" alt="國都LEXUS｜ALL NEW RX 全新上市" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.lexus.com.tw/testdrive.aspx" target="_blank" rel="noopener noreferrer" title="了解更多:線上預約試乘/購車諮詢">
+					<img src="../images/banner/lexus/12_sm.jpg?20220609" alt="線上預約試乘/購車諮詢" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.lexus.com.tw/service/hotaipoints_warranty/?utm_source=lexus&utm_campaign=2021HotaiPointsWarranty&utm_medium=frontpage_banner" target="_blank" rel="noopener noreferrer" title="了解更多:點點心意">
+					<img src="../images/banner/lexus/02_sm.jpg?20210916" alt="點點心意" class="img-fluid">
+
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/LexusCpoKuotu" target="_blank" rel="noopener noreferrer" title="了解更多:Lexus Cpo 士林&中和所 國都原廠認證中古車">
+					<img src="../images/banner/lexus/04_sm.jpg?20210916" alt="Lexus Cpo 士林&中和所 國都原廠認證中古車" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "Lexus CPO";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

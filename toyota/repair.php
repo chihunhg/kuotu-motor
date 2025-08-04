@@ -1,0 +1,839 @@
+<?php
+require("_inc.php");
+$pageName = "p3";
+$subPageName = "p3_1";
+$nav = $home . $icon . $p3 . $icon . $p3_1;
+
+require("_code_public.php");
+?>
+<!DOCTYPE html>
+<html <?php echo $lang; ?>>
+
+<head>
+    <?php require("_in_code_head.php"); ?>
+    <?php require("_in_javascript.php"); ?>
+</head>
+
+<body <?php echo $bodytxt; ?>>
+
+    <?php require("_header.php"); ?>
+    <?php require("_banner.php"); ?>
+    <?php //require("_sidebar.php"); 
+    ?>
+    <div class="breadCrumbs-box container">
+        <ul class="breadCrumbs">
+            <li class="item"><a href="./"><?php echo $home; ?></a></li>
+            <li class="item"><a href="javascript:;"><?php echo $p3; ?></a></li>
+            <li class="item active"><a href="javascript:;"><?php echo $p3_1; ?></a></li>
+        </ul>
+    </div>
+    <section class="wrapper">
+        <div class="container">
+            <div class="sevice">
+                <div class="timeList">
+                    <div class="timeList-box d-flex flex-wrap">
+                        <p class="time"><span><i class="bi bi-clock"></i>一般服務時間</span>( 週一 ~ 週六 ) 08:30~17:30</p>
+                        <p class="time"><span><i class="bi bi-clock"></i>夜間服務時間</span>( 週一 ~ 週五 ) 17:30~19:00 (須預約)</p>
+                        <p class="time"><span><i class="bi bi-clock"></i>假日服務時間</span>08:30~17:30</p>
+                    </div>
+                    <div class="reservation d-flex flex-grow-1">
+                        <a href="https://www.toyota.com.tw/owner_login.aspx?xurl=OWNER_BOOKING.ASPX" target="_blank">線上預約保養<i class="fas fa-arrow-right"></i></a>
+                        <a href="contact.htm" target="_blank">線上預約美容<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="seviceList">
+                    
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_5">
+                                <img src="../images/index/toyota/repair/t01a.jpg" class="img-fluid" alt="台北市 陽明服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_5">台北市 陽明服務廠</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2895-0404"><i class="bi bi-telephone-fill"></i>(02)2895-0404</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/wpkL1aH2edsh3svKA" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>台北市北投區大業路6號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴維修</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_6">
+                                <img src="../images/index/toyota/repair/t03a.jpg" class="img-fluid" alt="台北市 濱江服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_6">台北市 濱江服務廠</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2515-8747"><i class="bi bi-telephone-fill"></i>(02)2515-8747</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/jyfSbdnF3nCUP7AU7" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>台北市中山區濱江街269號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴維修</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_7">
+                                <img src="../images/index/toyota/repair/t02a.jpg" class="img-fluid" alt="台北市士林服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_7">台北市 士林服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/NdPRQnJLwxCJrdCT7" target="_blank" rel="noopener noreferrer" title="台北市士林服務廠"><i class="bi bi-geo-alt-fill"></i>台北市士林區文昌路69號</a></li>
+                                <li><a href="tel:(02)8866-3600"><i class="bi bi-telephone-fill"></i>(02)8866-3600</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴維修</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_22">
+                                <img src="../images/index/toyota/repair/t10a.jpg" class="img-fluid" alt="台北市 長安保修站">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_22">台北市 長安保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2523-0355"><i class="bi bi-telephone-fill"></i>(02)2523-0355</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/YPJV8A6s1D4xj2UR7" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>台北市中山區長安東路二段32號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+</div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_30">
+                                <img src="../images/index/toyota/repair/t18a.jpg" class="img-fluid" alt="台北市 圓山保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_30">台北市 圓山保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2597-5766"><i class="bi bi-telephone-fill"></i>(02)2597-5766</a></li>
+                                <li class="map-add"><a href="https://maps.app.goo.gl/U3ZUPfrUwLZA88Po9" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>台北市大同區庫倫街43號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_8">
+                                <img src="../images/index/toyota/repair/nt01a.jpg" class="img-fluid" alt="新北市中和服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_8">新北市 中和服務廠</a></h3>
+                          <ul>
+                                <li><a href="https://goo.gl/maps/Hz1iNeZJPhkawejg6" target="_blank" rel="noopener noreferrer" title="新北市中和服務廠"><i class="bi bi-geo-alt-fill"></i>新北市中和區建康路70號</a></li>
+                                <li><a href="tel:(02)2226-0782"><i class="bi bi-telephone-fill"></i>(02)2226-0782</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴維修</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_9">
+                                <img src="../images/index/toyota/repair/nt02a.jpg" class="img-fluid" alt="新北市三重服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_9">新北市 三重服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://maps.app.goo.gl/j87YDTc84eDgNnLYA" target="_blank" rel="noopener noreferrer" title="新北市三重服務廠"><i class="bi bi-geo-alt-fill"></i>新北市三重區三和路四段83號</a></li>
+                                <li><a href="tel:(02)2280-1588"><i class="bi bi-telephone-fill"></i>(02)2280-1588</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴維修</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_10">
+                                <img src="../images/index/toyota/repair/nt03a.jpg" class="img-fluid" alt="新北市土城服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_10">新北市 土城服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/WJA63xVbUn69e7zE6" target="_blank" rel="noopener noreferrer" title="新北市土城服務廠"><i class="bi bi-geo-alt-fill"></i>新北市土城區中央路三段4號</a></li>
+                                <li><a href="tel:(02)2269-0911"><i class="bi bi-telephone-fill"></i>(02)2269-0911</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴維修</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_11">
+                                <img src="../images/index/toyota/repair/nt04a.jpg" class="img-fluid" alt="新北市林口服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_11">新北市 林口服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/sLZdh7UcgbZEi46r9" target="_blank" rel="noopener noreferrer" title="新北市林口服務廠"><i class="bi bi-geo-alt-fill"></i>新北市林口區文化一路一段35號</a></li>
+                                <li><a href="tel:(02)2609-0977"><i class="bi bi-telephone-fill"></i>(02)2609-0977</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                          <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_12">
+                                <img src="../images/index/toyota/repair/nt05a.jpg" class="img-fluid" alt="新北市樹林服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_12">新北市 樹林服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/SmyyvQSbfDKd3mjy9" target="_blank" rel="noopener noreferrer" title="新北市樹林服務廠"><i class="bi bi-geo-alt-fill"></i>新北市樹林區大安路40號</a></li>
+                                <li><a href="tel:(02)2687-4518"><i class="bi bi-telephone-fill"></i>(02)2687-4518</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_13">
+                                <img src="../images/index/toyota/repair/nt06a.jpg" class="img-fluid" alt="新北市鶯歌服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_13">新北市 鶯歌服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/SAxu9DSjxoEAbQpYA" target="_blank" rel="noopener noreferrer" title="新北市鶯歌服務廠"><i class="bi bi-geo-alt-fill"></i>新北市鶯歌區文化路146號</a></li>
+                                <li><a href="tel:(02)2678-6063"><i class="bi bi-telephone-fill"></i>(02)2678-6063</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_14">
+                                <img src="../images/index/toyota/repair/nt07a.jpg" class="img-fluid" alt="新北市蘆洲服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_14">新北市 蘆洲服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/EPakZJC9TkNARz8N8" target="_blank" rel="noopener noreferrer" title="新北市蘆洲服務廠"><i class="bi bi-geo-alt-fill"></i>新北市蘆洲區正和街23號</a></li>
+                                <li><a href="tel:(02)2288-0774"><i class="bi bi-telephone-fill"></i>(02)2288-0774</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_15">
+                                <img src="../images/index/toyota/repair/nt08a.jpg" class="img-fluid" alt="新北市淡水服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_15">新北市 淡水服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/Dx62rmdV27sTvJsYA" target="_blank" rel="noopener noreferrer" title="新北市淡水服務廠"><i class="bi bi-geo-alt-fill"></i>新北市淡水區中正東路2段59號</a></li>
+                                <li><a href="tel:(02)2809-6266"><i class="bi bi-telephone-fill"></i>(02)2809-6266</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_16">
+                                <img src="../images/index/toyota/repair/nt09a.jpg" class="img-fluid" alt="新北市北永和服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_16">新北市 北永和服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/ee72d1rviZENuFCU6" target="_blank" rel="noopener noreferrer" title="新北市北永和服務廠"><i class="bi bi-geo-alt-fill"></i>新北市永和區保生路55號</a></li>
+                                <li><a href="tel:(02)2927-6261"><i class="bi bi-telephone-fill"></i>(02)2927-6261</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_17">
+                                <img src="../images/index/toyota/repair/nt10a.jpg" class="img-fluid" alt="新北市板橋服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_17">新北市 板橋服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/C1vdQM5CV3knYR3DA" target="_blank" rel="noopener noreferrer" title="新北市板橋服務廠"><i class="bi bi-geo-alt-fill"></i>新北市板橋區中山路2段427號</a></li>
+                                <li><a href="tel:(02)2962-9906"><i class="bi bi-telephone-fill"></i>(02)2962-9906</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_18">
+                                <img src="../images/index/toyota/repair/nt11a.jpg" class="img-fluid" alt="新北市新莊服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_18">新北市 新莊服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/Nhq3JUWL5vW66Joh7" target="_blank" rel="noopener noreferrer" title="新北市新莊服務廠"><i class="bi bi-geo-alt-fill"></i>新北市新莊區中正路70-2號</a></li>
+                                <li><a href="tel:(02)2997-0580"><i class="bi bi-telephone-fill"></i>(02)2997-0580</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴維修</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_19">
+                                <img src="../images/index/toyota/repair/nt12a.jpg" class="img-fluid" alt="新北市丹鳳服務廠">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_19">新北市 丹鳳服務廠</a></h3>
+                            <ul>
+                                <li><a href="https://goo.gl/maps/hpWGpvbehXK3ha1P9" target="_blank" rel="noopener noreferrer" title="新北市丹鳳服務廠"><i class="bi bi-geo-alt-fill"></i>新北市新莊區中正路717號</a></li>
+                                <li><a href="tel:(02)2902-7616"><i class="bi bi-telephone-fill"></i>(02)2902-7616</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴維修</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>假日時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_1">
+                                <img src="../images/index/toyota/repair/t08a.jpg" class="img-fluid" alt="新北市 新北大道保修站">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_1">新北市 新北大道保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2278-2155"><i class="bi bi-telephone-fill"></i>(02)2278-2155</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/2LALfrrT8FDYrcYq9" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市三重區新北大道2段113號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+</div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_2">
+                                <img src="../images/index/toyota/repair/t07a.jpg" class="img-fluid" alt="新北市 三多保修站">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_2">新北市 三多保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2687-4512"><i class="bi bi-telephone-fill"></i>(02)2687-4512</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/PKYnjBeHtYommeGy7" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市樹林區中正路714號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+</div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_3">
+                                <img src="../images/index/toyota/repair/t06a.jpg" class="img-fluid" alt="新北市 北大保修站">
+                                <span>了解詳情</span>
+                            </a>
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_3">新北市 北大保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2668-3027"><i class="bi bi-telephone-fill"></i>(02)2668-3027</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/29at4aDXdQE4bQo79" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市樹林區佳園路三段143號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+</div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_4">
+                                <img src="../images/index/toyota/repair/t05a.jpg" class="img-fluid" alt="新北市 竹林保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_4">新北市 竹林保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2601-1561"><i class="bi bi-telephone-fill"></i>(02)2601-1561</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/2uZPvajms2cSDs418" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市林口區寶林路21號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+</div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_21">
+                                <img src="../images/index/toyota/repair/t09a.jpg" class="img-fluid" alt="新北市 五股保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_21">新北市 五股保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2291-0725"><i class="bi bi-telephone-fill"></i>(02)2291-0725</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/yBc9oDhKu1pTK5ZW8" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市五股區工商路60號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+</div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_23">
+                                <img src="../images/index/toyota/repair/t11a.jpg" class="img-fluid" alt="新北市 南勢角保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_23">新北市 南勢角保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)8941-3206"><i class="bi bi-telephone-fill"></i>(02)8941-3206</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/ayhoXgJD8moQTd878" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市中和區景平路145號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+</div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_24">
+                                <img src="../images/index/toyota/repair/t12a.jpg" class="img-fluid" alt="新北市 中正北保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_24">新北市 中正北保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2971-0575"><i class="bi bi-telephone-fill"></i>(02)2971-0575</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/jbV8iSwjXx9j4gNs6" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市三重區中正北路49號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_25">
+                                <img src="../images/index/toyota/repair/t13a.jpg" class="img-fluid" alt="新北市 國光保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_25">新北市 國光保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2965-5007"><i class="bi bi-telephone-fill"></i>(02)2965-5007</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/gN2RzYucepRJEoVZ9" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市板橋區國光路52號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_26">
+                                <img src="../images/index/toyota/repair/t14a.jpg" class="img-fluid" alt="新北市 四川保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_26">新北市 四川保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2951-0355"><i class="bi bi-telephone-fill"></i>(02)2951-0355</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/f1pRtwcMBtpP3kGaA" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市板橋區四川路一段150號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_27">
+                                <img src="../images/index/toyota/repair/t15a.jpg" class="img-fluid" alt="新北市 中華保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_27">新北市 中華保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2958-3363"><i class="bi bi-telephone-fill"></i>(02)2958-3363</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/UnfZf4PCXXhyYcnk6" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市土城區中華路一段160號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li>須預約服務:</li>
+                                <li><i class="bi bi-check2-circle"></i>夜間時間</li>
+                            </ul>
+</div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_28">
+                                <img src="../images/index/toyota/repair/t16a.jpg" class="img-fluid" alt="新北市 文化北保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_28">新北市 文化北保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2608-2361"><i class="bi bi-telephone-fill"></i>(02)2608-2361</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/Y2t6Sua3QgYL5yHT8" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市林口區文化北路一段136號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_29">
+                                <img src="../images/index/toyota/repair/t17a.jpg" class="img-fluid" alt="新北市 江子翠保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_29">新北市 江子翠保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2250-3858"><i class="bi bi-telephone-fill"></i>(02)2250-3858</a></li>
+                                <li class="map-add"><a href="https://goo.gl/maps/ATsMRZUWGUWeNDr18" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市板橋區長江路三段137號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_31">
+                                <img src="../images/index/toyota/repair/t19a.jpg" class="img-fluid" alt="新北市 明志保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_31">新北市 明志保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2906-7098"><i class="bi bi-telephone-fill"></i>(02)2906-7098</a></li>
+                                <li class="map-add"><a href="https://maps.app.goo.gl/bDc6ZZMoAKsD6LAh8" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市泰山區明志路3段409號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_32">
+                                <img src="../images/index/toyota/repair/t20a.jpg" class="img-fluid" alt="新北市 八里保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_32">新北市 八里保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2619-2116"><i class="bi bi-telephone-fill"></i>(02) 2619-2116</a></li>
+                                <li class="map-add"><a href="https://maps.app.goo.gl/oXzv7cs4eQfCDkc86" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市八里區中山路1段322號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                        <figure>
+                            <a href="javascript:;" data-toggle="modal" data-target="#repair_33">
+                                <img src="../images/index/toyota/repair/t21a.jpg" class="img-fluid" alt="新北市 莒光保修站">
+                                <span>了解詳情</span>
+                            </a>
+
+                        </figure>
+                        <div class="textBox">
+                            <h3><a href="javascript:;" data-toggle="modal" data-target="#repair_33">新北市 莒光保修站</a></h3>
+                            <ul>
+                                <li><a href="tel:(02)2223-9158"><i class="bi bi-telephone-fill"></i>(02)2223-9158</a></li>
+                                <li class="map-add"><a href="https://maps.app.goo.gl/UJZnV89bsiruGgDf8" target="_blank" rel="noopener noreferrer"><i class="bi bi-geo-alt-fill"></i>新北市中和區莒光路175-1號</a></li>
+                            </ul>
+                            <ul class="serviceItem">
+                                <li class="always">固定服務:</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>一般時間</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>鈑噴轉送</li>
+                                <li class="always"><i class="bi bi-check2-circle"></i>車輛美容鍍膜</li>
+                            </ul>
+                        </div>
+                    </div><!-- item end -->
+                    <div class="item">
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php require("_Maintenance.php"); ?>
+
+
+    <?php require("_footer.php"); ?>
+    <?php require("_in_code_bottom.php"); ?>
+</body>
+
+</html>

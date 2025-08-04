@@ -1,0 +1,97 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/ALTIS" target="_blank" rel="noopener noreferrer" title="了解更多:2022年式 COROLLA ALTIS｜TOYOTA">
+					<img src="../images/banner/toyota/01.jpg?20211005" alt="2022年式 COROLLA ALTIS｜TOYOTA" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/977672022779794/" target="_blank" rel="noopener noreferrer" title="了解更多:光輝十月 夣想實現｜TOYOTA">
+					<img src="../images/banner/toyota/02.jpg?20211005" alt="光輝十月 夣想實現｜TOYOTA" class="img-fluid">
+
+				</a>
+			</div>
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/977672412779755/" target="_blank" rel="noopener noreferrer" title="了解更多:雙十同慶 Corolla Cross釋出｜TOYOTA">
+					<img src="../images/banner/toyota/05.jpg?20211005" alt="雙十同慶 Corolla Cross釋出｜TOYOTA" class="img-fluid">
+
+				</a>
+			</div>
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/pcb.959677147912615/959676541246009/" target="_blank" rel="noopener noreferrer" title="了解更多:林口三井形象館">
+					<img src="../images/banner/toyota/03.jpg?20210916" alt="林口三井形象館" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.toyota.com.tw/TOYOTA_Loyalty_Program" target="_blank" rel="noopener noreferrer" title="了解更多:禮遇回廠｜TOYOTA">
+					<img src="../images/banner/toyota/04.jpg?20210916" alt="禮遇回廠｜TOYOTA" class="img-fluid">
+				</a>
+			</div>
+		</div>
+		<div class="slider single-item sliderbox sm_banner">
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/ALTIS" target="_blank" rel="noopener noreferrer" title="了解更多:2022年式 COROLLA ALTIS｜TOYOTA">
+					<img src="../images/banner/toyota/01_sm.jpg?20211005" alt="2022年式 COROLLA ALTIS｜TOYOTA" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/977672022779794/" target="_blank" rel="noopener noreferrer" title="了解更多:光輝十月 夣想實現｜TOYOTA">
+					<img src="../images/banner/toyota/02_sm.jpg?20211005" alt="光輝十月 夣想實現｜TOYOTA" class="img-fluid">
+
+				</a>
+			</div>
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/a.254034501810220/977672412779755/" target="_blank" rel="noopener noreferrer" title="了解更多:雙十同慶 Corolla Cross釋出｜TOYOTA">
+					<img src="../images/banner/toyota/05_sm.jpg?20211005" alt="雙十同慶 Corolla Cross釋出｜TOYOTA" class="img-fluid">
+
+				</a>
+			</div>
+			<div>
+				<a href="https://www.facebook.com/Kuotutoyota/photos/pcb.959677147912615/959676541246009/" target="_blank" rel="noopener noreferrer" title="了解更多:林口三井形象館">
+					<img src="../images/banner/toyota/03_sm.jpg?20210916" alt="林口三井形象館" class="img-fluid">
+				</a>
+			</div>
+			<div>
+				<a href="https://www.toyota.com.tw/TOYOTA_Loyalty_Program" target="_blank" rel="noopener noreferrer" title="了解更多:禮遇回廠｜TOYOTA">
+					<img src="../images/banner/toyota/04_sm.jpg?20210916" alt="禮遇回廠｜TOYOTA" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

@@ -1,0 +1,153 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/COROLLA_CROSS/" target="_blank" rel="noopener noreferrer" title="本月入主COROLLA CROSS | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/59.jpg?20230505" alt="本月入主COROLLA CROSS | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202104_toyota_toyotatire_v1/" target="_blank" rel="noopener noreferrer" title="換新胎，安全好運一把抓 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/60.jpg?20230505" alt="換新胎，安全好運一把抓 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/PRIUS_PHEV/" target="_blank" rel="noopener noreferrer" title="自由馭電 隨興自遊 PRIUS PHEV全新上市 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/58.jpg?20230426" alt="自由馭電 隨興自遊 PRIUS PHEV全新上市 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/57_b.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA中華保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/57.jpg?20230406" alt="TOYOTA中華保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/CROWN/" target="_blank" rel="noopener noreferrer" title="CROWN全新旗艦跨界跑旅 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/56.jpg?20230330" alt="CROWN全新旗艦跨界跑旅 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/Car_Battery/" target="_blank" rel="noopener noreferrer" title="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/54.jpg?20230309" alt="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/ToyotaKuotuMotor/photos/a.254034501810220/1314532709093722" target="_blank" rel="noopener noreferrer" title="國都四站保修站 夜間延長服務 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/53.jpg?20230307" alt="國都四站保修站 夜間延長服務 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/toyota/news-2023-02-24.html" target="_blank" rel="noopener noreferrer" title="板橋營業所、服務廠 於 2023/3/1 結束服務 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/52.jpg?20230224" alt="板橋營業所、服務廠 於 2023/3/1 結束服務 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/UPGRADE_Selections/19MYRAV4TSS/" target="_blank" rel="noopener noreferrer" title="TOYOTA2019年式RAV4 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/31.jpg?20220707" alt="TOYOTA2019年式RAV4 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/COROLLA_CROSS/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/59_sm.jpg?20230505" alt="本月入主COROLLA CROSS | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/202104_toyota_toyotatire_v1/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/60_sm.jpg?20230505" alt="換新胎，安全好運一把抓 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/PRIUS_PHEV/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/58_sm.jpg?20230426" alt="自由馭電 隨興自遊 PRIUS PHEV全新上市 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/57_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/57_sm.jpg?20230406" alt="TOYOTA中華保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/CROWN/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/56_sm.jpg?20230330" alt="CROWN全新旗艦跨界跑旅 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/Car_Battery/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/54_sm.jpg?20230309" alt="TOYOTA原廠嚴選電瓶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/ToyotaKuotuMotor/photos/a.254034501810220/1314532709093722" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/53_sm.jpg?20230307" alt="國都四站保修站 夜間延長服務 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/toyota/news-2023-02-24.html" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/52_sm.jpg?20230224" alt="板橋營業所、服務廠 於 2023/3/1 結束服務 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.toyota.com.tw/event/UPGRADE_Selections/19MYRAV4TSS/" target="_blank" rel="noopener noreferrer" title="了解更多:TOYOTA2019年式RAV4 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/31_sm.jpg?20220707" alt="TOYOTA2019年式RAV4 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

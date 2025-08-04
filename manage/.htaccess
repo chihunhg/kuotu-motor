@@ -1,0 +1,7 @@
+Options -Indexes
+
+Require all denied
+Require ip 60.250.70.36
+Require ip 203.67.33.107
+
+ErrorDocument 403 https://www.kuotu-motor.com.tw/

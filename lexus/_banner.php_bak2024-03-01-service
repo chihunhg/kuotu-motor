@@ -1,0 +1,178 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+        
+			<div>
+				<a href="https://www.lexus.com.tw/owners-event-detail.aspx?aid=90" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜2024 Lexus Journey by the Sea | 蔚藍之境開始報名">
+					<img src="../images/banner/lexus/40.jpg?20240227" alt="國都LEXUS｜Lexus｜2024 Lexus Journey by the Sea | 蔚藍之境開始報名" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/UX" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜ALL NEW UX 300h 引領上市">
+					<img src="../images/banner/lexus/39.jpg?20240216" alt="國都LEXUS｜Lexus｜ALL NEW UX 300h 引領上市" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/lunarnewyeartime/" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜鎮守平安 龍抵家 春節服務據點公告">
+					<img src="../images/banner/lexus/38.jpg?20240206" alt="國都LEXUS｜Lexus｜鎮守平安 龍抵家 春節服務據點公告" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/LBX" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜LEXUS全新跨界休旅 ALL NEW LBX非凡登場">
+					<img src="../images/banner/lexus/36.jpg?20240118" alt="國都LEXUS｜LEXUS全新跨界休旅 ALL NEW LBX非凡登場" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/news_detail.aspx?nw=559&fn=1" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜2024 LEXUS CUP車主高爾夫球賽">
+					<img src="../images/banner/lexus/35.jpg?20240104" alt="國都LEXUS｜2024 LEXUS CUP車主高爾夫球賽" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.facebook.com/LexusCpoKuotu" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜國都 LEXUS CPO">
+					<img src="../images/banner/lexus/33.jpg?20231122" alt="國都LEXUS｜國都 LEXUS CPO" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/5th-warranty/index.aspx" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜延長保證加購方案">
+					<img src="../images/banner/lexus/32.jpg?20231026" alt="國都LEXUS｜Lexus｜延長保證加購方案" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/LM" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜ALL NEW LM 層峰新領御 磅礡登場">
+					<img src="../images/banner/lexus/29.jpg?20230823" alt="國都LEXUS｜ALL NEW LM 層峰新領御 磅礡登場" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/RZ 450e" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜豪華電能新境界全新 RZ 450e 強勢登場">
+					<img src="../images/banner/lexus/27.jpg?20230517" alt="國都LEXUS｜豪華電能新境界全新 RZ 450e 強勢登場" class="img-fluid">
+				</a>
+			</div>
+        
+			<div>
+				<a href="https://www.lexus.com.tw/testdrive.aspx" target="_blank" rel="noopener noreferrer" title="了解更多:線上預約試乘/購車諮詢">
+					<img src="../images/banner/lexus/12.jpg?20220609" alt="線上預約試乘/購車諮詢" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/service/hotaipoints_warranty/?utm_source=lexus&utm_campaign=2021HotaiPointsWarranty&utm_medium=frontpage_banner" target="_blank" rel="noopener noreferrer" title="了解更多:點點心意">
+					<img src="../images/banner/lexus/02.jpg?20210916" alt="點點心意" class="img-fluid">
+
+				</a>
+			</div>
+		</div>
+
+		<div class="slider single-item sliderbox sm_banner">
+
+			<div>
+				<a href="https://www.lexus.com.tw/owners-event-detail.aspx?aid=90" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜2024 Lexus Journey by the Sea | 蔚藍之境開始報名">
+					<img src="../images/banner/lexus/40_sm.jpg?20240227" alt="國都LEXUS｜Lexus｜2024 Lexus Journey by the Sea | 蔚藍之境開始報名" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/UX" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜ALL NEW UX 300h 引領上市">
+					<img src="../images/banner/lexus/39_sm.jpg?20240216" alt="國都LEXUS｜Lexus｜ALL NEW UX 300h 引領上市" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/lunarnewyeartime/" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜鎮守平安 龍抵家 春節服務據點公告">
+					<img src="../images/banner/lexus/38_sm.jpg?20240206" alt="國都LEXUS｜Lexus｜鎮守平安 龍抵家 春節服務據點公告" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/LBX" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜LEXUS全新跨界休旅 ALL NEW LBX非凡登場">
+					<img src="../images/banner/lexus/36_sm.jpg?20240118" alt="國都LEXUS｜LEXUS全新跨界休旅 ALL NEW LBX非凡登場" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/news_detail.aspx?nw=559&fn=1" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜2024 LEXUS CUP車主高爾夫球賽">
+					<img src="../images/banner/lexus/35_sm.jpg?20240104" alt="國都LEXUS｜2024 LEXUS CUP車主高爾夫球賽" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.facebook.com/LexusCpoKuotu" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜國都 LEXUS CPO">
+					<img src="../images/banner/lexus/33_sm.jpg?20231122" alt="國都LEXUS｜國都 LEXUS CPO" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/5th-warranty/index.aspx" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜Lexus｜延長保證加購方案">
+					<img src="../images/banner/lexus/32_sm.jpg?20231026" alt="國都LEXUS｜Lexus｜延長保證加購方案" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/LM" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜ALL NEW LM 層峰新領御 磅礡登場">
+					<img src="../images/banner/lexus/29_sm.jpg?20230823" alt="國都LEXUS｜ALL NEW LM 層峰新領御 磅礡登場" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.lexus.com.tw/showroom/RZ 450e" target="_blank" rel="noopener noreferrer" title="了解更多:國都LEXUS｜豪華電能新境界全新 RZ 450e 強勢登場">
+					<img src="../images/banner/lexus/27_sm.jpg?20230517" alt="國都LEXUS｜豪華電能新境界全新 RZ 450e 強勢登場" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.lexus.com.tw/testdrive.aspx" target="_blank" rel="noopener noreferrer" title="了解更多:線上預約試乘/購車諮詢">
+					<img src="../images/banner/lexus/12_sm.jpg?20220609" alt="線上預約試乘/購車諮詢" class="img-fluid">
+				</a>
+			</div>
+            
+			<div>
+				<a href="https://www.lexus.com.tw/service/hotaipoints_warranty/?utm_source=lexus&utm_campaign=2021HotaiPointsWarranty&utm_medium=frontpage_banner" target="_blank" rel="noopener noreferrer" title="了解更多:點點心意">
+					<img src="../images/banner/lexus/02_sm.jpg?20210916" alt="點點心意" class="img-fluid">
+
+				</a>
+			</div>
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "Lexus CPO";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

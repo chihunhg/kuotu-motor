@@ -1,0 +1,184 @@
+<footer>
+	<div class="container d-flex flex-wrap">
+		<div class="footer-company d-flex align-content-center flex-wrap">
+			<a class="footer-brand" href="./" title="TOYOTA國都豐田數位服務網">
+				<img src="../images/all/logo.png" class="img-fluid" alt="TOYOTA國都豐田數位服務網">
+			</a>
+			<ul>
+				<li><a href="https://goo.gl/maps/qzCc8r6thgiXqBse8" target="_blank" rel="noopener noreferrer">總公司：台北市北投區大業路2號8樓</a></li>
+				<li><a href="tel:0228968011">代表號：(02)2896-8011</a></li>
+				<li class="footer-fb"><a href="../images/pdf/Privacy_statement.pdf" target="_blank" rel="noopener noreferrer" title="隱私權聲明">
+					隱私權聲明</a>
+				</li>
+			</ul>
+			
+		</div>
+		<div class="footer-sitemap d-flex flex-wrap">
+			<div class="footer-sitemap-item">
+				<ul>
+					<li><?php echo $p1;?></li>
+					<li><a href="news.htm"><?php echo $p1_1;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="discount.htm"><?php echo $p1_2;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.facebook.com/Kuotutoyota/?ref=page_internal" target="_blank" rel="noopener noreferrer"><?php echo $p1_3;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="contact.htm"><?php echo $p1_4;?><i class="bi bi-chevron-right"></i></a></li>
+				</ul>
+			</div>
+			<div class="footer-sitemap-item">
+				<ul>
+					<li><?php echo $p2;?></li>
+					<li><a href="showroom.htm"><?php echo $p2_1;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="exhibition.htm"><?php echo $p2_2;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.toyota.com.tw/testdrive.aspx" target="_blank" rel="noopener noreferrer"><?php echo $p2_3;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.toyota.com.tw/calculator.aspx" target="_blank" rel="noopener noreferrer"><?php echo $p2_4;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="insurance.htm" rel="noopener noreferrer"><?php echo $p2_5;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.carmax.com.tw/" target="_blank" rel="noopener noreferrer"><?php echo $p2_6;?><i class="bi bi-chevron-right"></i></a></li>
+				</ul>
+			</div>
+			<div class="footer-sitemap-item">
+				<ul>
+					<li><?php echo $p3;?></li>
+					<li><a href="repair.htm"><?php echo $p3_1;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.toyota.com.tw/owner_login.aspx?xurl=OWNER_BOOKING.ASPX" target="_blank" rel="noopener noreferrer"><?php echo $p3_2;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.toyota.com.tw/owner_maintenance.aspx" target="_blank" rel="noopener noreferrer"><?php echo $p3_3;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.toyota.com.tw/owner_guarantee.aspx" target="_blank" rel="noopener noreferrer"><?php echo $p3_4;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://develop3.tsg.com.tw/19/kuotu-motor/01/toyota/contact.php" target="_blank" rel="noopener noreferrer" title="<?php echo $p3_5;?>"><?php echo $p3_5;?><i class="bi bi-chevron-right"></i></a></li>
+				</ul>
+			</div>
+			<div class="footer-sitemap-item">
+				<ul>
+					<li><?php echo $p4;?></li>
+					<li><a href="usedcar.htm" ><?php echo $p4_1;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="javascript:;" onclick="fbFunction()"><?php echo $p4_2;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.facebook.com/kuotusedcar/?ref=page_internal" target="_blank" rel="noopener noreferrer"><?php echo $p4_3;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.toyotacpo.com.tw/Home/About" target="_blank" rel="noopener noreferrer"><?php echo $p4_4;?><i class="bi bi-chevron-right"></i></a></li>
+				</ul>
+			</div>
+			<div class="footer-sitemap-item">
+				<ul>
+					<li><?php echo $p5;?></li>
+					<li><a href="../contact.htm"><?php echo $p5_1;?><i class="bi bi-chevron-right"></i></a></li>
+					<li class="footer-sitemap-self"><a onclick="searchFunction()" href="javascript:;" title="<?php echo $p7;?>"><?php echo $p7;?></a></li>
+				</ul>
+			</div>
+			<div class="footer-sitemap-item">
+				<ul>
+					<li><?php echo $p6;?></li>
+					<li><a href="../about.htm"><?php echo $p6_1;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="../report.htm"><?php echo $p6_2;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="https://www.kuotu-motor.com.tw/EMS/home.htm" target="_blank" rel="noopener noreferrer"><?php echo $p6_3;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="../images/pdf/2022-122.pdf" target="_blank" rel="noopener noreferrer"><?php echo $p6_4;?><i class="bi bi-chevron-right"></i></a></li>
+					<li><a href="../links.htm"><?php echo $p6_5;?><i class="bi bi-chevron-right"></i></a></li>
+				</ul>
+			</div>
+			<!-- <div class="footer-sitemap-item">
+				<ul>
+					<li><?php echo $p7;?></li>
+
+				</ul>
+			</div> -->
+			<div class="footer-btm d-flex align-items-center flex-wrap">
+				
+				<!-- <a href="images/pdf/Privacy_statement.pdf" target="_blank" rel="noopener noreferrer" title="隱私權說明" class="footer-btm-link">隱私權說明</a> -->
+				<div class="copyright">Copyright &copy; 2021 國都汽車股份有限公司 <a href="https://www.tsg.com.tw/" target="_blank" rel="noopener noreferrer" title="TSG 網頁設計" class="tsg">TSG 網頁設計</a></div>
+			</div>
+		</div>
+		
+		
+	</div>
+	<?php if ($pageName == "index") { ?>
+		<div class="scrolldown-rwd transi">
+			<span class="scrolldown-text">往下滑看更多內容</span>
+			<span class="scrolldown-icon">
+				<i class="bi bi-chevron-down"></i>
+				<i class="bi bi-chevron-down"></i>
+			</span>
+		</div>
+	<?php } ?>	
+	<div class="fixed-link lexus-link">
+		
+		<ul class="inner-link ">
+			<li>
+				<a href="https://www.facebook.com/Kuotutoyota/?ref=page_internal" target="_blank" rel="noopener noreferrer" title="Toyota.國都粉絲團" class="d-flex flex-row-reverse">
+					<figure>
+						<img src="../images/all/facebook.png" class="img-fluid" alt="Toyota.國都粉絲團">
+					</figure>
+					<p class="d-flex align-items-center transi">Toyota.國都</p>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/kuotusedcar/?ref=page_internal" target="_blank" rel="noopener noreferrer" title="Toyota" class="d-flex flex-row-reverse">
+					<figure>
+						<img src="../images/all/facebook.png" class="img-fluid" alt="Toyota">
+					</figure>
+					<p class="d-flex align-items-center transi">國都Toyota認證中古車</p>
+				</a>
+			</li>
+			<!-- <li class="cus-ser">
+				<a href="" title="線上客服" class="d-flex flex-row-reverse">
+					<figure>
+						<img src="../images/all/service.png" class="img-fluid" alt="線上客服">
+					</figure>
+					<p class="d-flex align-items-center transi">線上客服</p>
+				</a>
+			</li> -->
+			<!-- <li class="cus-ser">
+				<a href="" title="線上客服" class="d-flex flex-row-reverse">
+					<figure>
+						<img src="../images/all/service.png" class="img-fluid" alt="GO TOP">
+					</figure>
+					<p class="d-flex align-items-center transi"><i class="bi bi-chevron-up"></i></p>
+				</a>
+			</li> -->
+		</ul>
+	</div>
+</footer>
+<!-- Messenger 洽談外掛程式 Code -->
+<div id="fb-root"></div>
+
+<!-- Your 洽談外掛程式 code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "247975349082802");
+  chatbox.setAttribute("attribution", "biz_inbox");
+
+  window.fbAsyncInit = function() {
+	FB.init({
+	  xfbml            : true,
+	  version          : 'v12.0'
+	});
+  };
+
+  (function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+	fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="goTop" class="transi d-flex align-content-center flex-wrap">
+	<i class="bi bi-chevron-up"></i>
+	<p>TOP</p>
+</div>
+
+<div class="warning" style="opacity:0">
+	<div class="off">關閉
+	<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		<path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+		</svg>
+	</div>
+	<p>建議您使用Microsoft Edge、Google Chrome瀏覽器觀看本網頁，以獲得最佳瀏覽效果。
+
+</p>
+</div>
+<script>
+  $(document).ready(function(){
+    $(".off").click(function(){
+      $(".warning").css('display','none')
+    });
+  });
+</script>

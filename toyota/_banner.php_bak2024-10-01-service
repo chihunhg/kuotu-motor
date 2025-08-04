@@ -1,0 +1,94 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202409SP/" target="_blank" rel="noopener noreferrer" title="本月入主 YARiS CROSS優惠超箱的 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/104.jpg?20240903" alt="本月入主 YARiS CROSS優惠超箱的 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/102_b.jpg" target="_blank" rel="noopener noreferrer" title="國都綠色挖寶 攜手和泰產險 浪愛延續 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/102.jpg?20240822" alt="國都綠色挖寶 攜手和泰產險 浪愛延續 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/Car_Battery/" target="_blank" rel="noopener noreferrer" title="聽見好運的聲音 換電瓶抽好禮 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/103.jpg?20240828" alt="聽見好運的聲音 換電瓶抽好禮 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/CAMRY/" target="_blank" rel="noopener noreferrer" title="日本進口 ALL NEW CAMRY | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/99.jpg?20240705" alt="日本進口 ALL NEW CAMRY | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202409SP/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/104_sm.jpg?20240903" alt="本月入主 YARiS CROSS優惠超箱的 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/102_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/102_sm.jpg?20240822" alt="國都綠色挖寶 攜手和泰產險 浪愛延續 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/Car_Battery/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/103_sm.jpg?20240828" alt="聽見好運的聲音 換電瓶抽好禮 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/CAMRY/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/99_sm.jpg?20240705" alt="日本進口 ALL NEW CAMRY | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

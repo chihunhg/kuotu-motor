@@ -1,0 +1,640 @@
+<?php
+require("_inc.php");
+$pageName = "index";
+require("_code_public.php");
+//計數器code的位置
+?>
+<!DOCTYPE html>
+<html <?php echo $lang; ?>>
+
+<head>
+	<?php require("_in_code_head.php"); ?>
+	<?php require("_in_javascript.php"); ?>
+	<?php require("_in_code_head0.php"); //Google 廣告code位置
+	?>
+</head>
+
+<body <?php echo $bodytxt; ?> class="toyota">
+	<wrapper>
+		<?php require("_header.php"); ?>
+		<?php require("_banner.php"); ?>
+		<main>
+			<section class="index-pro">
+				<section class="index-event">
+					<div class="container">
+						<div class="mj-title">
+							<span class="en">Events</span>
+							<p>活動訊息</p>
+						</div>
+						<div class="index-event-box">
+							<div class="event-list sliderbox">
+								<?php
+								$News_Cond .= ' Where Module_PKey = :Module_PKey and Class1_PKey = :Class1_PKey and Upload = \'Yes\' and Home = \'Yes\'';
+								$News_Array['Module_PKey'] = "1";
+								$News_Array['Class1_PKey'] = $Class1_PKey;
+
+								$sql = 'Select * From news ' . $News_Cond . ' Order By Sort';
+								//$sql .= ' limit ' .($tPage - 1)*$tPageSize.','.$tPageSize;//每頁顯示資料的 sql 語法,僅取出所需的資料筆數.
+								$rs1 = new recordset($sql, $News_Array);
+								if ($rs1->eof) { //Under Construction
+									//echo '<p class="nodata">資料建置中</p>';
+								}
+								while (!$rs1->eof) {
+									$News_PKey = $rs1->field("PKey");
+									$strName = $rs1->field("strName");
+									$Interview = $rs1->field("Interview");
+									$strLink = $rs1->field("strLink");
+									$Target = $rs1->field("Target");
+
+									//列表圖
+									$Photo1 = './images/default/default.jpg';
+									$webp_photo1 = '';
+									$sql = 'Select * from news_img Where News_PKey= :News_PKey and Sort = \'1\' and Photo1 <> \'\'';
+									$Array1['News_PKey'] = $News_PKey;
+									$rs2 = new recordset($sql, $Array1);
+									if (!$rs2->eof && is_file('../Upload/' . $rs2->field("Forder") . '/' . $rs2->field("Photo1"))) {
+										$Photo1 = '../Upload/' . $rs2->field("Forder") . '/' . $rs2->field("Photo1");
+										$ext = strtolower(substr(strrchr($Photo1, "."), 1));
+										if($ext!="gif"){
+											$webp_photo1 = str_ireplace($ext, 'webp',$Photo1);
+										}
+									}
+									$rs2->close();
+								?>
+									<div class="event-item">
+										<a href="<?php echo $strLink; ?>" target="<?php echo $Target; ?>" rel="noopener noreferrer" title="<?php echo $strName; ?>">
+											<figure>
+												<picture>
+													<?php
+													if (is_file($webp_photo1)) {
+													?>
+														<!-- <source srcset="<?php echo $webp_photo1 . '?' . time(); ?>" type=""> -->
+														<img src="<?php echo $webp_photo1 . '?' . time(); ?>" class="img-fluid transi" alt="<?php echo $strName; ?>">
+													<?php
+													} else {
+													?>
+														<img src="<?php echo $Photo1 . '?' . time(); ?>" class="img-fluid transi" alt="<?php echo $strName; ?>">
+													<?php
+													}
+													?>
+												</picture>
+											</figure>
+											<p><?php echo $strName; ?></p>
+											<i class="bi bi-box-arrow-up-right"></i>
+											<span class="transi"></span>
+										</a>
+									</div>
+								<?php
+									$rs1->movenext();
+								}
+								$rs1->close();
+								?>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="index-buy-sale">
+					<div class="container">
+						<div class="mj-title">
+							<span class="en">Rebates</span>
+							<p>購車優惠</p>
+						</div>
+						<!-- buy-sale01 -->
+						<div class="buy-sale">
+							<div class="sliderbox multiple-items">
+								<?php
+								$Discount_Cond .= ' Where Module_PKey = :Module_PKey and Class1_PKey = :Class1_PKey and Upload = \'Yes\' and Home = \'Yes\'';
+								$Discount_Array['Module_PKey'] = "2";
+								$Discount_Array['Class1_PKey'] = $Class1_PKey;
+
+								$sql = 'Select * From discount ' . $Discount_Cond . ' Order By PKey';
+								//$sql .= ' limit ' .($tPage - 1)*$tPageSize.','.$tPageSize;//每頁顯示資料的 sql 語法,僅取出所需的資料筆數.
+								$rs1 = new recordset($sql, $Discount_Array);
+								if ($rs1->eof) { //Under Construction
+									//echo '<p class="nodata">資料建置中</p>';
+								}
+								while (!$rs1->eof) {
+									$Discount_PKey = $rs1->field("PKey");
+									$strName = $rs1->field("strName");
+									$Interview = $rs1->field("Interview");
+									//$strLink = $rs1->field("strLink");
+									//$Target = $rs1->field("Target");
+
+									//列表圖
+									$Photo1 = './images/default/default.jpg';
+									$webp_photo1 = '';
+									$sql = 'Select * from discount_img Where Discount_PKey= :Discount_PKey and Sort = \'1\' and Photo1 <> \'\'';
+									$Array2['Discount_PKey'] = $Discount_PKey;
+									$rs2 = new recordset($sql, $Array2);
+									if (!$rs1->eof && is_file('../Upload/' . $rs2->field("Forder") . '/' . $rs2->field("Photo1"))) {
+										$Photo1 = '../Upload/' . $rs2->field("Forder") . '/' . $rs2->field("Photo1");
+										$ext = strtolower(substr(strrchr($Photo1, "."), 1));
+										$webp_photo1 = str_ireplace($ext, 'webp', $Photo1);
+									}
+									$rs2->close();
+								?>
+									<div class="buy-sale-item">
+										<a href="javascript:;" onClick="paperBtn('<?php echo $Discount_PKey; ?>')" data-toggle="modal" data-target="#buy_10">
+											<figure>
+												<picture>
+													<?php
+													if (is_file($webp_photo1)) {
+													?>
+														<!-- <source srcset="<?php echo $webp_photo1 . '?' . time(); ?>" type=""> -->
+														<img src="<?php echo $webp_photo1 . '?' . time(); ?>" class="img-fluid transi" alt="<?php echo $strName; ?>">
+													<?php
+													} else {
+													?>
+														<img src="<?php echo $Photo1 . '?' . time(); ?>" class="img-fluid transi" alt="<?php echo $strName; ?>">
+													<?php
+													}
+													?>
+												</picture>
+											</figure>
+											<p><?php echo $strName; ?></p>
+											<span class="transi">了解更多<i class="bi bi-chevron-right"></i></span>
+										</a>
+									</div>
+								<?php
+									$rs1->movenext();
+								}
+								$rs1->close();
+								?>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!--新車展示中心-->
+			<div class="area_pro">
+				<div class="area_abso" id="subMenu-1"></div>
+			</div>
+			<section class="index-open-location">
+				<div class="container">
+					<div class="mj-title">
+						<span class="en">Exhibition</span>
+						<p>新車展示中心</p>
+					</div>
+				</div>
+				<div class="open-location">
+					<div class="open-location-inr">
+						<div class="open-location-line">
+							<div class="container">
+								<ul class="d-flex flex-wrap">
+									<li class="location-main active" data-num="0">濱江</li>
+									<li class="location-main" data-num="1">陽明</li>
+									<li class="location-main" data-num="2">士林</li>
+									<li class="location-main" data-num="3">南松江</li>
+									<li class="location-main" data-num="4">北板橋</li>
+									<li class="location-main" data-num="5">新莊</li>
+									<li class="location-main" data-num="6">三重</li>
+									<li class="location-main" data-num="7">林口</li>
+									<li class="location-main" data-num="8">樹林</li>
+									<li class="location-main" data-num="9">蘆洲</li>
+									<li class="location-main" data-num="10">中和</li>
+									<li class="location-main" data-num="11">土城</li>
+									<li class="location-main" data-num="12">鶯歌</li>
+									<li class="location-main" data-num="13">北永和</li>
+									<li class="location-main" data-num="14">丹鳳</li>
+								</ul>
+							</div>
+						</div>
+						<?php require("_Exhibition.php"); ?>
+					</div>
+				</div>
+			</section>
+			<!--維修服務廠-->
+			<div class="area_pro">
+				<div class="area_abso" id="subMenu-2"></div>
+			</div>
+			<section class="index-repair">
+				<div class="container">
+					<div class="mj-title">
+						<span class="en">Maintenance</span>
+						<p>維修服務廠</p>
+					</div>
+					<article class="repair-bk">
+						<div class="repair-album">
+							<!-- <p></p> -->
+							<a href="https://www.toyota.com.tw/owner_login.aspx" target="_blank" rel="noopener noreferrer" title="線上預約保養" class="btn-style btn-grey">
+								<span>線上預約保養</span>
+								<span><i class="bi bi-chevron-right transi"></i></span>
+							</a>
+							<div class="index-repair-pic d-flex flex-wrap">
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_5">
+										<figure>
+											<img src="../images/index/toyota/repair/t01a.jpg" class="img-fluid" alt="台北市陽明服務廠">
+										</figure>
+										<span class="transi">台北市陽明服務廠</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_7">
+										<figure>
+											<img src="../images/index/toyota/repair/t02a.jpg" class="img-fluid" alt="台北市士林服務廠">
+										</figure>
+										<span class="transi">台北市士林服務廠</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_6">
+										<figure>
+											<img src="../images/index/toyota/repair/t03a.jpg" class="img-fluid" alt="台北市濱江服務廠">
+										</figure>
+										<span class="transi">台北市濱江服務廠</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_8">
+										<figure>
+											<img src="../images/index/toyota/repair/nt01a.jpg" class="img-fluid" alt="新北市中和服務廠">
+										</figure>
+										<span class="transi">新北市中和服務廠</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_9">
+										<figure>
+											<img src="../images/index/toyota/repair/nt02a.jpg" class="img-fluid" alt="新北市三重服務廠">
+										</figure>
+										<span class="transi">新北市三重服務廠</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_10">
+										<figure>
+											<img src="../images/index/toyota/repair/nt03a.jpg" class="img-fluid" alt="新北市土城服務廠">
+										</figure>
+										<span class="transi">新北市土城服務廠</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_11">
+										<figure>
+											<img src="../images/index/toyota/repair/nt04a.jpg" class="img-fluid" alt="新北市林口服務廠">
+										</figure>
+										<span class="transi">新北市林口服務廠</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_12">
+										<figure>
+											<img src="../images/index/toyota/repair/nt05a.jpg" class="img-fluid" alt="新北市樹林服務廠">
+										</figure>
+										<span class="transi">新北市樹林服務廠</span>
+									</a>
+								</div>
+
+								
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_13">
+										<figure>
+											<img src="../images/index/toyota/repair/nt06a.jpg" class="img-fluid" alt="新北市鶯歌服務廠">
+										</figure>
+										<span class="transi">新北市鶯歌服務廠</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_14">
+										<figure>
+											<img src="../images/index/toyota/repair/nt07a.jpg" class="img-fluid" alt="新北市蘆洲服務廠">
+										</figure>
+										<span class="transi">新北市蘆洲服務廠</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_15">
+										<figure>
+											<img src="../images/index/toyota/repair/nt08a.jpg" class="img-fluid" alt="新北市淡水服務廠">
+										</figure>
+										<span class="transi">新北市淡水服務廠</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_16">
+										<figure>
+											<img src="../images/index/toyota/repair/nt09a.jpg" class="img-fluid" alt="新北市北永和服務廠">
+										</figure>
+										<span class="transi">新北市北永和服務廠</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_17">
+										<figure>
+											<img src="../images/index/toyota/repair/nt10a.jpg" class="img-fluid" alt="新北市北板橋服務廠">
+										</figure>
+										<span class="transi">新北市北板橋服務廠</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_18">
+										<figure>
+											<img src="../images/index/toyota/repair/nt11a.jpg" class="img-fluid" alt="新北市新莊服務廠">
+										</figure>
+										<span class="transi">新北市新莊服務廠</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_19">
+										<figure>
+											<img src="../images/index/toyota/repair/nt12a.jpg" class="img-fluid" alt="新北市丹鳳服務廠">
+										</figure>
+										<span class="transi">新北市丹鳳服務廠</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_22">
+										<figure>
+											<img src="../images/index/toyota/repair/t10a.jpg" class="img-fluid" alt="台北市長安保修站">
+										</figure>
+										<span class="transi">台北市長安保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_1">
+										<figure>
+											<img src="../images/index/toyota/repair/t08a.jpg" class="img-fluid" alt="新北市新北大道保修站">
+										</figure>
+										<span class="transi">新北市新北大道保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_2">
+										<figure>
+											<img src="../images/index/toyota/repair/t07a.jpg" class="img-fluid" alt="新北市三多保修站">
+										</figure>
+										<span class="transi">新北市三多保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_3">
+										<figure>
+											<img src="../images/index/toyota/repair/t06a.jpg" class="img-fluid" alt="新北市北大保修站">
+										</figure>
+										<span class="transi">新北市北大保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_4">
+										<figure>
+											<img src="../images/index/toyota/repair/t05a.jpg" class="img-fluid" alt="新北市竹林保修站">
+										</figure>
+										<span class="transi">新北市竹林保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_21">
+										<figure>
+											<img src="../images/index/toyota/repair/t09a.jpg" class="img-fluid" alt="新北市五股保修站">
+										</figure>
+										<span class="transi">新北市五股保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_23">
+										<figure>
+											<img src="../images/index/toyota/repair/t11a.jpg" class="img-fluid" alt="新北市南勢角保修站">
+										</figure>
+										<span class="transi">新北市南勢角保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_24">
+										<figure>
+											<img src="../images/index/toyota/repair/t12a.jpg" class="img-fluid" alt="新北市中正北保修站">
+										</figure>
+										<span class="transi">新北市中正北保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_25">
+										<figure>
+											<img src="../images/index/toyota/repair/t13a.jpg" class="img-fluid" alt="新北市國光保修站">
+										</figure>
+										<span class="transi">新北市國光保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_26">
+										<figure>
+											<img src="../images/index/toyota/repair/t14a.jpg" class="img-fluid" alt="新北市四川保修站">
+										</figure>
+										<span class="transi">新北市四川保修站</span>
+									</a>
+								</div>
+
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#repair_27">
+										<figure>
+											<img src="../images/index/toyota/repair/t15a.jpg" class="img-fluid" alt="新北市中華保修站">
+										</figure>
+										<span class="transi">新北市中華保修站</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+			<!--中古車據點-->
+			<div class="area_pro">
+				<div class="area_abso" id="subMenu-3"></div>
+			</div>
+			<section class="index-used">
+				<div class="container">
+					<div class="mj-title">
+						<span class="en">USED CAR</span>
+						<p>中古車營業據點</p>
+					</div>
+					<article class="repair-bk">
+						<div class="index-used-album">
+							<div class="index-repair-pic d-flex flex-wrap">
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#used_4">
+										<figure>
+											<img src="../images/usedcar/toyota/bo5.jpg" class="img-fluid" alt="台北市陽明營業所">
+										</figure>
+										<span class="transi">台北市陽明營業所</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#used_1">
+										<figure>
+											<img src="../images/usedcar/toyota/bo1.jpg" class="img-fluid" alt="台北市松江營業所">
+										</figure>
+										<span class="transi">台北市松江營業所</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#used_2">
+										<figure>
+											<img src="../images/usedcar/toyota/bo2.jpg" class="img-fluid" alt="新北市中和營業所">
+										</figure>
+										<span class="transi">新北市中和營業所</span>
+									</a>
+								</div>
+								<div class="index-repair-link">
+									<a href="javascript:;" data-toggle="modal" data-target="#used_3">
+										<figure>
+											<img src="../images/usedcar/toyota/bo3.jpg" class="img-fluid" alt="新北市丹鳳營業所">
+										</figure>
+										<span class="transi">新北市丹鳳營業所</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+		</main>
+		<?php require("_Maintenance.php"); ?>
+		<?php require("_Used_car.php"); ?>
+		<?php require("_REBATES.php"); ?>
+		<?php require("_footer.php"); ?>
+		<?php require("_in_code_bottom.php"); ?>
+	</wrapper>
+</body>
+<script>
+	$('.event-list').slick({
+		infinite: true,
+		autoplay:true,
+		arrows: true,
+		dots: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		responsive: [{
+				breakpoint: 991,
+				settings: {
+					slidesToShow: 3,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+				}
+			}
+		]
+	});
+	// $('.slider-for').slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	arrows: false,
+	// 	fade: true,
+	// 	asNavFor: '.slider-nav'
+	// });
+	// $('.slider-nav').slick({
+	// 	slidesToShow: 4,
+	// 	slidesToScroll: 1,
+	// 	asNavFor: '.slider-for',
+	// 	dots: true,
+	// 	focusOnSelect: true
+	// });
+	$('.single-item').slick({
+		dots: true,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+	});
+	$('.multiple-items').slick({
+		infinite: true,
+		arrows: true,
+		autoplay:true,
+		dots: false,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		responsive: [{
+				breakpoint: 991,
+				settings: {
+					slidesToShow: 2,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+				}
+			}
+		]
+	});
+</script>
+<script>
+	var mbSize = innerWidth;
+	if (mbSize <= 768) {
+		$('.map-box').removeClass('showup');
+	}
+	$(window).resize(function() {
+		var mbSize = innerWidth;
+		if (mbSize <= 768) {
+			$('.map-box').removeClass('showup');
+		}
+	})
+	$(".location-main").click(function() {
+		$(this).addClass('active').siblings().removeClass('active');
+		$('body').addClass('index-mask');
+		// console.log($(this).attr("data-num"));
+		var num = $(this).attr("data-num");
+		for (i = 0; i < $('.map-box').length; i++) {
+			var el = $('.map-box')[i]
+			// console.log($(el).attr("data-num"));
+			if ($(el).attr("data-num") == num) {
+				$(el).addClass('showup').siblings().removeClass('showup');
+			}
+		}
+
+		$(".map-box-close-btn").click(function() {
+			console.log(123);
+			$(this).parents('.map-box').removeClass('showup');
+			$('.location-main').removeClass('active');
+			$('body').removeClass('index-mask');
+		});
+
+	});
+</script>
+<script>
+	// $('.scrolldown').click(function() {
+	// 	var window = $('html, body').scrollTop();
+	// 	console.log(window);
+	// 	$('html, body').animate({
+	// 		scrollTop: window +500
+	// 	}, 500);
+	// 	return false;
+	// })
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrolldown-rwd').addClass('active');
+		} else {
+			$('.scrolldown-rwd').removeClass('active');
+		}
+	});
+</script>
+
+</html>

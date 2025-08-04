@@ -1,0 +1,118 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202406_SUMMERSP/" target="_blank" rel="noopener noreferrer" title="「TOYOTA視紀獻禮」專案活動 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/98.jpg?20240704" alt="「TOYOTA視紀獻禮」專案活動 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202406_CAMRY_preorder/" target="_blank" rel="noopener noreferrer" title="日本進口ALL NEW CAMRY | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/97.jpg?20240614" alt="日本進口ALL NEW CAMRY | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202406_SUMMERSP/" target="_blank" rel="noopener noreferrer" title="「TOYOTA視紀獻禮」專案活動 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/96.jpg?20240603" alt="「TOYOTA視紀獻禮」專案活動 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/ALTIS_GR/" target="_blank" rel="noopener noreferrer" title="ALTIS GR SPORT | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/95.jpg?20240522" alt="ALTIS GR SPORT | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202104_toyota_toyotatire_v1/" target="_blank" rel="noopener noreferrer" title="TOYOTA 好運輪你週週抽好禮 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/94.jpg?20240514" alt="TOYOTA 好運輪你週週抽好禮 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/93_b.jpg" target="_blank" rel="noopener noreferrer" title="TOYOTA莒光保修站開幕慶 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/93.jpg?20240423" alt="TOYOTA莒光保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202406_SUMMERSP/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/98_sm.jpg?20240704" alt="「TOYOTA視紀獻禮」專案活動 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202406_CAMRY_preorder/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/97_sm.jpg?20240614" alt="日本進口ALL NEW CAMRY | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202406_SUMMERSP/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/96_sm.jpg?20240603" alt="「TOYOTA視紀獻禮」專案活動 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/ALTIS_GR/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/95_sm.jpg?20240522" alt="ALTIS GR SPORT | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202104_toyota_toyotatire_v1/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/94_sm.jpg?20240514" alt="TOYOTA 好運輪你週週抽好禮 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.kuotu-motor.com.tw/images/banner/toyota/93_b.jpg" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/93_sm.jpg?20240423" alt="TOYOTA莒光保修站開幕慶 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

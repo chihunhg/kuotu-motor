@@ -1,0 +1,185 @@
+<!-- Exhibition_1 -->
+<div class="modal modal-Exhibition fade" id="Exhibition_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">台北市松江營業所</p>
+                <div class="d-flex flex-wrap modal-Exhibition-box ">
+                    <div class="modal-body-Exhibition">
+                        <figure>
+                            <img src="../images/index/lexus/location/t01s.jpg" class="img-fluid" alt="台北市濱江服務廠">
+                        </figure>
+                        <article>
+                            <!-- 內文 -->
+
+                            <div class="modal-service-info">
+                                <p>服務專線</p>
+                                <ul>
+                                    <li><a href="https://goo.gl/maps/ko4KVDnkfy8Riv9n6" target="_blank" rel="noopener noreferrer" title="台北市中山區松江路433號">地址：台北市中山區松江路433號</a></li>
+                                    <li><a href="tel:(02)2503-2558">(02)2503-2558</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="modal-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0672426394603!2d121.53129175092398!3d25.065709943094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9577b6865dd%3A0x844888fb30f564cd!2zTEVYVVMg5p2-5rGf54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1631586052002!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- Exhibition_2 -->
+<div class="modal modal-Exhibition fade" id="Exhibition_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">台北市士林營業所</p>
+                <div class="d-flex flex-wrap modal-Exhibition-box ">
+                    <div class="modal-body-Exhibition">
+                        <figure>
+                            <img src="../images/index/lexus/location/t02s.jpg" class="img-fluid" alt="台北市士林營業所">
+                        </figure>
+                        <article>
+                            <!-- 內文 -->
+
+                            <div class="modal-service-info">
+                                <p>服務專線</p>
+                                <ul>
+                                    <li><a href="https://goo.gl/maps/148hcJCbaU7VQ73E9" target="_blank" rel="noopener noreferrer" title="台北市士林區中正路350號">地址：台北市士林區中正路350號</a></li>
+                                    <li><a href="tel:(02)2831-2518">(02)2831-2518</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="modal-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.2119545850956!2d121.51912315092436!3d25.094685541930506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442afe9a0b7ec63%3A0xc3a70c8975003750!2zTEVYVVMg5aOr5p6X54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1631586171904!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- Exhibition_3 -->
+<div class="modal modal-Exhibition fade" id="Exhibition_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市新莊營業所</p>
+                <div class="d-flex flex-wrap modal-Exhibition-box ">
+                    <div class="modal-body-Exhibition">
+                        <figure>
+                            <img src="../images/index/lexus/location/nt01s.jpg" class="img-fluid" alt="新北市新莊營業所">
+                        </figure>
+                        <article>
+                            <!-- 內文 -->
+
+                            <div class="modal-service-info">
+                                <p>服務專線</p>
+                                <ul>
+                                    <li><a href="https://goo.gl/maps/H6m5udyDx78hnb6fA" target="_blank" rel="noopener noreferrer" title="新北市新莊區中正路70號之2">地址：新北市新莊區中正路70號之2</a></li>
+                                    <li><a href="tel:(02)8993-1988">(02)8993-1988</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="modal-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.87062514893!2d121.45710335092355!3d25.038464244187033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a86fb02e5e0b%3A0x8779ca824ee55755!2zTEVYVVMg5paw6I6K54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1631586196140!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- Exhibition_4 -->
+<div class="modal modal-Exhibition fade" id="Exhibition_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市中和營業所</p>
+                <div class="d-flex flex-wrap modal-Exhibition-box ">
+                    <div class="modal-body-Exhibition">
+                        <figure>
+                            <img src="../images/index/lexus/location/nt02s.jpg" class="img-fluid" alt="新北市中和營業所">
+                        </figure>
+                        <article>
+                            <!-- 內文 -->
+
+                            <div class="modal-service-info">
+                                <p>服務專線</p>
+                                <ul>
+                                    <li><a href="https://goo.gl/maps/TuhxF25A1UQgLyzV7" target="_blank" rel="noopener noreferrer" title="新北市中和區中正路860號">地址：新北市中和區中正路860號</a></li>
+                                    <li><a href="tel:(02)8221-8288">(02)8221-8288</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="modal-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28926.768098505923!2d121.4671601!3d25.0053479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9bf5c4971c7%3A0x681e53abe688b094!2zTEVYVVMg5Lit5ZKM54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1631586506873!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- Exhibition_5 -->
+<div class="modal modal-Exhibition fade" id="Exhibition_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- 標題 -->
+                <p class="modal-body-title">新北市三重營業所</p>
+                <div class="d-flex flex-wrap modal-Exhibition-box ">
+                    <div class="modal-body-Exhibition">
+                        <figure>
+                            <img src="../images/index/lexus/location/nt03s.jpg" class="img-fluid" alt="新北市三重營業所">
+                        </figure>
+                        <article>
+                            <!-- 內文 -->
+
+                            <div class="modal-service-info">
+                                <p>服務專線</p>
+                                <ul>
+                                    <li><a href="https://maps.app.goo.gl/A1fz2zQEKjJjHKzd6" target="_blank" rel="noopener noreferrer" title="新北市三重區三和路四段83號">地址：新北市三重區三和路四段83號</a></li>
+                                    <li><a href="tel:(02)8283-9368">(02)8283-9368</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="modal-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.778485788053!2d121.4891397!3d25.075496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9b2b3019401%3A0x3b7f812bb506679!2zTEVYVVMg5LiJ6YeN54ef5qWt5omA!5e0!3m2!1szh-TW!2stw!4v1747122757842!5m2!1szh-TW!2stw" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>

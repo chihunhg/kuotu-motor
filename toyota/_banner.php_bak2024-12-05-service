@@ -1,0 +1,94 @@
+<?php if ($pageName == "index") { ?>
+	<div class="index-banner transi">
+		<div class="slider single-item sliderbox pc_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202412_WINTERSP/" target="_blank" rel="noopener noreferrer" title="TOYOTA澎派禮遇 超給利| TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/111.jpg?20241203" alt="TOYOTA澎派禮遇 超給利| TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202411_dreamcar/" target="_blank" rel="noopener noreferrer" title="2025 TOYOTA全球夢想車創意繪畫大賽| TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/110.jpg?20241112" alt="2025 TOYOTA全球夢想車創意繪畫大賽| TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202104_toyota_toyotatire_v1/" target="_blank" rel="noopener noreferrer" title="輕鬆換胎“住”您好運！| TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/108.jpg?20241028" alt="輕鬆換胎“住”您好運！| TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/COROLLA_CROSS/" target="_blank" rel="noopener noreferrer" title="COROLLA CROSS 全新進化登場 | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/105.jpg?20241001" alt="COROLLA CROSS 全新進化登場 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+            
+		</div>
+        
+		<div class="slider single-item sliderbox sm_banner">
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202412_WINTERSP/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/111_sm.jpg?20241203" alt="TOYOTA澎派禮遇 超給利| TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202411_dreamcar/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/110_sm.jpg?20241112" alt="2025 TOYOTA全球夢想車創意繪畫大賽| TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/event/202104_toyota_toyotatire_v1/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/108_sm.jpg?20241028" alt="輕鬆換胎“住”您好運！| TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+			<div>
+				<a href="https://www.toyota.com.tw/showroom/COROLLA_CROSS/" target="_blank" rel="noopener noreferrer" title="了解更多: | TOYOTA TAIWAN">
+					<img src="../images/banner/toyota/105_sm.jpg?20241001" alt="COROLLA CROSS 全新進化登場 | TOYOTA TAIWAN" class="img-fluid">
+				</a>
+			</div>
+
+		</div>
+
+	</div>
+<?php } else { ?>
+	<div style="background-image:url(../images/banner/toyota/<?php echo $pageName; ?>.jpg);" class="inner-banner">
+		<?php switch ($subPageName) {
+			case "p1_1":
+				$en = "News";
+				break;
+			case "p1_2":
+				$en = "Discount";
+				break;
+			case "p1_4":
+				$en = "contact";
+				break;
+			case "p2_1":
+				$en = "Cars Show";
+				break;
+			case "p2_2":
+				$en = "Location";
+				break;
+			case "p2_5":
+				$en = "Insurance";
+				break;
+			case "p3_1":
+				$en = "Service";
+				break;
+			case "p4_1":
+				$en = "used cars";
+				break;
+		}
+		?>
+		<div class="inner-banner-title">
+			<h1><?php echo $$subPageName; ?></h1>
+			<span class="en"><?php echo $en; ?></span>
+		</div>
+	</div>
+<?php } ?>

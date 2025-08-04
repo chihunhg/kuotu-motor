@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<psalm
+    errorLevel="1"
+    phpVersion="8.3"
+    findUnusedCode="true"
+    findUnusedVariables="true"
+    showInfo="true"
+    ansi="false"
+>
+    <projectFiles>
+        <directory name="." />
+    </projectFiles>
+</psalm>
