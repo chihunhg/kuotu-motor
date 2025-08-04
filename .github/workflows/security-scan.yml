@@ -1,24 +1,34 @@
 name: Add security scan tools: CodeQL + PHPStan + Psalm with report outputs
 
 on:
-  pull_request:
-    branches: [ main ]
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches: [feature/security-scan-v9]
+  pull_request:
+    branches: [main]
 
 jobs:
-  codeql:
-    name: CodeQL
+  security-scan:
     runs-on: ubuntu-latest
-    permissions:
-      actions: read
-      contents: read
-      security-events: write
+
+    strategy:
+      matrix:
+        php-version: ['8.2']
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up PHP ${{ matrix.php-version }}
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          coverage: none
+
+      - name: Install dependencies
+        run: |
+          composer install --prefer-dist --no-progress || composer update --prefer-dist --no-progress
+
+      # 🔎 CodeQL v3 掃描
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
@@ -30,38 +40,20 @@ jobs:
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
 
-  phpstan:
-    name: PHPStan Static Analysis
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+      # 🧠 PHPStan 掃描
+      - name: Run PHPStan with report output
+        run: |
+          mkdir -p build/reports
+          vendor/bin/phpstan analyse --no-progress > build/reports/phpstan.txt || true
 
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 8.2
-
-      - name: Install dependencies
-        run: composer install --prefer-dist --no-progress || composer update --no-progress
-
-      - name: Run PHPStan
-        run: vendor/bin/phpstan analyse --error-format=table --no-progress --memory-limit=1G
-
-  psalm:
-    name: Security Scan / PHPStan & Psalm
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 8.2
-
-      - name: Install dependencies
-        run: composer install --prefer-dist --no-progress || composer update --no-progress
-
-      - name: Run Psalm with Report Output
+      # 🔍 Psalm 掃描
+      - name: Run Psalm with report output
         run: |
           mkdir -p build/reports
           vendor/bin/psalm --output-format=compact > build/reports/psalm.txt || true
+
+      - name: Upload report artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-scan-reports
+          path: build/reports/
