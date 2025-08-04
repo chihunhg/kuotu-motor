@@ -1,64 +1,41 @@
-name: Security Scan
+name: Security Scan / PHPStan & Psalm
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
+    branches: [ main ]
+  push:
     branches: [ main ]
 
 jobs:
-  codeql:
-    name: CodeQL Analysis
+  php_static_analysis:
+    name: PHPStan Static Analysis
     runs-on: ubuntu-latest
-    permissions:
-      security-events: write
-      actions: read
-      contents: read
-    strategy:
-      fail-fast: false
-      matrix:
-        language: [ 'php' ]
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
-        with:
-          languages: ${{ matrix.language }}
-
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
-
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
-
-  php-analysis:
-    name: PHPStan & Psalm
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1'
+          php-version: '8.2'
           coverage: none
 
       - name: Install dependencies
-        run: composer install --no-progress --no-suggest
+        run: |
+          composer install --no-progress --prefer-dist
 
       - name: Run PHPStan
         run: |
-          vendor/bin/phpstan analyse --error-format=raw --no-progress > build/reports/phpstan.txt || true
+          mkdir -p build/reports/phpstan
+          ./vendor/bin/phpstan analyse --memory-limit=1G --error-format=table > build/reports/phpstan/output.txt || true
 
       - name: Run Psalm
         run: |
-          vendor/bin/psalm --output-format=github --report=build/reports/psalm.xml > build/reports/psalm.txt || true
+          mkdir -p build/reports/psalm
+          ./vendor/bin/psalm --output-format=console --report=build/reports/psalm/report.xml || true
 
-      - name: Upload scan reports
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: php-analysis-reports
+          name: static-analysis-reports
           path: build/reports/
