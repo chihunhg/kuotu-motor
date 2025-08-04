@@ -1,9 +1,10 @@
 parameters:
-  level: 5
+  level: 8
+  memoryLimit: 1G
   paths:
-    - ./
-
-  excludePaths:
+    - .
+  excludes_analyse:
     - vendor/*
-    - tests/*
     - storage/*
+  report:
+    json: build/phpstan-report.json

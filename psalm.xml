@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<psalm
-    errorLevel="1"
-    phpVersion="8.3"
-    findUnusedCode="true"
-    findUnusedVariables="true"
-    showInfo="true"
-    ansi="false"
->
-    <projectFiles>
-        <directory name="." />
-    </projectFiles>
+<psalm>
+  <projectFiles>
+    <directory name="." />
+    <ignoreFiles>
+      <directory name="vendor" />
+      <directory name="storage" />
+    </ignoreFiles>
+  </projectFiles>
+  <reporting>
+    <jsonReport outputFile="build/psalm-report.json"/>
+  </reporting>
 </psalm>
