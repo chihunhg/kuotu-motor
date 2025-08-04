@@ -6,14 +6,14 @@ on:
   pull_request:
     branches: [main, master]
 
+permissions:
+  contents: read
+  actions: read
+  security-events: write
+
 jobs:
   scan:
     runs-on: ubuntu-latest
-
-    permissions:
-      security-events: write
-      actions: read
-      contents: read
 
     steps:
       - name: Checkout source code
@@ -23,16 +23,16 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          coverage: none
           tools: composer:v2
+          coverage: none
 
       - name: Confirm PHP version
         run: php -v
 
-      - name: Install dependencies
-        run: composer update --no-progress --prefer-dist
+      - name: Install dependencies (ignore platform check)
+        run: composer install --prefer-dist --no-progress --ignore-platform-reqs
 
-      # CodeQL 分析
+      # ? CodeQL 掃描流程
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
@@ -46,18 +46,19 @@ jobs:
         with:
           category: "/language:php"
 
-      # PHPStan 分析
+      # ? PHPStan 靜態分析
       - name: Run PHPStan
         run: |
           mkdir -p security-report
           vendor/bin/phpstan analyse --no-progress --error-format=table > security-report/phpstan.txt || true
 
-      # Psalm 分析
+      # ? Psalm 靜態分析
       - name: Run Psalm
         run: |
           vendor/bin/psalm --output-format=console > security-report/psalm.txt || true
 
-      - name: Upload report artifacts
+      # ? 上傳分析報告
+      - name: Upload security scan reports
         uses: actions/upload-artifact@v4
         with:
           name: security-report
