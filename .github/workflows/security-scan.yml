@@ -1,64 +1,64 @@
-name: Security Scan (CodeQL + PHPStan + Psalm)
+name: Security Scan
 
 on:
   push:
-    branches: [ main, feature/** ]
+    branches: [main, master, feature/security-scan-v9]
   pull_request:
+    branches: [main, master]
 
 jobs:
-  security-scan:
-    name: Run CodeQL + PHPStan + Psalm
+  scan:
     runs-on: ubuntu-latest
 
     permissions:
       security-events: write
+      actions: read
+      contents: read
 
     steps:
-      - name: Checkout repository
+      - name: Checkout source code
         uses: actions/checkout@v4
 
       - name: Setup PHP 8.2
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          extensions: mbstring, xml
-          tools: composer:v2
           coverage: none
+          tools: composer:v2
 
       - name: Confirm PHP version
         run: php -v
 
       - name: Install dependencies
-        run: composer install --no-progress --prefer-dist
+        run: composer update --no-progress --prefer-dist
 
-      ### ? CodeQL 掃描
+      # CodeQL 分析
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
           languages: php
 
-      - name: Autobuild project
+      - name: Autobuild (for CodeQL)
         uses: github/codeql-action/autobuild@v3
 
       - name: Run CodeQL analysis
         uses: github/codeql-action/analyze@v3
         with:
-          category: security
+          category: "/language:php"
 
-      ### ? PHPStan 分析
+      # PHPStan 分析
       - name: Run PHPStan
         run: |
-          mkdir -p build/reports
-          vendor/bin/phpstan analyse --no-progress --error-format=table > build/reports/phpstan-report.txt || true
+          mkdir -p security-report
+          vendor/bin/phpstan analyse --no-progress --error-format=table > security-report/phpstan.txt || true
 
-      ### ? Psalm 分析
+      # Psalm 分析
       - name: Run Psalm
         run: |
-          vendor/bin/psalm --output-format=console > build/reports/psalm-report.txt || true
+          vendor/bin/psalm --output-format=console > security-report/psalm.txt || true
 
-      ### ? 上傳報表（供後續下載或儲存）
-      - name: Upload scan reports
+      - name: Upload report artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: security-reports
-          path: build/reports
+          name: security-report
+          path: security-report/
