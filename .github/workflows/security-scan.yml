@@ -32,18 +32,38 @@ jobs:
       - name: Install dependencies (ignore platform check)
         run: composer install --prefer-dist --no-progress --ignore-platform-reqs
 
-      # PHPStan 靜態分析
+      # CodeQL 掃描
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: php
+
+      - name: Autobuild (for CodeQL)
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Run CodeQL analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:php"
+
+      # PHPStan 掃描（即使出錯也繼續）
       - name: Run PHPStan
         run: |
           mkdir -p security-report
-          vendor/bin/phpstan analyse --no-progress --error-format=table > security-report/phpstan.txt || true
+          (vendor/bin/phpstan analyse --no-progress --error-format=table || true) > security-report/phpstan.txt
 
-      # Psalm 靜態分析
+      # Psalm 掃描（即使出錯也繼續）
       - name: Run Psalm
         run: |
-          vendor/bin/psalm --output-format=console > security-report/psalm.txt || true
+          (vendor/bin/psalm --output-format=console || true) > security-report/psalm.txt
 
-      # 上傳分析報告
+      # Debug：列出產出檔案
+      - name: List report files
+        run: |
+          echo "security-report 內容："
+          ls -al security-report/
+
+      # 上傳報告供下載
       - name: Upload security scan reports
         uses: actions/upload-artifact@v4
         with:
