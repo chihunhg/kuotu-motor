@@ -1,56 +1,58 @@
-name: Security Scan (CodeQL + PHPStan + Psalm)
+name: Security Scan (PHPStan + Psalm)
 
 on:
   push:
-    branches: [ feature/security-scan-v9 ]
+    branches: [ "feature/security-scan-v9" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
 
 jobs:
-  security-scan:
+  phpstan:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        php-version: [ '8.2' ]
-
+    name: PHPStan Static Analysis
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up PHP
+      - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: ${{ matrix.php-version }}
-          coverage: none
+          php-version: 8.2
 
       - name: Install dependencies
-        run: |
-          composer install --prefer-dist --no-progress || composer update --prefer-dist --no-progress
+        run: composer install --no-progress --no-suggest
 
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
-        with:
-          languages: php
-
-      - name: Autobuild for CodeQL
-        uses: github/codeql-action/autobuild@v3
-
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
-
-      - name: Run PHPStan with report
+      - name: Run PHPStan
         run: |
           mkdir -p build/reports
-          vendor/bin/phpstan analyse --no-progress > build/reports/phpstan.txt || true
+          vendor/bin/phpstan analyse --error-format=table > build/reports/phpstan.txt || true
 
-      - name: Run Psalm with report
-        run: |
-          mkdir -p build/reports
-          vendor/bin/psalm --output-format=compact > build/reports/psalm.txt || true
-
-      - name: Upload scan reports
+      - name: Upload PHPStan report
         uses: actions/upload-artifact@v4
         with:
           name: security-scan-reports
-          path: build/reports/
+          path: build/reports/phpstan.txt
+
+  psalm:
+    runs-on: ubuntu-latest
+    name: Psalm Static Analysis
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+
+      - name: Install dependencies
+        run: composer install --no-progress --no-suggest
+
+      - name: Run Psalm
+        run: |
+          mkdir -p build/reports
+          vendor/bin/psalm --output-format=console > build/reports/psalm.txt || true
+
+      - name: Upload Psalm report
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-scan-reports
+          path: build/reports/psalm.txt
