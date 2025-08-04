@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <psalm
-    errorLevel="1"
+    name="kuotu-motor"
+    errorLevel="3"
     resolveFromConfigFile="true"
-    findUnusedCode="true"
-    findDeadCode="true"
-    showInfo="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://getpsalm.org/schema/config.xsd"
 >
     <projectFiles>
-        <directory name="." />
-        <ignoreFiles>
-            <directory name="vendor" />
-        </ignoreFiles>
+        <directory name="src" />
+        <directory name="app" />
     </projectFiles>
-    <reporting>
-        <report format="xml" output="build/reports/psalm.xml"/>
-    </reporting>
+
+    <plugins>
+        <!-- e.g. <pluginClass class="Psalm\SymfonyPsalmPlugin\Plugin" /> -->
+    </plugins>
 </psalm>
